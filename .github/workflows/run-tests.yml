@@ -1,5 +1,5 @@
 # Manually Trigger GitHub Actions workflow to execute code
-name: _execution
+name: webtest_execution
 
 on:
   workflow_dispatch:
