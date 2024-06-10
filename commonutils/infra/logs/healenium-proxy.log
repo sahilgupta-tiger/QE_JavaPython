@@ -1,0 +1,9 @@
+2024-02-05 19:15:09.031  INFO 1864 - [       main] .e.h.h.HealeniumProxyApplication : Starting HealeniumProxyApplication v1.3.7 using Java 21.0.1 with PID 1864 (D:\My_Workspaces\GitHub\QA_Tiger_Automation\infra\hlm-proxy.jar started by sahil.gupta in D:\My_Workspaces\GitHub\QA_Tiger_Automation\infra) 
+2024-02-05 19:15:09.045  INFO 1864 - [       main] .e.h.h.HealeniumProxyApplication : No active profile set, falling back to 1 default profile: "default" 
+2024-02-05 19:15:11.496  INFO 1864 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat initialized with port(s): 8085 (http) 
+2024-02-05 19:15:11.513  INFO 1864 - [       main] o.a.c.core.StandardService       : Starting service [Tomcat] 
+2024-02-05 19:15:11.514  INFO 1864 - [       main] o.a.c.core.StandardEngine        : Starting Servlet engine: [Apache Tomcat/10.1.15] 
+2024-02-05 19:15:11.677  INFO 1864 - [       main] o.a.c.c.C.[.[localhost].[/]      : Initializing Spring embedded WebApplicationContext 
+2024-02-05 19:15:11.678  INFO 1864 - [       main] rvletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2532 ms 
+2024-02-05 19:15:13.010  INFO 1864 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat started on port(s): 8085 (http) with context path '' 
+2024-02-05 19:15:13.086  INFO 1864 - [       main] .e.h.h.HealeniumProxyApplication : Started HealeniumProxyApplication in 5.126 seconds (process running for 6.793) 

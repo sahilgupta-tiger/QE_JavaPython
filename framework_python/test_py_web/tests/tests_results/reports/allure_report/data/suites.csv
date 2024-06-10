@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Feb 16 12:17:15 IST 2024","Fri Feb 16 12:19:37 IST 2024","141587","tests.test_cases","test_bdd_scenarios","","","","TC_003_Validation of executive summary","D:\My_Workspaces\GitHub\QA_Tiger_Automation\tests\test_cases\..\features\power_bi_dashboard.feature: TC_003_Validation of executive summary"

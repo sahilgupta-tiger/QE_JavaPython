@@ -1,0 +1,1 @@
+SELECT [Sector], SUM([Sensitivity]) as 'Sensitivity By Sector' FROM spend_data WHERE 1=1 --$conditions$ GROUP BY [Sector]

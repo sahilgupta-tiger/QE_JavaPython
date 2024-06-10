@@ -1,0 +1,189 @@
+2023-11-30 20:48:57.975 IST [11088] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2023-11-30 20:48:58.009 IST [11088] LOG:  listening on IPv6 address "::1", port 5432
+2023-11-30 20:48:58.010 IST [11088] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-11-30 20:48:58.470 IST [23960] LOG:  database system was interrupted; last known up at 2023-11-30 20:16:01 IST
+2023-11-30 20:49:06.796 IST [23960] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-11-30 20:49:06.859 IST [23960] LOG:  redo starts at 0/15738A0
+2023-11-30 20:49:08.530 IST [23960] LOG:  invalid record length at 0/19E7070: expected at least 24, got 0
+2023-11-30 20:49:08.530 IST [23960] LOG:  redo done at 0/19E7038 system usage: CPU: user: 0.01 s, system: 0.04 s, elapsed: 1.67 s
+2023-11-30 20:49:08.557 IST [21540] LOG:  checkpoint starting: end-of-recovery immediate wait
+2023-11-30 20:49:11.839 IST [21540] LOG:  checkpoint complete: wrote 977 buffers (6.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.923 s, sync=0.302 s, total=3.287 s; sync files=310, longest=0.004 s, average=0.001 s; distance=4557 kB, estimate=4557 kB; lsn=0/19E7070, redo lsn=0/19E7070
+2023-11-30 20:49:12.584 IST [11088] LOG:  database system is ready to accept connections
+2023-11-30 20:49:59.863 IST [12520] ERROR:  relation "databasechangeloglock" does not exist at character 22
+2023-11-30 20:49:59.863 IST [12520] STATEMENT:  SELECT COUNT(*) FROM databasechangeloglock
+2023-11-30 20:50:00.083 IST [12520] ERROR:  no schema has been selected to create in at character 14
+2023-11-30 20:50:00.083 IST [12520] STATEMENT:  CREATE TABLE databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+2023-11-30 20:50:00.812 IST [12520] ERROR:  relation "databasechangeloglock" does not exist at character 22
+2023-11-30 20:50:00.812 IST [12520] STATEMENT:  SELECT COUNT(*) FROM databasechangeloglock
+2023-11-30 20:50:00.825 IST [12520] ERROR:  no schema has been selected to create in at character 14
+2023-11-30 20:50:00.825 IST [12520] STATEMENT:  CREATE TABLE databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+2023-11-30 20:50:01.082 IST [12520] ERROR:  relation "databasechangeloglock" does not exist at character 22
+2023-11-30 20:50:01.082 IST [12520] STATEMENT:  SELECT COUNT(*) FROM databasechangeloglock
+2023-11-30 20:50:01.098 IST [12520] ERROR:  no schema has been selected to create in at character 14
+2023-11-30 20:50:01.098 IST [12520] STATEMENT:  CREATE TABLE databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+2023-11-30 20:50:01.869 IST [12520] ERROR:  relation "databasechangeloglock" does not exist at character 22
+2023-11-30 20:50:01.869 IST [12520] STATEMENT:  SELECT COUNT(*) FROM databasechangeloglock
+2023-11-30 20:50:01.883 IST [12520] ERROR:  no schema has been selected to create in at character 14
+2023-11-30 20:50:01.883 IST [12520] STATEMENT:  CREATE TABLE databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+2023-11-30 20:50:02.665 IST [12520] ERROR:  relation "databasechangeloglock" does not exist at character 22
+2023-11-30 20:50:02.665 IST [12520] STATEMENT:  SELECT COUNT(*) FROM databasechangeloglock
+2023-11-30 20:50:02.679 IST [12520] ERROR:  no schema has been selected to create in at character 14
+2023-11-30 20:50:02.679 IST [12520] STATEMENT:  CREATE TABLE databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+2023-11-30 20:50:02.723 IST [12520] ERROR:  relation "databasechangeloglock" does not exist at character 22
+2023-11-30 20:50:02.723 IST [12520] STATEMENT:  SELECT COUNT(*) FROM databasechangeloglock
+2023-11-30 20:50:02.734 IST [12520] ERROR:  no schema has been selected to create in at character 14
+2023-11-30 20:50:02.734 IST [12520] STATEMENT:  CREATE TABLE databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+2023-11-30 20:50:03.738 IST [12520] ERROR:  relation "databasechangeloglock" does not exist at character 22
+2023-11-30 20:50:03.738 IST [12520] STATEMENT:  SELECT COUNT(*) FROM databasechangeloglock
+2023-11-30 20:50:03.746 IST [12520] ERROR:  no schema has been selected to create in at character 14
+2023-11-30 20:50:03.746 IST [12520] STATEMENT:  CREATE TABLE databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+2023-11-30 20:50:04.350 IST [12520] ERROR:  relation "databasechangeloglock" does not exist at character 22
+2023-11-30 20:50:04.350 IST [12520] STATEMENT:  SELECT COUNT(*) FROM databasechangeloglock
+2023-11-30 20:50:04.362 IST [12520] ERROR:  no schema has been selected to create in at character 14
+2023-11-30 20:50:04.362 IST [12520] STATEMENT:  CREATE TABLE databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+2023-11-30 20:50:04.953 IST [12520] ERROR:  relation "databasechangeloglock" does not exist at character 22
+2023-11-30 20:50:04.953 IST [12520] STATEMENT:  SELECT COUNT(*) FROM databasechangeloglock
+2023-11-30 20:50:04.963 IST [12520] ERROR:  no schema has been selected to create in at character 14
+2023-11-30 20:50:04.963 IST [12520] STATEMENT:  CREATE TABLE databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+2023-11-30 20:50:05.012 IST [12520] ERROR:  relation "databasechangeloglock" does not exist at character 22
+2023-11-30 20:50:05.012 IST [12520] STATEMENT:  SELECT COUNT(*) FROM databasechangeloglock
+2023-11-30 20:50:05.023 IST [12520] ERROR:  no schema has been selected to create in at character 14
+2023-11-30 20:50:05.023 IST [12520] STATEMENT:  CREATE TABLE databasechangeloglock (ID INTEGER NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP WITHOUT TIME ZONE, LOCKEDBY VARCHAR(255), CONSTRAINT databasechangeloglock_pkey PRIMARY KEY (ID))
+2023-11-30 20:56:55.020 IST [11088] LOG:  received fast shutdown request
+2023-11-30 20:56:55.025 IST [17364] ERROR:  canceling statement due to user request
+2023-11-30 20:56:55.052 IST [11088] LOG:  aborting any active transactions
+2023-11-30 20:56:55.053 IST [11868] FATAL:  terminating connection due to administrator command
+2023-11-30 20:56:55.053 IST [6992] FATAL:  terminating connection due to administrator command
+2023-11-30 20:56:55.055 IST [8316] FATAL:  terminating connection due to administrator command
+2023-11-30 20:56:55.057 IST [11088] LOG:  background worker "logical replication launcher" (PID 17364) exited with exit code 1
+2023-11-30 20:56:55.332 IST [21540] LOG:  shutting down
+2023-11-30 20:56:55.348 IST [21540] LOG:  checkpoint starting: shutdown immediate
+2023-11-30 20:56:55.541 IST [21540] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.121 s, sync=0.020 s, total=0.209 s; sync files=10, longest=0.011 s, average=0.002 s; distance=3 kB, estimate=4102 kB; lsn=0/19E7DA0, redo lsn=0/19E7DA0
+2023-11-30 20:56:55.576 IST [11088] LOG:  database system is shut down
+2023-11-30 20:57:07.713 IST [6332] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2023-11-30 20:57:07.744 IST [6332] LOG:  listening on IPv6 address "::1", port 5432
+2023-11-30 20:57:07.745 IST [6332] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-11-30 20:57:08.225 IST [9604] LOG:  database system was shut down at 2023-11-30 20:56:55 IST
+2023-11-30 20:57:08.347 IST [6332] LOG:  database system is ready to accept connections
+2023-11-30 20:57:50.349 IST [22616] ERROR:  relation "healenium.databasechangeloglock" does not exist at character 22
+2023-11-30 20:57:50.349 IST [22616] STATEMENT:  SELECT COUNT(*) FROM healenium.databasechangeloglock
+2023-11-30 21:02:08.215 IST [15432] LOG:  checkpoint starting: time
+2023-11-30 21:02:15.602 IST [15432] LOG:  checkpoint complete: wrote 66 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.163 s, sync=0.150 s, total=7.390 s; sync files=59, longest=0.018 s, average=0.003 s; distance=251 kB, estimate=251 kB; lsn=0/1A26BE0, redo lsn=0/1A26BA8
+2023-11-30 21:02:57.983 IST [13464] LOG:  invalid length of startup packet
+2023-11-30 21:02:59.104 IST [2836] LOG:  invalid length of startup packet
+2023-11-30 21:02:59.409 IST [21948] LOG:  invalid length of startup packet
+2023-11-30 21:02:59.711 IST [14696] LOG:  invalid length of startup packet
+2023-11-30 21:04:17.286 IST [11408] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-11-30 21:04:17.294 IST [14396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-11-30 21:28:39.931 IST [6332] LOG:  could not reserve shared memory region (addr=000002A69EC30000) for child 000000000000147C: error code 487
+2023-11-30 22:19:13.677 IST [6332] LOG:  received fast shutdown request
+2023-11-30 22:19:13.690 IST [25460] ERROR:  canceling statement due to user request
+2023-11-30 22:19:13.739 IST [6332] LOG:  aborting any active transactions
+2023-11-30 22:19:13.741 IST [7920] FATAL:  terminating connection due to administrator command
+2023-11-30 22:19:13.741 IST [16608] FATAL:  terminating connection due to administrator command
+2023-11-30 22:19:13.742 IST [18692] FATAL:  terminating connection due to administrator command
+2023-11-30 22:19:13.745 IST [17196] FATAL:  terminating connection due to administrator command
+2023-11-30 22:19:13.751 IST [6332] LOG:  background worker "logical replication launcher" (PID 25460) exited with exit code 1
+2023-11-30 22:19:13.813 IST [15432] LOG:  shutting down
+2023-11-30 22:19:13.821 IST [15432] LOG:  checkpoint starting: shutdown immediate
+2023-11-30 22:19:13.909 IST [15432] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.022 s, sync=0.005 s, total=0.095 s; sync files=5, longest=0.002 s, average=0.001 s; distance=0 kB, estimate=226 kB; lsn=0/1A26C90, redo lsn=0/1A26C90
+2023-11-30 22:19:13.964 IST [6332] LOG:  database system is shut down
+2023-12-01 10:38:51.413 IST [2288] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2023-12-01 10:38:51.448 IST [2288] LOG:  listening on IPv6 address "::1", port 5432
+2023-12-01 10:38:51.448 IST [2288] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-12-01 10:38:51.946 IST [15280] LOG:  database system was shut down at 2023-11-30 22:19:13 IST
+2023-12-01 10:38:52.129 IST [2288] LOG:  database system is ready to accept connections
+2023-12-01 10:43:51.926 IST [2360] LOG:  checkpoint starting: time
+2023-12-01 10:43:52.288 IST [2360] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.263 s, sync=0.030 s, total=0.364 s; sync files=4, longest=0.012 s, average=0.008 s; distance=0 kB, estimate=0 kB; lsn=0/1A27050, redo lsn=0/1A27018
+2023-12-01 11:55:22.832 IST [2360] LOG:  checkpoint starting: time
+2023-12-01 11:55:25.192 IST [2360] LOG:  checkpoint complete: wrote 22 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.306 s, sync=0.018 s, total=2.361 s; sync files=8, longest=0.007 s, average=0.003 s; distance=102 kB, estimate=102 kB; lsn=0/1A408D0, redo lsn=0/1A40898
+2023-12-01 15:25:22.286 IST [2360] LOG:  checkpoint starting: time
+2023-12-01 15:25:37.227 IST [2360] LOG:  checkpoint complete: wrote 136 buffers (0.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=14.852 s, sync=0.023 s, total=14.944 s; sync files=15, longest=0.005 s, average=0.002 s; distance=903 kB, estimate=903 kB; lsn=0/1B22808, redo lsn=0/1B227D0
+2023-12-01 15:35:08.194 IST [2288] LOG:  received fast shutdown request
+2023-12-01 15:35:08.209 IST [19920] ERROR:  canceling statement due to user request
+2023-12-01 15:35:08.289 IST [2288] LOG:  aborting any active transactions
+2023-12-01 15:35:08.292 IST [2288] LOG:  background worker "logical replication launcher" (PID 19920) exited with exit code 1
+2023-12-01 15:35:08.294 IST [23224] FATAL:  terminating connection due to administrator command
+2023-12-01 15:35:08.295 IST [13060] FATAL:  terminating connection due to administrator command
+2023-12-01 15:35:08.298 IST [5036] FATAL:  terminating connection due to administrator command
+2023-12-01 15:35:08.299 IST [22364] FATAL:  terminating connection due to administrator command
+2023-12-01 15:35:08.377 IST [2360] LOG:  shutting down
+2023-12-01 15:35:08.396 IST [2360] LOG:  checkpoint starting: shutdown immediate
+2023-12-01 15:35:08.525 IST [2360] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.055 s, sync=0.008 s, total=0.148 s; sync files=4, longest=0.003 s, average=0.002 s; distance=20 kB, estimate=815 kB; lsn=0/1B27968, redo lsn=0/1B27968
+2023-12-01 15:35:08.576 IST [2288] LOG:  database system is shut down
+2023-12-04 17:19:24.212 IST [22748] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2023-12-04 17:19:24.234 IST [22748] LOG:  listening on IPv6 address "::1", port 5432
+2023-12-04 17:19:24.234 IST [22748] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-12-04 17:19:24.661 IST [18264] LOG:  database system was shut down at 2023-12-01 15:35:08 IST
+2023-12-04 17:19:24.813 IST [22748] LOG:  database system is ready to accept connections
+2023-12-04 17:24:24.644 IST [6992] LOG:  checkpoint starting: time
+2023-12-04 17:24:24.854 IST [6992] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.136 s, sync=0.021 s, total=0.211 s; sync files=3, longest=0.010 s, average=0.007 s; distance=1 kB, estimate=1 kB; lsn=0/1B27DC0, redo lsn=0/1B27D88
+2023-12-04 19:53:35.239 IST [8236] FATAL:  terminating connection due to unexpected postmaster exit
+2023-12-04 19:53:35.240 IST [13408] FATAL:  terminating connection due to unexpected postmaster exit
+2023-12-04 19:53:35.241 IST [18912] FATAL:  terminating connection due to unexpected postmaster exit
+2023-12-04 19:53:35.245 IST [24800] FATAL:  terminating connection due to unexpected postmaster exit
+2024-01-05 14:59:33.838 IST [20948] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2024-01-05 14:59:33.865 IST [20948] LOG:  listening on IPv6 address "::1", port 5432
+2024-01-05 14:59:33.866 IST [20948] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-05 14:59:34.307 IST [18848] LOG:  database system was interrupted; last known up at 2023-12-04 17:24:24 IST
+2024-01-05 14:59:44.336 IST [18848] LOG:  syncing data directory (fsync), elapsed time: 10.01 s, current path: ./base/4/6238
+2024-01-05 14:59:48.358 IST [18848] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-01-05 14:59:48.410 IST [18848] LOG:  redo starts at 0/1B27D88
+2024-01-05 14:59:48.411 IST [18848] LOG:  invalid record length at 0/1B27E70: expected at least 24, got 0
+2024-01-05 14:59:48.411 IST [18848] LOG:  redo done at 0/1B27E38 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-01-05 14:59:48.470 IST [20464] LOG:  checkpoint starting: end-of-recovery immediate wait
+2024-01-05 14:59:48.584 IST [20464] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.025 s, sync=0.026 s, total=0.125 s; sync files=2, longest=0.015 s, average=0.013 s; distance=0 kB, estimate=0 kB; lsn=0/1B27E70, redo lsn=0/1B27E70
+2024-01-05 14:59:48.669 IST [20948] LOG:  database system is ready to accept connections
+2024-01-05 15:04:48.591 IST [20464] LOG:  checkpoint starting: time
+2024-01-05 15:04:48.794 IST [20464] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.126 s, sync=0.016 s, total=0.203 s; sync files=2, longest=0.014 s, average=0.008 s; distance=1 kB, estimate=1 kB; lsn=0/1B28370, redo lsn=0/1B28338
+2024-01-05 16:21:03.610 IST [20948] LOG:  received fast shutdown request
+2024-01-05 16:21:03.619 IST [15596] ERROR:  canceling statement due to user request
+2024-01-05 16:21:03.654 IST [20948] LOG:  aborting any active transactions
+2024-01-05 16:21:03.656 IST [5588] FATAL:  terminating connection due to administrator command
+2024-01-05 16:21:03.658 IST [10344] FATAL:  terminating connection due to administrator command
+2024-01-05 16:21:03.659 IST [13280] FATAL:  terminating connection due to administrator command
+2024-01-05 16:21:03.661 IST [20948] LOG:  background worker "logical replication launcher" (PID 15596) exited with exit code 1
+2024-01-05 16:21:03.663 IST [824] FATAL:  terminating connection due to administrator command
+2024-01-05 16:21:03.708 IST [20464] LOG:  shutting down
+2024-01-05 16:21:03.715 IST [20464] LOG:  checkpoint starting: shutdown immediate
+2024-01-05 16:21:03.811 IST [20464] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.001 s, total=0.103 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=1 kB; lsn=0/1B28420, redo lsn=0/1B28420
+2024-01-05 16:21:03.877 IST [20948] LOG:  database system is shut down
+2024-01-31 23:44:17.928 IST [3952] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2024-01-31 23:44:17.948 IST [3952] LOG:  listening on IPv6 address "::1", port 5432
+2024-01-31 23:44:17.948 IST [3952] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-01-31 23:44:18.199 IST [5856] LOG:  database system was shut down at 2024-01-05 16:21:03 IST
+2024-01-31 23:44:18.302 IST [3952] LOG:  database system is ready to accept connections
+2024-01-31 23:49:18.190 IST [21680] LOG:  checkpoint starting: time
+2024-01-31 23:49:18.352 IST [21680] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.123 s, sync=0.013 s, total=0.163 s; sync files=3, longest=0.007 s, average=0.005 s; distance=1 kB, estimate=1 kB; lsn=0/1B28968, redo lsn=0/1B28930
+2024-02-01 00:02:02.053 IST [3952] LOG:  received fast shutdown request
+2024-02-01 00:02:02.060 IST [16252] FATAL:  terminating connection due to unexpected postmaster exit
+2024-02-01 00:02:02.061 IST [14420] FATAL:  terminating connection due to unexpected postmaster exit
+2024-02-01 00:02:02.061 IST [14480] FATAL:  terminating connection due to unexpected postmaster exit
+2024-02-01 00:02:02.062 IST [12044] FATAL:  terminating connection due to unexpected postmaster exit
+2024-02-05 21:44:44.400 IST [25668] LOG:  starting PostgreSQL 16.1, compiled by Visual C++ build 1937, 64-bit
+2024-02-05 21:44:44.416 IST [25668] LOG:  listening on IPv6 address "::1", port 5432
+2024-02-05 21:44:44.416 IST [25668] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-02-05 21:44:44.618 IST [8360] LOG:  database system was interrupted; last known up at 2024-01-31 23:49:18 IST
+2024-02-05 21:44:54.062 IST [8360] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-02-05 21:44:54.098 IST [8360] LOG:  redo starts at 0/1B28930
+2024-02-05 21:44:54.099 IST [8360] LOG:  invalid record length at 0/1B28A18: expected at least 24, got 0
+2024-02-05 21:44:54.099 IST [8360] LOG:  redo done at 0/1B289E0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-02-05 21:44:54.136 IST [20112] LOG:  checkpoint starting: end-of-recovery immediate wait
+2024-02-05 21:44:54.219 IST [20112] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.018 s, sync=0.016 s, total=0.094 s; sync files=2, longest=0.009 s, average=0.008 s; distance=0 kB, estimate=0 kB; lsn=0/1B28A18, redo lsn=0/1B28A18
+2024-02-05 21:44:54.292 IST [25668] LOG:  database system is ready to accept connections
+2024-02-05 21:49:54.226 IST [20112] LOG:  checkpoint starting: time
+2024-02-05 21:49:54.395 IST [20112] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.125 s, sync=0.009 s, total=0.170 s; sync files=2, longest=0.007 s, average=0.005 s; distance=1 kB, estimate=1 kB; lsn=0/1B29028, redo lsn=0/1B28FF0
+2024-02-05 22:07:33.816 IST [25668] LOG:  received fast shutdown request
+2024-02-05 22:07:33.818 IST [18628] ERROR:  canceling statement due to user request
+2024-02-05 22:07:33.859 IST [25668] LOG:  aborting any active transactions
+2024-02-05 22:07:33.860 IST [15332] FATAL:  terminating connection due to administrator command
+2024-02-05 22:07:33.860 IST [25668] LOG:  background worker "logical replication launcher" (PID 18628) exited with exit code 1
+2024-02-05 22:07:33.861 IST [22212] FATAL:  terminating connection due to administrator command
+2024-02-05 22:07:33.861 IST [1520] FATAL:  terminating connection due to administrator command
+2024-02-05 22:07:33.861 IST [21168] FATAL:  terminating connection due to administrator command
+2024-02-05 22:07:33.956 IST [20112] LOG:  shutting down
+2024-02-05 22:07:33.961 IST [20112] LOG:  checkpoint starting: shutdown immediate
+2024-02-05 22:07:34.007 IST [20112] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.052 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=1 kB; lsn=0/1B290D8, redo lsn=0/1B290D8
+2024-02-05 22:07:34.026 IST [25668] LOG:  database system is shut down

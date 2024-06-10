@@ -1,0 +1,1 @@
+SELECT SUM([Sensitivity]) as 'Sensitivity' FROM spend_data WHERE 1=1 --$conditions$

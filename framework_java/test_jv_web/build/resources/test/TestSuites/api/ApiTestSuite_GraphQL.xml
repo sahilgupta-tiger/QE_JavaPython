@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Framework">
+    <listeners>
+        <listener
+                class-name="com.ta.api.framework.listeners.TestNgIATListener"/>
+    </listeners>
+    <parameter name="excelWorkBook" value="src//test//resources//TestData//api//API_TestData.xlsx"/>
+    <parameter name="excelSheetName" value="GraphQL"/>
+    <parameter name="jsonDataPath" value="src//test//resources//Json//getToken.json"/>
+
+
+    <test name="WebServices Testing">
+        <classes>
+            <class name="com.ta.api.framework.api.GraphQLTest"/>
+        </classes>
+    </test>
+</suite>

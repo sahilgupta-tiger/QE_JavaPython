@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Framework">
+    <listeners>
+        <listener
+                class-name="com.ta.api.framework.listeners.TestNgIATListener"/>
+    </listeners>
+
+
+    <parameter name="excelWorkBook" value="src//test//resources//TestData//mobile//Mobile_TestData.xlsx"/>
+    <parameter name="excelSheetName" value="MobileDemo"/>
+    <parameter name="testtype" value="native"/>
+
+
+    <test name="Mobile Testing">
+
+        <groups>
+            <define name="mobile">
+                <include name="mobile"/>
+            </define>
+
+        </groups>
+
+        <classes>
+            <class name="com.ta.api.framework.mobile.MobileSampleTC"/>
+        </classes>
+    </test>
+</suite>

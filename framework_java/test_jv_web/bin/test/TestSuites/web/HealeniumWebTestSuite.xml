@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Framework">
+    <listeners>
+        <listener
+                class-name="com.ta.api.framework.listeners.TestNgIATListener"/>
+    </listeners>
+
+
+    <parameter name="excelWorkBook" value="src//test//resources//TestData//web//WEB_TestData_Healenium.xlsx"/>
+    <parameter name="excelSheetName" value="WebDemo"/>
+    <parameter name="SelfHeal" value="yes"/>
+
+
+    <test name="WebServices Testing">
+
+        <groups>
+            <define name="web">
+                <include name="web"/>
+            </define>
+
+        </groups>
+
+        <classes>
+            <class name="com.ta.api.framework.healenium.SelfHealWebSampleTC"/>
+        </classes>
+    </test>
+</suite>

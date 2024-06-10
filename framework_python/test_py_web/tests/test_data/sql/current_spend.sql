@@ -1,0 +1,1 @@
+SELECT SUM([FY Spend $]) as 'Current Spend' FROM spend_data WHERE 1=1 --$conditions$

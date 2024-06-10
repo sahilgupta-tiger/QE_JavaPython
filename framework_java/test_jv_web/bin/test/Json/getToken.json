@@ -1,0 +1,13 @@
+{
+  "uri": "https://mx-fast-dev-be.azurewebsites.net/",
+  "endpoint": "api/login",
+  "statuscode": "200",
+  "httpmethod": "POST",
+  "headers" : {
+    "Content-Type" : "application/json"
+  },
+  "payload" : {
+    "username" : "admin",
+    "password" : "Mars@123"
+  }
+}

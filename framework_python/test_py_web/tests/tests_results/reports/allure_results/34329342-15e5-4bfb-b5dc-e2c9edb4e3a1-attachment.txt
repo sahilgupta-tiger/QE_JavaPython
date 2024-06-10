@@ -1,0 +1,10 @@
+[32mINFO    [0m <module>:loginpowerbi.py:29 Login into power bi using id
+[32mINFO    [0m <module>:loginpowerbi.py:35 Login into power bi using encrypted password
+[32mINFO    [0m <module>:loginpowerbi.py:40 Clicked the extra pop up in login screen
+[32mINFO    [0m <module>:executive_summary_dashboard.py:24 Reset Filter
+[32mINFO    [0m <module>:executive_summary_dashboard.py:74 >>> For filter option '2022' there are '32' items in dropdown
+[32mINFO    [0m <module>:executive_summary_dashboard.py:74 >>> For filter option '2023' there are '32' items in dropdown
+[32mINFO    [0m <module>:executive_summary_dashboard.py:74 >>> For filter option 'Aluminum' there are '53' items in dropdown
+[32mINFO    [0m <module>:executive_summary_dashboard.py:74 >>> For filter option 'Motor Fuel' there are '53' items in dropdown
+[32mINFO    [0m <module>:executive_summary_dashboard.py:74 >>> For filter option 'Sugar' there are '53' items in dropdown
+[32mINFO    [0m <module>:executive_summary_dashboard.py:74 >>> For filter option 'Vegetable Oil' there are '53' items in dropdown

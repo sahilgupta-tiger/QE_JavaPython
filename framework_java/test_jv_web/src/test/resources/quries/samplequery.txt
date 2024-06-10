@@ -1,0 +1,8 @@
+mutation {
+  insert_todos(objects: {title: "nesdtnee"}) {
+    returning {
+      id
+      title
+    }
+  }
+}

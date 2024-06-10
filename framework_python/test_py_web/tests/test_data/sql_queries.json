@@ -1,0 +1,13 @@
+{
+  "executive_db.sql" : "SELECT * FROM executive_summary",
+  "graph_drillthrough.sql" : "select * from drilldown",
+  "sample_table.sql" : "SELECT * FROM sample_table",
+  "bw_v_prior.sql" : "SELECT SUM([B/w]) as 'BW vs Prior' FROM spend_data WHERE 1=1 --$conditions$",
+  "current_spend.sql" : "SELECT SUM([FY Spend $]) as 'Current Spend' FROM spend_data WHERE 1=1 --$conditions$",
+  "planned_spend.sql" : "SELECT SUM([Planned spend]) as 'Planned Spend' FROM spend_data WHERE 1=1 --$conditions$",
+  "sensitivity.sql": "SELECT SUM([Sensitivity]) as 'Sensitivity' FROM spend_data WHERE 1=1 --$conditions$",
+  "slider_tc.sql": "SELECT [Sector],[Value] FROM sample_table WHERE [TCName] = 'tc8'",
+  "total_bw_prior_year_by_sector.sql": "SELECT [Sector], SUM([B/w]) as 'B/W vs Prior Year By Sector' FROM spend_data WHERE 1=1 --$conditions$ GROUP BY [Sector]",
+  "total_sensitivity_by_sector.sql": "SELECT [Sector], SUM([Sensitivity]) as 'Sensitivity By Sector' FROM spend_data WHERE 1=1 --$conditions$ GROUP BY [Sector]",
+  "total_spend_by_sector.sql": "SELECT [Sector], SUM([FY Spend $]) as 'Total Spend by Sector' FROM spend_data WHERE 1=1 --$conditions$ GROUP BY [Sector]"
+}

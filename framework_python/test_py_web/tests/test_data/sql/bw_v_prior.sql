@@ -1,0 +1,1 @@
+SELECT SUM([B/w]) as 'BW vs Prior' FROM spend_data WHERE 1=1 --$conditions$

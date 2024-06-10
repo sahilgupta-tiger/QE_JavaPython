@@ -1,0 +1,1 @@
+SELECT [Sector], SUM([FY Spend $]) as 'Total Spend by Sector' FROM spend_data WHERE 1=1 --$conditions$ GROUP BY [Sector]

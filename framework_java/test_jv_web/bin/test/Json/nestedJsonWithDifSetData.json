@@ -1,0 +1,37 @@
+{
+  "problems": [{
+    "Diabetes":[{
+      "medications":[{
+        "medicationsClasses":[{
+          "className":[{
+            "associatedDrug1":[{
+              "name":"$associatedDrug1NameValue$",
+              "dose":"$associatedDrug1DoseValue$",
+              "strength":"$associatedDrug1StrengthValue$"
+            }],
+            "associatedDrug2":[{
+              "name":"$associatedDrug2NameValue$",
+              "dose":"$associatedDrug2DoseValue$",
+              "strength":"$associatedDrug2StrengthValue$"
+            }]
+          }],
+          "className2":[{
+            "associatedDrug3":[{
+              "name":"$associatedDrug3NameValue$",
+              "dose":"$associatedDrug3DoseValue$",
+              "strength":"$associatedDrug3StrengthValue$"
+            }],
+            "associatedDrug4":[{
+              "name":"$associatedDrug4NameValue$",
+              "dose":"$associatedDrug4DoseValue$",
+              "strength":"$associatedDrug4StrengthValue$"
+            }]
+          }]
+        }]
+      }],
+      "labs":[{
+        "missing_field": "missing_value"
+      }]
+    }],
+    "Asthma":[{}]
+  }]}

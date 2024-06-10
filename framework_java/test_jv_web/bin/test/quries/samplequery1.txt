@@ -1,0 +1,8 @@
+mutation {
+  insert_todos(objects: {title: $title, is_public: $public}) {
+    returning {
+      id
+      title
+    }
+  }
+}

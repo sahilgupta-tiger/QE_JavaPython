@@ -1,0 +1,10 @@
+Marker,Execute?,Test Type,Test Case Name,Year,Commodity Group,Commodity,Sector,Country,Country/Region
+tc1,N,smoke,TC_001_General Validation,,,,,,
+tc2,N,regression,TC_002_Validation of single value widgets,2022,Natural Gas,All,EUROPE|Mexico,All,All
+tc3,Y,smoke|regression,TC_003_Validation of executive summary,2022|2023,Aluminum|Motor Fuel|Sugar|Vegetable Oil|Wheat,All,FLNA|NAB|QFNA,All,US
+tc4,N,regression,TC_004_Validation of Total spend by sector graph,2022,AJC,High Acid|Low Acid,All,All,All
+tc5,N,regression,TC_005_Validation of Total sensitivity by sector graph,2021|2022,Motor Fuel,All,All,All,All
+tc6,N,regression,TC_006_Validation of Total BW vs prior year graph,2022|2023,Sugar,All,CASA/Brazil|EUROPE|Mexico,All,All
+tc7,N,,TC_007_Validation of drilldown,2022,Aluminum,All,EUROPE,All,All
+tc8,N,regression,TC_008_Validation of slider,2022,Motor Fuel,All,FLNA|NAB|QFNA,All,All
+tc9,N,smoke|regression,TC_009_Validation of Sensitivity widget,2022,Natural Gas,All,EUROPE|Mexico,All,All
