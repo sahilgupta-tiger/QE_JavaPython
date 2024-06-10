@@ -1,0 +1,88 @@
+# Manually Trigger GitHub Actions workflow to execute code
+name: _execution
+
+on:
+  workflow_dispatch:
+
+env:
+  TEST_TYPE: count
+  TEST_NAMES: testcase23_snowflake_snowflake_match,testcase24_snowflake_snowflake_etljob,testcase28_manual_sql_notifications,testcase29_manual_sql_fullname
+
+permissions:
+  contents: write
+
+jobs:
+  java-test:
+    runs-on: windows-latest
+    steps:
+      - name: Get Code
+        uses: actions/checkout@v4
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/install.txt
+      - name: Test Snowpark
+        run: |
+          sh scripts/testingstart.sh $env:TEST_TYPE $env:TEST_NAMES
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-files
+          path: "utils/reports"
+
+  python-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Code
+        uses: actions/checkout@v4
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/install.txt
+      - name: Test Snowpark
+        run: |
+          sh scripts/testingstart.sh $env:TEST_TYPE $env:TEST_NAMES
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-files
+          path: "utils/reports"
+
+  report:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Build Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-files
+      - name: List Report Files
+        run: |
+          echo "Displaying the reports..."
+          ls
+          mkdir pdfs
+      - name: Report html to pdf
+        uses: LukaszLapaj/html-to-pdf-action@master
+        with:
+          htmlFile: ./datfreport.html
+          outputFile: ./pdfs/datfreport.pdf
+          pdfOptions: '{"landscape": true}'
+      - name: Trends html to pdf
+        uses: LukaszLapaj/html-to-pdf-action@master
+        with:
+          htmlFile: ./datf_trends_report.html
+          outputFile: ./pdfs/datftrends.pdf
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: ./pdfs
+
