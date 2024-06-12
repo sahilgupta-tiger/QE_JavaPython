@@ -5,3 +5,4 @@
 *.ipr
 ### Project Files/Folders ###
 framework_java/test_jv_web/.gradle
+/target/
