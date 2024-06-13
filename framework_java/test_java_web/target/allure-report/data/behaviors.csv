@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Saucedemo","Logout to the app","0","0","1","0","0"
+"","Saucedemo","Remove products from cart","0","0","1","0","0"
+"","Saucedemo","Add products to cart","0","0","1","0","0"
+"","Saucedemo","Login without credentials","0","0","1","0","0"
+"","Saucedemo","Login with invalid credentials","0","0","2","0","0"
