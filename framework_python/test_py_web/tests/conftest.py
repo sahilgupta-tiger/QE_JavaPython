@@ -7,9 +7,9 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.chrome.service import Service
-from ..src.pom.pages.loginpowerbi import OpenPowerBIPage
-from ..src.pom.pages.executive_summary_dashboard import SummaryReportPage
-from ..utilities.encryption import decode
+from src.pom.pages.loginpowerbi import OpenPowerBIPage
+from src.pom.pages.executive_summary_dashboard import SummaryReportPage
+from utilities.encryption import decode
 
 
 def pytest_addoption(parser):

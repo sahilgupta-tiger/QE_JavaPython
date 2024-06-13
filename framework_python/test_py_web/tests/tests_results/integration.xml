@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="220.955" timestamp="2024-02-16T12:16:07.115635" hostname="TIGER01340"><testcase classname="tests.test_cases.test_bdd_scenarios" name="test_report_tc3" time="181.828"><failure message="selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element &lt;div class=&quot;slicerItemContainer&quot; role=&quot;option&quot; aria-setsize=&quot;-1&quot; title=&quot;Vegetable Oil&quot; aria-posinset=&quot;16&quot; data-row-index=&quot;16&quot; data-row-id=&quot;0:16&quot; aria-selected=&quot;false&quot; style=&quot;margin-left: 0px;&quot;&gt;...&lt;/div&gt; is not clickable at point (426, 430). Other element would receive the click: &lt;div class=&quot;slicer-dropdown-popup visual themeableElement focused&quot; focus-nav-mode=&quot;Group&quot; id=&quot;slicer-dropdown-popup-e0d11a11-5e23-08dd-8b61-48cd29840716&quot; style=&quot;background-color: rgb(255, 255, 255); width: 159.406px; transform: scale(0.634115); left: 375.732px; top: 300.242px; transform-origin: left top; display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=121.0.6167.161)&#10;Stacktrace:&#10;&#09;GetHandleVerifier [0x00007FF6F0765E42+3538674]&#10;&#09;(No symbol) [0x00007FF6F0384C02]&#10;&#09;(No symbol) [0x00007FF6F0235AEB]&#10;&#09;(No symbol) [0x00007FF6F02833E4]&#10;&#09;(No symbol) [0x00007FF6F0281122]&#10;&#09;(No symbol) [0x00007FF6F027E884]&#10;&#09;(No symbol) [0x00007FF6F027D5A9]&#10;&#09;(No symbol) [0x00007FF6F0271950]&#10;&#09;(No symbol) [0x00007FF6F029F0AA]&#10;&#09;(No symbol) [0x00007FF6F027124A]&#10;&#09;(No symbol) [0x00007FF6F029F2C0]&#10;&#09;(No symbol) [0x00007FF6F02BBDE3]&#10;&#09;(No symbol) [0x00007FF6F029EE53]&#10;&#09;(No symbol) [0x00007FF6F026F514]&#10;&#09;(No symbol) [0x00007FF6F0270631]&#10;&#09;GetHandleVerifier [0x00007FF6F0796CAD+3738973]&#10;&#09;GetHandleVerifier [0x00007FF6F07EC506+4089270]&#10;&#09;GetHandleVerifier [0x00007FF6F07E4823+4057299]&#10;&#09;GetHandleVerifier [0x00007FF6F04B5C49+720121]&#10;&#09;(No symbol) [0x00007FF6F039126F]&#10;&#09;(No symbol) [0x00007FF6F038C304]&#10;&#09;(No symbol) [0x00007FF6F038C432]&#10;&#09;(No symbol) [0x00007FF6F037BD04]&#10;&#09;BaseThreadInitThunk [0x00007FFC84DD257D+29]&#10;&#09;RtlUserThreadStart [0x00007FFC8556AA58+40]">fixturefunc = &lt;function login_to_dashboard at 0x00000172BB7C56C0&gt;
-request = &lt;FixtureRequest for &lt;Function test_report_tc3&gt;&gt;
-kwargs = {'tcname': 'tc3'}
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="73.257" timestamp="2024-06-13T20:21:48.736545" hostname="TIGER01340"><testcase classname="tests.test_cases.test_bdd_scenarios" name="test_report_tc3" time="64.238"><failure message="AttributeError: 'NoneType' object has no attribute 'click'">fixturefunc = &lt;function login_to_dashboard at 0x0000027364872710&gt;, request = &lt;FixtureRequest for &lt;Function test_report_tc3&gt;&gt;, kwargs = {'tcname': 'tc3'}
 
     def call_fixture_func(
         fixturefunc: "_FixtureFunc[FixtureValue]", request: FixtureRequest, kwargs
@@ -20,141 +18,20 @@ kwargs = {'tcname': 'tc3'}
             fixturefunc = cast(Callable[..., FixtureValue], fixturefunc)
 &gt;           fixture_result = fixturefunc(**kwargs)
 
-..\..\Py_Projects\bdevenv\lib\site-packages\_pytest\fixtures.py:902: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\..\..\Py_Projects\bdevenv\lib\site-packages\_pytest\fixtures.py:902: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 tests\test_cases\test_bdd_scenarios.py:140: in login_to_dashboard
     srep.selection_of_filters(tc_params)
-src\pom\pages\executive_summary_dashboard.py:86: in selection_of_filters
-    self.click_by_locator(By.XPATH, ele_xpath)
-src\pom\pages\base_page.py:67: in click_by_locator
-    return self.find_element_by_locator(locator1,locator2).click()
-..\..\Py_Projects\bdevenv\lib\site-packages\selenium\webdriver\remote\webelement.py:93: in click
-    self._execute(Command.CLICK_ELEMENT)
-..\..\Py_Projects\bdevenv\lib\site-packages\selenium\webdriver\remote\webelement.py:394: in _execute
-    return self._parent.execute(command, params)
-..\..\Py_Projects\bdevenv\lib\site-packages\selenium\webdriver\remote\webdriver.py:347: in execute
-    self.error_handler.check_response(response)
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\pom\pages\executive_summary_dashboard.py:65: in selection_of_filters
+    self.click_by_locator(By.XPATH, dd_ele)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x00000172BB6F2F80&gt;
-response = {'status': 400, 'value': '{"value":{"error":"element click intercepted","message":"element click intercepted: Element ...07FF6F037BD04]\\n\\tBaseThreadInitThunk [0x00007FFC84DD257D+29]\\n\\tRtlUserThreadStart [0x00007FFC8556AA58+40]\\n"}}'}
+self = &lt;src.pom.pages.executive_summary_dashboard.SummaryReportPage object at 0x00000273648A3DF0&gt;, locator1 = 'xpath'
+locator2 = "(//*[local-name()='div' and @class='slicer-restatement'])[1]"
 
-    def check_response(self, response: Dict[str, Any]) -&gt; None:
-        """Checks that a JSON response from the WebDriver does not have an
-        error.
-    
-        :Args:
-         - response - The JSON response from the WebDriver server as a dictionary
-           object.
-    
-        :Raises: If the response contains an error message.
-        """
-        status = response.get("status", None)
-        if not status or status == ErrorCode.SUCCESS:
-            return
-        value = None
-        message = response.get("message", "")
-        screen: str = response.get("screen", "")
-        stacktrace = None
-        if isinstance(status, int):
-            value_json = response.get("value", None)
-            if value_json and isinstance(value_json, str):
-                import json
-    
-                try:
-                    value = json.loads(value_json)
-                    if len(value) == 1:
-                        value = value["value"]
-                    status = value.get("error", None)
-                    if not status:
-                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
-                        message = value.get("value") or value.get("message")
-                        if not isinstance(message, str):
-                            value = message
-                            message = message.get("message")
-                    else:
-                        message = value.get("message", None)
-                except ValueError:
-                    pass
-    
-        exception_class: Type[WebDriverException]
-        e = ErrorCode()
-        error_codes = [item for item in dir(e) if not item.startswith("__")]
-        for error_code in error_codes:
-            error_info = getattr(ErrorCode, error_code)
-            if isinstance(error_info, list) and status in error_info:
-                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
-                break
-        else:
-            exception_class = WebDriverException
-    
-        if not value:
-            value = response["value"]
-        if isinstance(value, str):
-            raise exception_class(value)
-        if message == "" and "message" in value:
-            message = value["message"]
-    
-        screen = None  # type: ignore[assignment]
-        if "screen" in value:
-            screen = value["screen"]
-    
-        stacktrace = None
-        st_value = value.get("stackTrace") or value.get("stacktrace")
-        if st_value:
-            if isinstance(st_value, str):
-                stacktrace = st_value.split("\n")
-            else:
-                stacktrace = []
-                try:
-                    for frame in st_value:
-                        line = frame.get("lineNumber", "")
-                        file = frame.get("fileName", "&lt;anonymous&gt;")
-                        if line:
-                            file = f"{file}:{line}"
-                        meth = frame.get("methodName", "&lt;anonymous&gt;")
-                        if "className" in frame:
-                            meth = f"{frame['className']}.{meth}"
-                        msg = "    at %s (%s)"
-                        msg = msg % (meth, file)
-                        stacktrace.append(msg)
-                except TypeError:
-                    pass
-        if exception_class == UnexpectedAlertPresentException:
-            alert_text = None
-            if "data" in value:
-                alert_text = value["data"].get("text")
-            elif "alert" in value:
-                alert_text = value["alert"].get("text")
-            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
-&gt;       raise exception_class(message, screen, stacktrace)
-E       selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element &lt;div class="slicerItemContainer" role="option" aria-setsize="-1" title="Vegetable Oil" aria-posinset="16" data-row-index="16" data-row-id="0:16" aria-selected="false" style="margin-left: 0px;"&gt;...&lt;/div&gt; is not clickable at point (426, 430). Other element would receive the click: &lt;div class="slicer-dropdown-popup visual themeableElement focused" focus-nav-mode="Group" id="slicer-dropdown-popup-e0d11a11-5e23-08dd-8b61-48cd29840716" style="background-color: rgb(255, 255, 255); width: 159.406px; transform: scale(0.634115); left: 375.732px; top: 300.242px; transform-origin: left top; display: block;"&gt;...&lt;/div&gt;
-E         (Session info: chrome=121.0.6167.161)
-E       Stacktrace:
-E       	GetHandleVerifier [0x00007FF6F0765E42+3538674]
-E       	(No symbol) [0x00007FF6F0384C02]
-E       	(No symbol) [0x00007FF6F0235AEB]
-E       	(No symbol) [0x00007FF6F02833E4]
-E       	(No symbol) [0x00007FF6F0281122]
-E       	(No symbol) [0x00007FF6F027E884]
-E       	(No symbol) [0x00007FF6F027D5A9]
-E       	(No symbol) [0x00007FF6F0271950]
-E       	(No symbol) [0x00007FF6F029F0AA]
-E       	(No symbol) [0x00007FF6F027124A]
-E       	(No symbol) [0x00007FF6F029F2C0]
-E       	(No symbol) [0x00007FF6F02BBDE3]
-E       	(No symbol) [0x00007FF6F029EE53]
-E       	(No symbol) [0x00007FF6F026F514]
-E       	(No symbol) [0x00007FF6F0270631]
-E       	GetHandleVerifier [0x00007FF6F0796CAD+3738973]
-E       	GetHandleVerifier [0x00007FF6F07EC506+4089270]
-E       	GetHandleVerifier [0x00007FF6F07E4823+4057299]
-E       	GetHandleVerifier [0x00007FF6F04B5C49+720121]
-E       	(No symbol) [0x00007FF6F039126F]
-E       	(No symbol) [0x00007FF6F038C304]
-E       	(No symbol) [0x00007FF6F038C432]
-E       	(No symbol) [0x00007FF6F037BD04]
-E       	BaseThreadInitThunk [0x00007FFC84DD257D+29]
-E       	RtlUserThreadStart [0x00007FFC8556AA58+40]
+    def click_by_locator(self, locator1, locator2):
+        try:
+&gt;           return self.find_element_by_locator(locator1,locator2).click()
+E           AttributeError: 'NoneType' object has no attribute 'click'
 
-..\..\Py_Projects\bdevenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py:229: ElementClickInterceptedException</failure></testcase></testsuite></testsuites>
+src\pom\pages\base_page.py:67: AttributeError</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,6 @@
+[32mINFO    [0m <module>:loginpowerbi.py:29 Login into power bi using id
+[32mINFO    [0m <module>:loginpowerbi.py:35 Login into power bi using encrypted password
+[32mINFO    [0m <module>:loginpowerbi.py:40 Clicked the extra pop up in login screen
+[32mINFO    [0m <module>:executive_summary_dashboard.py:24 Reset Filter
+[32mINFO    [0m <module>:base_page.py:47 None
+[32mINFO    [0m <module>:base_page.py:47 None
