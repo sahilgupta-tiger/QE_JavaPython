@@ -4,8 +4,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = ".//framework_java/Feature/SauceDemo.feature",
-		glue = "stepDefinitions",
+		features = "Feature/SauceDemo.feature",
+		glue = {"stepDefinitions"},
 		plugin = {
 				"pretty",
 				"html:target/Reports/report.html",

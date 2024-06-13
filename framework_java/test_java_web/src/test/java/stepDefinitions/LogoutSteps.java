@@ -1,12 +1,9 @@
 package stepDefinitions;
-
-import static org.junit.Assert.assertEquals;
-
 import org.openqa.selenium.WebDriver;
-
-
 import io.cucumber.java.en.*;
 import pageObjects.*;
+
+import static org.testng.Assert.assertEquals;
 
 public class LogoutSteps extends BaseClass{
 

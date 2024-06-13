@@ -2,6 +2,7 @@ package pageObjects;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
@@ -70,7 +71,7 @@ public class ProductsPage {
 	public void clickRemoveFromCart() {
 		try 
 		{
-			ldriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+			ldriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			RemoveFromCart.click();
 		}
 		catch(Exception e)

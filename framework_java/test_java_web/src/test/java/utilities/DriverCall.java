@@ -11,7 +11,7 @@ public class DriverCall {
     public void setupBrowser() {
     	ChromeOptions options = new ChromeOptions();
     	options.addArguments("--incognito");
-		System.setProperty("webdriver.chrome.driver",".//commonutils/drivers/chromedriver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:/Project/QE_JavaPython/commonutils/drivers/chromedriver/chromedriver.exe");
 		driver=new ChromeDriver(options); 
     }
     

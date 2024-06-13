@@ -1,6 +1,7 @@
 package stepDefinitions;
 import pageObjects.*;
-import static org.junit.Assert.assertEquals;
+import static org.testng.Assert.assertEquals;
+
 import io.cucumber.java.en.*;
 
 public class LoginSteps extends BaseClass {
