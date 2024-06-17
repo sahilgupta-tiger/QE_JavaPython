@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Jun 13 19:35:54 IST 2024","Thu Jun 13 19:36:01 IST 2024","7184","","Saucedemo","","Login with invalid credentials","","Login with invalid credentials",""
-"passed","Thu Jun 13 19:36:46 IST 2024","Thu Jun 13 19:36:49 IST 2024","2889","","Saucedemo","","Logout to the app","","Logout to the app",""
-"passed","Thu Jun 13 19:36:04 IST 2024","Thu Jun 13 19:36:10 IST 2024","6096","","Saucedemo","","Add products to cart","","Add products to cart",""
-"passed","Thu Jun 13 19:35:47 IST 2024","Thu Jun 13 19:35:54 IST 2024","6568","","Saucedemo","","Login with invalid credentials","","Login with invalid credentials",""
-"passed","Thu Jun 13 19:36:10 IST 2024","Thu Jun 13 19:36:46 IST 2024","35915","","Saucedemo","","Remove products from cart","","Remove products from cart",""
-"passed","Thu Jun 13 19:36:01 IST 2024","Thu Jun 13 19:36:04 IST 2024","2562","","Saucedemo","","Login without credentials","","Login without credentials",""
