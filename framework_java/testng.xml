@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/prashant.singh/IdeaProjects/SwagLabs/src/test/java/TC1_LoginScreen.java"><classes/></test><test verbose="2" preserve-order="true" name="C:/Users/prashant.singh/IdeaProjects/SwagLabs/src/test/java/TC2_LoginScreen_InvalidCredential.java"><classes/></test></suite>
