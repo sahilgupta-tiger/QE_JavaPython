@@ -11,6 +11,8 @@
 ## Install python packages:
 ```command prompt
 > pip install --no-cache-dir -r requirements.txt
+> pip install playwright
+> pip install pytest-playwright
 ```
 
 
