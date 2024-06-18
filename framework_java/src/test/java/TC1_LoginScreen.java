@@ -1,9 +1,38 @@
 import com.microsoft.playwright.*;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 public class TC1_LoginScreen {
+
+    Browser browser;
+    Page page;
+    Playwright playwright;
+
+@BeforeMethod
+@Parameters({"browser"})
+ public void setup(String browsername){
+
+    BrowserType browserType;
+    playwright=Playwright.create();
+    switch (browsername){
+        case "firefox":
+            browserType=playwright.firefox();
+            break;
+        case "webkit":
+            browserType=playwright.webkit();
+            break;
+        default:
+            throw new IllegalArgumentException("Please provide valid browser name");
+
+    }
+
+    browser=browserType.launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(1000));
+    page=browser.newPage();
+
+}
 
 @Test
 public void Login(){
@@ -14,10 +43,12 @@ public void Login(){
 //        BrowserContext browserContext=browser.newContext();
 //        Page page=browserContext.newPage();
 
-    Playwright playwright=Playwright.create();
-    Browser browser=playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(1000));
-    BrowserContext context=browser.newContext(new Browser.NewContextOptions().setViewportSize(1000,1080));
-    Page page=context.newPage();
+//    Playwright playwright=Playwright.create();
+//    Browser browser=playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(1000));
+//    BrowserContext context=browser.newContext(new Browser.NewContextOptions().setViewportSize(1000,1080));
+//    Page page=context.newPage();
+
+
 
 
     //Go to https://www.saucedemo.com/
@@ -38,6 +69,7 @@ public void Login(){
     page.close();
     System.out.println("Successfully Login with valid credential");
 
+    playwright.close();
 
 }
 
