@@ -21,6 +21,8 @@
 ```command prompt
 > python run.py
 > pytest -m run.py
+### To run tests in parallel 
+> pytest -n 3
 ```
 
 
@@ -34,7 +36,7 @@
 
 ### Check the installation
 ```command prompt
-> allure --version
+> 
 ```
 
 

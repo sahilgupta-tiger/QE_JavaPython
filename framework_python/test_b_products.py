@@ -4,6 +4,11 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 
 def test_3_productview(set_up):
     page = set_up
+    page.locator("[data-test=\"username\"]").click()
+    page.locator("[data-test=\"username\"]").fill("standard_user")
+    page.locator("[data-test=\"password\"]").click()
+    page.locator("[data-test=\"password\"]").fill("secret_sauce")
+    page.locator("[data-test=\"login-button\"]").click()
     page.locator("[data-test=\"item-4-title-link\"]").click()
     #Validating the product details on the product page
     expect(page.locator("[data-test=\"item-sauce-labs-backpack-img\"]")).to_be_visible()
@@ -15,6 +20,11 @@ def test_3_productview(set_up):
 
 def test_4_cartsize(set_up):
     page = set_up
+    page.locator("[data-test=\"username\"]").click()
+    page.locator("[data-test=\"username\"]").fill("standard_user")
+    page.locator("[data-test=\"password\"]").click()
+    page.locator("[data-test=\"password\"]").fill("secret_sauce")
+    page.locator("[data-test=\"login-button\"]").click()
     page.locator("[data-test=\"add-to-cart-sauce-labs-bike-light\"]").click()
     page.locator("[data-test=\"add-to-cart-sauce-labs-backpack\"]").click()
     # Checking the cart size
@@ -27,6 +37,11 @@ def test_4_cartsize(set_up):
 
 def test_5_removeitem(set_up):
     page = set_up
+    page.locator("[data-test=\"username\"]").click()
+    page.locator("[data-test=\"username\"]").fill("standard_user")
+    page.locator("[data-test=\"password\"]").click()
+    page.locator("[data-test=\"password\"]").fill("secret_sauce")
+    page.locator("[data-test=\"login-button\"]").click()
     page.locator("[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]").click()
     page.locator("[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]").click()
     page.locator("[data-test=\"shopping-cart-link\"]").click()
@@ -38,6 +53,11 @@ def test_5_removeitem(set_up):
 
 def test_6_checkout(set_up):
     page = set_up
+    page.locator("[data-test=\"username\"]").click()
+    page.locator("[data-test=\"username\"]").fill("standard_user")
+    page.locator("[data-test=\"password\"]").click()
+    page.locator("[data-test=\"password\"]").fill("secret_sauce")
+    page.locator("[data-test=\"login-button\"]").click()
     page.locator("[data-test=\"add-to-cart-sauce-labs-backpack\"]").click()
     page.locator("[data-test=\"add-to-cart-sauce-labs-bike-light\"]").click()
     page.locator("[data-test=\"shopping-cart-link\"]").click()
@@ -54,6 +74,11 @@ def test_6_checkout(set_up):
 
 def test_7_continueshopping(set_up):
         page = set_up
+        page.locator("[data-test=\"username\"]").click()
+        page.locator("[data-test=\"username\"]").fill("standard_user")
+        page.locator("[data-test=\"password\"]").click()
+        page.locator("[data-test=\"password\"]").fill("secret_sauce")
+        page.locator("[data-test=\"login-button\"]").click()
         page.locator("[data-test=\"add-to-cart-sauce-labs-onesie\"]").click()
         page.locator("[data-test=\"shopping-cart-link\"]").click()
         page.locator("[data-test=\"remove-sauce-labs-onesie\"]").click()
