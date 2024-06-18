@@ -1,2 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/prashant.singh/IdeaProjects/SwagLabs/src/test/java/TC1_LoginScreen.java"><classes/></test><test verbose="2" preserve-order="true" name="C:/Users/prashant.singh/IdeaProjects/SwagLabs/src/test/java/TC2_LoginScreen_InvalidCredential.java"><classes/></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite" parallel="tests">
+
+    <test  name="Swag labs Test Cases with Firefox Browser">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="TC1_LoginScreen"></class>
+            <class name="TC2_LoginScreen_InvalidCredential"></class>
+            <class name="TC3_ProductView"></class>
+            <class name="TC4_CartSize"></class>
+            <class name="TC5_RemoveItem"></class>
+            <class name="TC6_CheckOut"></class>
+            <class name="TC7_ContinueShoppingClick"></class>
+            <class name="TC8_LogoutScreen"></class>
+
+        </classes>
+        </test>
+
+
+    <test  name="Swag labs Test Cases with Webkit Browser">
+        <parameter name="browser" value="webkit"></parameter>
+        <classes>
+            <class name="TC1_LoginScreen"></class>
+            <class name="TC2_LoginScreen_InvalidCredential"></class>
+            <class name="TC3_ProductView"></class>
+            <class name="TC4_CartSize"></class>
+            <class name="TC5_RemoveItem"></class>
+            <class name="TC6_CheckOut"></class>
+            <class name="TC7_ContinueShoppingClick"></class>
+            <class name="TC8_LogoutScreen"></class>
+
+        </classes>
+    </test>
+
+
+</suite>
