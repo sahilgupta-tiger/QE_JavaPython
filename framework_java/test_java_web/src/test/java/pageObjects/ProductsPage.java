@@ -31,6 +31,9 @@ public class ProductsPage {
 	
 	@FindBy(xpath = "//*/div/button[contains(@id,'remove')]")
 	WebElement RemoveFromCart;
+
+	@FindBy(xpath = "//button[@id='continue-shopping']")
+	WebElement ContinueShopping;
 	
 	public void clickAddtoCart() {
 		AddtoCart.click();
@@ -78,6 +81,9 @@ public class ProductsPage {
 		{
 			System.out.println(e.getMessage());
 		}
+	}
+	public void clickContinueShopping() {
+		ContinueShopping.click();
 	}
 
 }

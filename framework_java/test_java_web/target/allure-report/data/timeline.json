@@ -1,1 +1,2229 @@
-{"uid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","name":"timeline","children":[{"name":"TIGER01340","children":[{"name":"18488@TIGER01340.main(1)","children":[{"name":"Logout to the app","uid":"921f3f67faff7394","parentUid":"b7fd98f987dc861a7d160fe06f6ffaf2","status":"passed","time":{"start":1718287606271,"stop":1718287609160,"duration":2889},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Login with invalid credentials","uid":"f2c8e8dd8058c76e","parentUid":"b7fd98f987dc861a7d160fe06f6ffaf2","status":"passed","time":{"start":1718287554443,"stop":1718287561627,"duration":7184},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":true,"parameters":["c2VjcmV0X3NhdWNl","uuid_base32hb"],"tags":[]},{"name":"Login without credentials","uid":"ebd7bfe95b430a41","parentUid":"b7fd98f987dc861a7d160fe06f6ffaf2","status":"passed","time":{"start":1718287561648,"stop":1718287564210,"duration":2562},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Remove products from cart","uid":"4917df2f4d9f8c0d","parentUid":"b7fd98f987dc861a7d160fe06f6ffaf2","status":"passed","time":{"start":1718287570341,"stop":1718287606256,"duration":35915},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Login with invalid credentials","uid":"b64d8ddbe642c133","parentUid":"b7fd98f987dc861a7d160fe06f6ffaf2","status":"passed","time":{"start":1718287547763,"stop":1718287554331,"duration":6568},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":true,"parameters":["U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=","standard_user"],"tags":[]},{"name":"Add products to cart","uid":"33cbbd1921a5428f","parentUid":"b7fd98f987dc861a7d160fe06f6ffaf2","status":"passed","time":{"start":1718287564233,"stop":1718287570329,"duration":6096},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"b7fd98f987dc861a7d160fe06f6ffaf2"},{"name":"24624@TIGER01340.main(1)","children":[{"name":"Logout to the app","uid":"45a4f0da12195425","parentUid":"cbb34765fc441a57c475451614301c7b","status":"broken","time":{"start":1718287488156,"stop":1718287488162,"duration":6},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Login with invalid credentials","uid":"7773227125d1ed68","parentUid":"cbb34765fc441a57c475451614301c7b","status":"broken","time":{"start":1718287488026,"stop":1718287488039,"duration":13},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["c2VjcmV0X3NhdWNl","uuid_base32hb"],"tags":[]},{"name":"Remove products from cart","uid":"caf67ceb53b6bf72","parentUid":"cbb34765fc441a57c475451614301c7b","status":"broken","time":{"start":1718287488129,"stop":1718287488136,"duration":7},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Login with invalid credentials","uid":"dee25ee242199bfe","parentUid":"cbb34765fc441a57c475451614301c7b","status":"broken","time":{"start":1718287487631,"stop":1718287487817,"duration":186},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=","standard_user"],"tags":[]},{"name":"Login without credentials","uid":"d15471f0d329ef03","parentUid":"cbb34765fc441a57c475451614301c7b","status":"broken","time":{"start":1718287488064,"stop":1718287488073,"duration":9},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Add products to cart","uid":"31d0e36aa614defd","parentUid":"cbb34765fc441a57c475451614301c7b","status":"broken","time":{"start":1718287488098,"stop":1718287488106,"duration":8},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"cbb34765fc441a57c475451614301c7b"},{"name":"23284@TIGER01340.main(1)","children":[{"name":"Add products to cart","uid":"f10da7712099a523","parentUid":"919665b2da678085b998f25335e71c7f","status":"broken","time":{"start":1718287442931,"stop":1718287442952,"duration":21},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Login without credentials","uid":"83c0205c8f82df01","parentUid":"919665b2da678085b998f25335e71c7f","status":"broken","time":{"start":1718287442857,"stop":1718287442878,"duration":21},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Login with invalid credentials","uid":"2e0df6458d7b2765","parentUid":"919665b2da678085b998f25335e71c7f","status":"broken","time":{"start":1718287442041,"stop":1718287442300,"duration":259},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=","standard_user"],"tags":[]},{"name":"Login with invalid credentials","uid":"99514c9e4f839a15","parentUid":"919665b2da678085b998f25335e71c7f","status":"broken","time":{"start":1718287442781,"stop":1718287442807,"duration":26},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["c2VjcmV0X3NhdWNl","uuid_base32hb"],"tags":[]},{"name":"Logout to the app","uid":"c8d32a06b9c0850c","parentUid":"919665b2da678085b998f25335e71c7f","status":"broken","time":{"start":1718287443072,"stop":1718287443090,"duration":18},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Remove products from cart","uid":"3c21efecb056bd28","parentUid":"919665b2da678085b998f25335e71c7f","status":"broken","time":{"start":1718287443003,"stop":1718287443022,"duration":19},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"919665b2da678085b998f25335e71c7f"}],"uid":"4655882ee560f9ba590751456a53b423"}]}
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TIGER04836",
+    "children" : [ {
+      "name" : "12960@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login without credentials",
+        "uid" : "b2d896fdc1d8c6e0",
+        "parentUid" : "c062b3dd6741235db79764b502436a74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718348554766,
+          "stop" : 1718348554766,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "37d9c86d059b5df8",
+        "parentUid" : "c062b3dd6741235db79764b502436a74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718348554813,
+          "stop" : 1718348554813,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "45b7ccdb357fc909",
+        "parentUid" : "c062b3dd6741235db79764b502436a74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718348554829,
+          "stop" : 1718348554829,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "2483f5475027b11a",
+        "parentUid" : "c062b3dd6741235db79764b502436a74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718348554798,
+          "stop" : 1718348554798,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "bd8040ed126aff8d",
+        "parentUid" : "c062b3dd6741235db79764b502436a74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718348554548,
+          "stop" : 1718348554657,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "5d55607b90338430",
+        "parentUid" : "c062b3dd6741235db79764b502436a74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718348554751,
+          "stop" : 1718348554751,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "c062b3dd6741235db79764b502436a74"
+    }, {
+      "name" : "38512@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "ace5c6df5c306d63",
+        "parentUid" : "80136e65bc25111272eecee40871532c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352523360,
+          "stop" : 1718352523376,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "8c8434c2ef6bacf3",
+        "parentUid" : "80136e65bc25111272eecee40871532c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352523157,
+          "stop" : 1718352523267,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "f68d8c6babd9c740",
+        "parentUid" : "80136e65bc25111272eecee40871532c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352523392,
+          "stop" : 1718352523392,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "8706fd2e9b570b1f",
+        "parentUid" : "80136e65bc25111272eecee40871532c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352523439,
+          "stop" : 1718352523439,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "2f8d567c1f10e2f1",
+        "parentUid" : "80136e65bc25111272eecee40871532c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352523407,
+          "stop" : 1718352523407,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "9ec2842e12e32091",
+        "parentUid" : "80136e65bc25111272eecee40871532c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352523423,
+          "stop" : 1718352523439,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "80136e65bc25111272eecee40871532c"
+    }, {
+      "name" : "14784@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login without credentials",
+        "uid" : "8ac1cffb3378f6e9",
+        "parentUid" : "5cd630608cf7b85372ca9b03abd44f29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347027222,
+          "stop" : 1718347027229,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "d7fe5feeb0cb8252",
+        "parentUid" : "5cd630608cf7b85372ca9b03abd44f29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347027262,
+          "stop" : 1718347027275,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "13f1b0e4db0ca895",
+        "parentUid" : "5cd630608cf7b85372ca9b03abd44f29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347027332,
+          "stop" : 1718347027344,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "e8deef6e43b5638b",
+        "parentUid" : "5cd630608cf7b85372ca9b03abd44f29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347026274,
+          "stop" : 1718347027063,
+          "duration" : 789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "81b721a728a95b35",
+        "parentUid" : "5cd630608cf7b85372ca9b03abd44f29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347027303,
+          "stop" : 1718347027310,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "76b0376d8acbeaaf",
+        "parentUid" : "5cd630608cf7b85372ca9b03abd44f29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347027184,
+          "stop" : 1718347027195,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "5cd630608cf7b85372ca9b03abd44f29"
+    }, {
+      "name" : "23328@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "ecd1269d97c324cb",
+        "parentUid" : "a479390622b8df6b96db8aa0ff5c60df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347293535,
+          "stop" : 1718347293535,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "59c96f68f9319afb",
+        "parentUid" : "a479390622b8df6b96db8aa0ff5c60df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347293630,
+          "stop" : 1718347293630,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "49f46ac8880eaed7",
+        "parentUid" : "a479390622b8df6b96db8aa0ff5c60df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347293551,
+          "stop" : 1718347293551,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "f60e4d53bc7d1aa5",
+        "parentUid" : "a479390622b8df6b96db8aa0ff5c60df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347293615,
+          "stop" : 1718347293615,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "433cd0cbd06d32e",
+        "parentUid" : "a479390622b8df6b96db8aa0ff5c60df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347293346,
+          "stop" : 1718347293456,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "aa2c91218e4ec8b",
+        "parentUid" : "a479390622b8df6b96db8aa0ff5c60df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347293582,
+          "stop" : 1718347293594,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a479390622b8df6b96db8aa0ff5c60df"
+    }, {
+      "name" : "17564@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Logout to the app",
+        "uid" : "56e033f1718a75bc",
+        "parentUid" : "49e9a8acc3a342221d01fd45348f7cd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352884821,
+          "stop" : 1718352884821,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "49707d9ac5f61fc2",
+        "parentUid" : "49e9a8acc3a342221d01fd45348f7cd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352884741,
+          "stop" : 1718352884741,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "3e2697eb038f2cf5",
+        "parentUid" : "49e9a8acc3a342221d01fd45348f7cd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352884773,
+          "stop" : 1718352884788,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "49549eb84d683833",
+        "parentUid" : "49e9a8acc3a342221d01fd45348f7cd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352884511,
+          "stop" : 1718352884631,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "f46ca5a68e1163ef",
+        "parentUid" : "49e9a8acc3a342221d01fd45348f7cd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352884756,
+          "stop" : 1718352884756,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "b9fb38a03503a4ca",
+        "parentUid" : "49e9a8acc3a342221d01fd45348f7cd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352884788,
+          "stop" : 1718352884803,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49e9a8acc3a342221d01fd45348f7cd0"
+    }, {
+      "name" : "25400@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Remove products from cart",
+        "uid" : "49f297b8fe5ec1cf",
+        "parentUid" : "ec1a4df740d6a76f4beb4134778c6423",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353130266,
+          "stop" : 1718353130283,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "eec4208236142eb4",
+        "parentUid" : "ec1a4df740d6a76f4beb4134778c6423",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353130175,
+          "stop" : 1718353130175,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "4a59609e53957ca0",
+        "parentUid" : "ec1a4df740d6a76f4beb4134778c6423",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353129817,
+          "stop" : 1718353130011,
+          "duration" : 194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "48c431738daf484b",
+        "parentUid" : "ec1a4df740d6a76f4beb4134778c6423",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353130192,
+          "stop" : 1718353130192,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "251323f1c44fd158",
+        "parentUid" : "ec1a4df740d6a76f4beb4134778c6423",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353130285,
+          "stop" : 1718353130301,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "af4f09aa5b7b6f04",
+        "parentUid" : "ec1a4df740d6a76f4beb4134778c6423",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353130206,
+          "stop" : 1718353130238,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec1a4df740d6a76f4beb4134778c6423"
+    }, {
+      "name" : "38380@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "4413900fe5944f08",
+        "parentUid" : "200508a70fe26d49ac7b8ffea8a58add",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353509192,
+          "stop" : 1718353509396,
+          "duration" : 204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "638823a9326dec0a",
+        "parentUid" : "200508a70fe26d49ac7b8ffea8a58add",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353509568,
+          "stop" : 1718353509568,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "200508a70fe26d49ac7b8ffea8a58add"
+    }, {
+      "name" : "20972@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "3ecb485ca56c3ab7",
+        "parentUid" : "20f69f51f435e1965ec38425ac24ab1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357299283,
+          "stop" : 1718357310905,
+          "duration" : 11622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "fc67bb1710323f0b",
+        "parentUid" : "20f69f51f435e1965ec38425ac24ab1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357339635,
+          "stop" : 1718357380029,
+          "duration" : 40394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "63c06eb26b70ecfc",
+        "parentUid" : "20f69f51f435e1965ec38425ac24ab1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357329374,
+          "stop" : 1718357339589,
+          "duration" : 10215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "581cde854bcd5e84",
+        "parentUid" : "20f69f51f435e1965ec38425ac24ab1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357311671,
+          "stop" : 1718357322789,
+          "duration" : 11118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "4820af4a95ccd1c4",
+        "parentUid" : "20f69f51f435e1965ec38425ac24ab1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357380302,
+          "stop" : 1718357391052,
+          "duration" : 10750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "f54e7b01be373bcf",
+        "parentUid" : "20f69f51f435e1965ec38425ac24ab1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357322804,
+          "stop" : 1718357329263,
+          "duration" : 6459
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20f69f51f435e1965ec38425ac24ab1b"
+    }, {
+      "name" : "11256@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Add products to cart",
+        "uid" : "8d7cf5ae17d9b92b",
+        "parentUid" : "938af2a5833b491764319bd80a4fafae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352647235,
+          "stop" : 1718352647235,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "2c9db7dc51fb88e6",
+        "parentUid" : "938af2a5833b491764319bd80a4fafae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352646936,
+          "stop" : 1718352647061,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "2887e96e8fc3134a",
+        "parentUid" : "938af2a5833b491764319bd80a4fafae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352647204,
+          "stop" : 1718352647204,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "8965b6945f21606a",
+        "parentUid" : "938af2a5833b491764319bd80a4fafae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352647284,
+          "stop" : 1718352647289,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "8905126a6a75550d",
+        "parentUid" : "938af2a5833b491764319bd80a4fafae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352647172,
+          "stop" : 1718352647187,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "4b62a59e1eed24a3",
+        "parentUid" : "938af2a5833b491764319bd80a4fafae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352647257,
+          "stop" : 1718352647273,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "938af2a5833b491764319bd80a4fafae"
+    }, {
+      "name" : "23312@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Add products to cart",
+        "uid" : "b51a9c900cfaabba",
+        "parentUid" : "615ffaf9ff7ab7e6d9c3d0db8fa53a85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347630522,
+          "stop" : 1718347630538,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "cb693fcf1c1ad1ac",
+        "parentUid" : "615ffaf9ff7ab7e6d9c3d0db8fa53a85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347630554,
+          "stop" : 1718347630554,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "682575c4a981beb0",
+        "parentUid" : "615ffaf9ff7ab7e6d9c3d0db8fa53a85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347630491,
+          "stop" : 1718347630491,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "2df4452db0ecc8cb",
+        "parentUid" : "615ffaf9ff7ab7e6d9c3d0db8fa53a85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347630256,
+          "stop" : 1718347630382,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "9fee92f809e3934a",
+        "parentUid" : "615ffaf9ff7ab7e6d9c3d0db8fa53a85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347630569,
+          "stop" : 1718347630569,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "96bd523b3425c06e",
+        "parentUid" : "615ffaf9ff7ab7e6d9c3d0db8fa53a85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718347630507,
+          "stop" : 1718347630507,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "615ffaf9ff7ab7e6d9c3d0db8fa53a85"
+    }, {
+      "name" : "29412@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "1460e50653572eee",
+        "parentUid" : "446028fa107a557191885ebb14e14682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718290725866,
+          "stop" : 1718290737695,
+          "duration" : 11829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "aae1f7431b4015b0",
+        "parentUid" : "446028fa107a557191885ebb14e14682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718290801041,
+          "stop" : 1718290807411,
+          "duration" : 6370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "63556a1c80eaf19b",
+        "parentUid" : "446028fa107a557191885ebb14e14682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718290761444,
+          "stop" : 1718290801015,
+          "duration" : 39571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "8ea7053682d8e10f",
+        "parentUid" : "446028fa107a557191885ebb14e14682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718290746509,
+          "stop" : 1718290752161,
+          "duration" : 5652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "2db6b65a408f45a0",
+        "parentUid" : "446028fa107a557191885ebb14e14682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718290752188,
+          "stop" : 1718290761417,
+          "duration" : 9229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "d9a1befcf9e35f9",
+        "parentUid" : "446028fa107a557191885ebb14e14682",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718290737907,
+          "stop" : 1718290746486,
+          "duration" : 8579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "446028fa107a557191885ebb14e14682"
+    }, {
+      "name" : "33096@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "db576feb973c71b5",
+        "parentUid" : "87a0b00049b6d28ca91b8ca6169bf909",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718354154693,
+          "stop" : 1718354154736,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "349ee0311b137729",
+        "parentUid" : "87a0b00049b6d28ca91b8ca6169bf909",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718354154878,
+          "stop" : 1718354154878,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "87a0b00049b6d28ca91b8ca6169bf909"
+    }, {
+      "name" : "7160@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Logout to the app",
+        "uid" : "aa3ecbc8dd609593",
+        "parentUid" : "b596754f1a10e02a0249f894b38b0f58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718346025385,
+          "stop" : 1718346025390,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "5b4f144eb4902958",
+        "parentUid" : "b596754f1a10e02a0249f894b38b0f58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718346025329,
+          "stop" : 1718346025338,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "e1a1506512402512",
+        "parentUid" : "b596754f1a10e02a0249f894b38b0f58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718346025359,
+          "stop" : 1718346025365,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "e110fc6a3d8e2415",
+        "parentUid" : "b596754f1a10e02a0249f894b38b0f58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718346025302,
+          "stop" : 1718346025308,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "c739fd97bdeae412",
+        "parentUid" : "b596754f1a10e02a0249f894b38b0f58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718346024930,
+          "stop" : 1718346025126,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "12c5411e1c85918c",
+        "parentUid" : "b596754f1a10e02a0249f894b38b0f58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718346025264,
+          "stop" : 1718346025274,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "b596754f1a10e02a0249f894b38b0f58"
+    }, {
+      "name" : "33724@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "6d2e20a2f6e8f00a",
+        "parentUid" : "73e0d6adad9be64b5ed65821edabd9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353100676,
+          "stop" : 1718353100865,
+          "duration" : 189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "283a5861e03637ab",
+        "parentUid" : "73e0d6adad9be64b5ed65821edabd9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353101179,
+          "stop" : 1718353101179,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "b7025b21e53f2172",
+        "parentUid" : "73e0d6adad9be64b5ed65821edabd9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353101147,
+          "stop" : 1718353101147,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "c80b88bf32a1b4bc",
+        "parentUid" : "73e0d6adad9be64b5ed65821edabd9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353101085,
+          "stop" : 1718353101100,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "7d8ff66a3b362683",
+        "parentUid" : "73e0d6adad9be64b5ed65821edabd9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353101163,
+          "stop" : 1718353101163,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "d5d7901c72112e8f",
+        "parentUid" : "73e0d6adad9be64b5ed65821edabd9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353101116,
+          "stop" : 1718353101116,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73e0d6adad9be64b5ed65821edabd9d8"
+    }, {
+      "name" : "21108@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Remove products from cart",
+        "uid" : "de62e4ded98f4562",
+        "parentUid" : "3133e8ca97db54e07576262431d48ee4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344569753,
+          "stop" : 1718344569757,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "3f9ad8f4bc21a2e6",
+        "parentUid" : "3133e8ca97db54e07576262431d48ee4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344569727,
+          "stop" : 1718344569733,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "6641788cbf4dd0af",
+        "parentUid" : "3133e8ca97db54e07576262431d48ee4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344569700,
+          "stop" : 1718344569705,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "9e5a2d5f0d6e702",
+        "parentUid" : "3133e8ca97db54e07576262431d48ee4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344569670,
+          "stop" : 1718344569677,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "48eda2a67eaf7cb7",
+        "parentUid" : "3133e8ca97db54e07576262431d48ee4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344569386,
+          "stop" : 1718344569545,
+          "duration" : 159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "c28597204f09af65",
+        "parentUid" : "3133e8ca97db54e07576262431d48ee4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344569773,
+          "stop" : 1718344569777,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3133e8ca97db54e07576262431d48ee4"
+    }, {
+      "name" : "25728@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "cae0c11e3b4e9e60",
+        "parentUid" : "f278f902156a4d60c34db45002d2cc21",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353313330,
+          "stop" : 1718353313361,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "1460aab1a017fead",
+        "parentUid" : "f278f902156a4d60c34db45002d2cc21",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353312853,
+          "stop" : 1718353313095,
+          "duration" : 242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      } ],
+      "uid" : "f278f902156a4d60c34db45002d2cc21"
+    }, {
+      "name" : "16256@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "e9b2def7c88f977e",
+        "parentUid" : "67f8257de86519cf1bd606746adecc1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352728959,
+          "stop" : 1718352728961,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "c993c917dd254fea",
+        "parentUid" : "67f8257de86519cf1bd606746adecc1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352728755,
+          "stop" : 1718352728848,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "3339478bc9b33644",
+        "parentUid" : "67f8257de86519cf1bd606746adecc1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352729023,
+          "stop" : 1718352729023,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "5ff38b35a55a0cdf",
+        "parentUid" : "67f8257de86519cf1bd606746adecc1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352729023,
+          "stop" : 1718352729039,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "baee6f9ca078a076",
+        "parentUid" : "67f8257de86519cf1bd606746adecc1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352728976,
+          "stop" : 1718352728992,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "e2b963a23370aa62",
+        "parentUid" : "67f8257de86519cf1bd606746adecc1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352728992,
+          "stop" : 1718352729008,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67f8257de86519cf1bd606746adecc1d"
+    }, {
+      "name" : "20232@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "6d1aabc3f0aa0e43",
+        "parentUid" : "28d180082425b19ac2c63388b11352b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718354259051,
+          "stop" : 1718354259192,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "5d2bf9f0256a11cf",
+        "parentUid" : "28d180082425b19ac2c63388b11352b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718354259367,
+          "stop" : 1718354259367,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "28d180082425b19ac2c63388b11352b1"
+    }, {
+      "name" : "12584@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "b0924792f330901a",
+        "parentUid" : "75bfad506605a8a528148aecc209c9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344932054,
+          "stop" : 1718344932200,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "3d742134cc591627",
+        "parentUid" : "75bfad506605a8a528148aecc209c9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344932455,
+          "stop" : 1718344932459,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "52e1523492b27d0e",
+        "parentUid" : "75bfad506605a8a528148aecc209c9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344932430,
+          "stop" : 1718344932434,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "161d788f44fc220c",
+        "parentUid" : "75bfad506605a8a528148aecc209c9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344932395,
+          "stop" : 1718344932403,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "43159170d50067cd",
+        "parentUid" : "75bfad506605a8a528148aecc209c9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344932329,
+          "stop" : 1718344932338,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "90928ec6a20c7de9",
+        "parentUid" : "75bfad506605a8a528148aecc209c9d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344932362,
+          "stop" : 1718344932368,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "75bfad506605a8a528148aecc209c9d8"
+    }, {
+      "name" : "15496@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Logout to the app",
+        "uid" : "bd8109924a8b7901",
+        "parentUid" : "863b238fa2e70d4ac054b66ca1d3aca2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352409392,
+          "stop" : 1718352409392,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "15103a9ee4eba3f6",
+        "parentUid" : "863b238fa2e70d4ac054b66ca1d3aca2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352409376,
+          "stop" : 1718352409376,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "ffe4da8591609c3a",
+        "parentUid" : "863b238fa2e70d4ac054b66ca1d3aca2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352409105,
+          "stop" : 1718352409230,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "e35a63c7017c9014",
+        "parentUid" : "863b238fa2e70d4ac054b66ca1d3aca2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352409330,
+          "stop" : 1718352409330,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "4eba9d0f463ed28",
+        "parentUid" : "863b238fa2e70d4ac054b66ca1d3aca2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352409345,
+          "stop" : 1718352409345,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "7e76b61b9f381d23",
+        "parentUid" : "863b238fa2e70d4ac054b66ca1d3aca2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352409361,
+          "stop" : 1718352409361,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "863b238fa2e70d4ac054b66ca1d3aca2"
+    }, {
+      "name" : "33840@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "6f3ba5fa448d0a45",
+        "parentUid" : "c84355438b83c7c57c10ebb4074e1ccb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357628324,
+          "stop" : 1718357637986,
+          "duration" : 9662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "3d3251f6f756c504",
+        "parentUid" : "c84355438b83c7c57c10ebb4074e1ccb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357638031,
+          "stop" : 1718357642837,
+          "duration" : 4806
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "20e646ba7be4c96c",
+        "parentUid" : "c84355438b83c7c57c10ebb4074e1ccb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357618058,
+          "stop" : 1718357628176,
+          "duration" : 10118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "7f523f1a990bd0a6",
+        "parentUid" : "c84355438b83c7c57c10ebb4074e1ccb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357642852,
+          "stop" : 1718357652478,
+          "duration" : 9626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "f198139da262abc0",
+        "parentUid" : "c84355438b83c7c57c10ebb4074e1ccb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357652507,
+          "stop" : 1718357692536,
+          "duration" : 40029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "37452704c5001c8b",
+        "parentUid" : "c84355438b83c7c57c10ebb4074e1ccb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357692591,
+          "stop" : 1718357698858,
+          "duration" : 6267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c84355438b83c7c57c10ebb4074e1ccb"
+    }, {
+      "name" : "17424@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "92e70fcb85a95b33",
+        "parentUid" : "ba089f274c54970b8c92cc78488e90a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353393642,
+          "stop" : 1718353393651,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "a83d8f8d1d5fda08",
+        "parentUid" : "ba089f274c54970b8c92cc78488e90a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353393161,
+          "stop" : 1718353393396,
+          "duration" : 235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      } ],
+      "uid" : "ba089f274c54970b8c92cc78488e90a2"
+    }, {
+      "name" : "24128@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "83d168e3e65cbae6",
+        "parentUid" : "6d3b828fc384fdbcb1bb49cdfe944caf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353737155,
+          "stop" : 1718353737155,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "f316835c08445b63",
+        "parentUid" : "6d3b828fc384fdbcb1bb49cdfe944caf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353736998,
+          "stop" : 1718353737030,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      } ],
+      "uid" : "6d3b828fc384fdbcb1bb49cdfe944caf"
+    }, {
+      "name" : "2644@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "4ec1be21fa819d19",
+        "parentUid" : "55e1b569de43a4ebc23ba5501afea9d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353885814,
+          "stop" : 1718353885861,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "ff36d6f708ab8fa",
+        "parentUid" : "55e1b569de43a4ebc23ba5501afea9d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353886013,
+          "stop" : 1718353886019,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "55e1b569de43a4ebc23ba5501afea9d0"
+    }, {
+      "name" : "33464@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Add products to cart",
+        "uid" : "9122d195a24f9ef1",
+        "parentUid" : "9303be54b8b339c03059b5342900c2ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357780298,
+          "stop" : 1718357789054,
+          "duration" : 8756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "78795e43ae776b91",
+        "parentUid" : "9303be54b8b339c03059b5342900c2ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357829189,
+          "stop" : 1718357836976,
+          "duration" : 7787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "3f3cabd2ce45bb19",
+        "parentUid" : "9303be54b8b339c03059b5342900c2ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357773727,
+          "stop" : 1718357780256,
+          "duration" : 6529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "696c9031959f1612",
+        "parentUid" : "9303be54b8b339c03059b5342900c2ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357789083,
+          "stop" : 1718357829167,
+          "duration" : 40084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "e09ff312474e144e",
+        "parentUid" : "9303be54b8b339c03059b5342900c2ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357752297,
+          "stop" : 1718357763232,
+          "duration" : 10935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "82e4f9897b4433a8",
+        "parentUid" : "9303be54b8b339c03059b5342900c2ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718357764095,
+          "stop" : 1718357773699,
+          "duration" : 9604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "9303be54b8b339c03059b5342900c2ea"
+    }, {
+      "name" : "23624@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Remove products from cart",
+        "uid" : "ed493d331604df2b",
+        "parentUid" : "e16731e9825e9899cd567400eb5dd8d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344852202,
+          "stop" : 1718344852207,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "f52ac38f57149ec8",
+        "parentUid" : "e16731e9825e9899cd567400eb5dd8d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344852104,
+          "stop" : 1718344852111,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "88cad65e8e8aab01",
+        "parentUid" : "e16731e9825e9899cd567400eb5dd8d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344852135,
+          "stop" : 1718344852142,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "ae205a822c2b4ce",
+        "parentUid" : "e16731e9825e9899cd567400eb5dd8d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344852225,
+          "stop" : 1718344852230,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "67fc9c1542c7b6c4",
+        "parentUid" : "e16731e9825e9899cd567400eb5dd8d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344852167,
+          "stop" : 1718344852176,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "a9e63334263c7bd3",
+        "parentUid" : "e16731e9825e9899cd567400eb5dd8d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718344851810,
+          "stop" : 1718344851966,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      } ],
+      "uid" : "e16731e9825e9899cd567400eb5dd8d7"
+    }, {
+      "name" : "7544@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "50dcf4ddcaeae2a9",
+        "parentUid" : "e0d88ffbf9eaaf8aae28d609e538e5aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718356862183,
+          "stop" : 1718356863362,
+          "duration" : 1179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "811f88c439bd56ab",
+        "parentUid" : "e0d88ffbf9eaaf8aae28d609e538e5aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718356863524,
+          "stop" : 1718356863540,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "e0d88ffbf9eaaf8aae28d609e538e5aa"
+    }, {
+      "name" : "15452@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "cdfa6162b235c8ea",
+        "parentUid" : "c644e8d7a7dc7394f9918f1893361ae7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353781933,
+          "stop" : 1718353781980,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "722e899f61b14159",
+        "parentUid" : "c644e8d7a7dc7394f9918f1893361ae7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353782116,
+          "stop" : 1718353782116,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "c644e8d7a7dc7394f9918f1893361ae7"
+    }, {
+      "name" : "23024@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Add products to cart",
+        "uid" : "7df75a9e598abd34",
+        "parentUid" : "c7d98ca27c8530daab9504b16a700fb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352786958,
+          "stop" : 1718352786973,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "faf4209bc8fdc3d5",
+        "parentUid" : "c7d98ca27c8530daab9504b16a700fb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352786973,
+          "stop" : 1718352786988,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "9bd0e99f6ed225fd",
+        "parentUid" : "c7d98ca27c8530daab9504b16a700fb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352786731,
+          "stop" : 1718352786847,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login without credentials",
+        "uid" : "56f82abd48a0f81d",
+        "parentUid" : "c7d98ca27c8530daab9504b16a700fb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352786941,
+          "stop" : 1718352786941,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "924368711bc79940",
+        "parentUid" : "c7d98ca27c8530daab9504b16a700fb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352786988,
+          "stop" : 1718352786988,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "ee809435871b2f94",
+        "parentUid" : "c7d98ca27c8530daab9504b16a700fb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718352786926,
+          "stop" : 1718352786926,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "c7d98ca27c8530daab9504b16a700fb6"
+    }, {
+      "name" : "29876@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "6400d435f4e23501",
+        "parentUid" : "5ed9925cfb29505015d7c78b12215ccf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718356974962,
+          "stop" : 1718356987225,
+          "duration" : 12263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "900140ab5fb29d51",
+        "parentUid" : "5ed9925cfb29505015d7c78b12215ccf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718356987508,
+          "stop" : 1718356996403,
+          "duration" : 8895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "5ed9925cfb29505015d7c78b12215ccf"
+    }, {
+      "name" : "33264@TIGER04836.main(1)",
+      "children" : [ {
+        "name" : "Login with invalid credentials",
+        "uid" : "6a6748a6aa20570c",
+        "parentUid" : "eb2652bbf0f5929f7746fba23106cba6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353951873,
+          "stop" : 1718353951920,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "d420fc6491e3199a",
+        "parentUid" : "eb2652bbf0f5929f7746fba23106cba6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718353952187,
+          "stop" : 1718353952203,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      } ],
+      "uid" : "eb2652bbf0f5929f7746fba23106cba6"
+    } ],
+    "uid" : "1b513c0ca002800fb13b8e1d4249c5f1"
+  }, {
+    "name" : "TIGER01340",
+    "children" : [ {
+      "name" : "23284@TIGER01340.main(1)",
+      "children" : [ {
+        "name" : "Login without credentials",
+        "uid" : "dfed370a32f8041",
+        "parentUid" : "919665b2da678085b998f25335e71c7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287442857,
+          "stop" : 1718287442878,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "f58b11e1778aa14a",
+        "parentUid" : "919665b2da678085b998f25335e71c7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287442931,
+          "stop" : 1718287442952,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "2c16d2bd4fd0b457",
+        "parentUid" : "919665b2da678085b998f25335e71c7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287442041,
+          "stop" : 1718287442300,
+          "duration" : 259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "855d33e930060451",
+        "parentUid" : "919665b2da678085b998f25335e71c7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287442781,
+          "stop" : 1718287442807,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "c9509e1e2b3108b4",
+        "parentUid" : "919665b2da678085b998f25335e71c7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287443072,
+          "stop" : 1718287443090,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "481c876630ceb95c",
+        "parentUid" : "919665b2da678085b998f25335e71c7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287443003,
+          "stop" : 1718287443022,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "919665b2da678085b998f25335e71c7f"
+    }, {
+      "name" : "24624@TIGER01340.main(1)",
+      "children" : [ {
+        "name" : "Login without credentials",
+        "uid" : "8225385f8b833b21",
+        "parentUid" : "cbb34765fc441a57c475451614301c7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287488064,
+          "stop" : 1718287488073,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "72e42ce19181bc83",
+        "parentUid" : "cbb34765fc441a57c475451614301c7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287488129,
+          "stop" : 1718287488136,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "3e7e7bf0cd7bd300",
+        "parentUid" : "cbb34765fc441a57c475451614301c7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287488098,
+          "stop" : 1718287488106,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "5a320278e40d0a0",
+        "parentUid" : "cbb34765fc441a57c475451614301c7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287487631,
+          "stop" : 1718287487817,
+          "duration" : 186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "45902f1646ac91c9",
+        "parentUid" : "cbb34765fc441a57c475451614301c7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287488026,
+          "stop" : 1718287488039,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "a61a40b9830e62fa",
+        "parentUid" : "cbb34765fc441a57c475451614301c7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718287488156,
+          "stop" : 1718287488162,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbb34765fc441a57c475451614301c7b"
+    }, {
+      "name" : "18488@TIGER01340.main(1)",
+      "children" : [ {
+        "name" : "Login without credentials",
+        "uid" : "e375b785b7019150",
+        "parentUid" : "b7fd98f987dc861a7d160fe06f6ffaf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718287561648,
+          "stop" : 1718287564210,
+          "duration" : 2562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add products to cart",
+        "uid" : "db7fd424735bb6c",
+        "parentUid" : "b7fd98f987dc861a7d160fe06f6ffaf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718287564233,
+          "stop" : 1718287570329,
+          "duration" : 6096
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "e77a4f8cadd01064",
+        "parentUid" : "b7fd98f987dc861a7d160fe06f6ffaf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718287547763,
+          "stop" : 1718287554331,
+          "duration" : 6568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "U0g3UlNLNkZXTkZDTEREUEVDUUJPNVpDNEk=", "standard_user" ]
+      }, {
+        "name" : "Logout to the app",
+        "uid" : "63035947c9c6228d",
+        "parentUid" : "b7fd98f987dc861a7d160fe06f6ffaf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718287606271,
+          "stop" : 1718287609160,
+          "duration" : 2889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid credentials",
+        "uid" : "66377945c425a7ff",
+        "parentUid" : "b7fd98f987dc861a7d160fe06f6ffaf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718287554443,
+          "stop" : 1718287561627,
+          "duration" : 7184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "c2VjcmV0X3NhdWNl", "uuid_base32hb" ]
+      }, {
+        "name" : "Remove products from cart",
+        "uid" : "d88361fabb11f2a0",
+        "parentUid" : "b7fd98f987dc861a7d160fe06f6ffaf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718287570341,
+          "stop" : 1718287606256,
+          "duration" : 35915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b7fd98f987dc861a7d160fe06f6ffaf2"
+    } ],
+    "uid" : "4655882ee560f9ba590751456a53b423"
+  } ]
+}

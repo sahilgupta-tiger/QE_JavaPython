@@ -3,6 +3,9 @@ package utilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class DriverCall {
 	
@@ -15,8 +18,11 @@ public class DriverCall {
 		chromeOptions.addArguments("start-maximized");
 		chromeOptions.addArguments("ignore-certificate-errors");
 		chromeOptions.addArguments("disable-infobars");
-		System.setProperty("webdriver.chrome.driver",
-				"D:/My_Workspaces/GitHub/QE_JavaPython/commonutils/drivers/chromedriver/chromedriver.exe");
+
+		File CurrentDirFile = new File(System.getProperty("user.dir"));
+		String RequiredDir = CurrentDirFile.getParentFile().getParent();
+		Path filepath = Paths.get(RequiredDir,"commonutils","drivers","chromedriver","chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",filepath.toString());
 		driver=new ChromeDriver(chromeOptions);
     }
     

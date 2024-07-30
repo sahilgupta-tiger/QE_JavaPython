@@ -1,1 +1,61 @@
-[{"uid":"33cbbd1921a5428f","name":"Add products to cart","time":{"start":1718287564233,"stop":1718287570329,"duration":6096},"status":"passed","severity":"normal"},{"uid":"ebd7bfe95b430a41","name":"Login without credentials","time":{"start":1718287561648,"stop":1718287564210,"duration":2562},"status":"passed","severity":"normal"},{"uid":"b64d8ddbe642c133","name":"Login with invalid credentials","time":{"start":1718287547763,"stop":1718287554331,"duration":6568},"status":"passed","severity":"normal"},{"uid":"921f3f67faff7394","name":"Logout to the app","time":{"start":1718287606271,"stop":1718287609160,"duration":2889},"status":"passed","severity":"normal"},{"uid":"f2c8e8dd8058c76e","name":"Login with invalid credentials","time":{"start":1718287554443,"stop":1718287561627,"duration":7184},"status":"passed","severity":"normal"},{"uid":"4917df2f4d9f8c0d","name":"Remove products from cart","time":{"start":1718287570341,"stop":1718287606256,"duration":35915},"status":"passed","severity":"normal"}]
+[ {
+  "uid" : "e09ff312474e144e",
+  "name" : "Login with invalid credentials",
+  "time" : {
+    "start" : 1718357752297,
+    "stop" : 1718357763232,
+    "duration" : 10935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82e4f9897b4433a8",
+  "name" : "Login with invalid credentials",
+  "time" : {
+    "start" : 1718357764095,
+    "stop" : 1718357773699,
+    "duration" : 9604
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f3cabd2ce45bb19",
+  "name" : "Login without credentials",
+  "time" : {
+    "start" : 1718357773727,
+    "stop" : 1718357780256,
+    "duration" : 6529
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9122d195a24f9ef1",
+  "name" : "Add products to cart",
+  "time" : {
+    "start" : 1718357780298,
+    "stop" : 1718357789054,
+    "duration" : 8756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "696c9031959f1612",
+  "name" : "Remove products from cart",
+  "time" : {
+    "start" : 1718357789083,
+    "stop" : 1718357829167,
+    "duration" : 40084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78795e43ae776b91",
+  "name" : "Logout to the app",
+  "time" : {
+    "start" : 1718357829189,
+    "stop" : 1718357836976,
+    "duration" : 7787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

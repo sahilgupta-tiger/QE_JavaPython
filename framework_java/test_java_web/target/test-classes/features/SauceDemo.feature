@@ -33,6 +33,14 @@ Feature: Saucedemo
 		Then Verify item not in cart
 		And Close Browser
 
+	Scenario: Continue shopping button in cart
+		And Login with "standard_user" and "secret_sauce"
+		And Add product to cart
+		And Go to cart
+		When Click Continue shopping button in cart
+		Then Verify the page is inventory page
+		And Close Browser
+
 	Scenario: Logout to the app
 		And User Login with credentials
 		When Logout to the application

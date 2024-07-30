@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="61.763" tests="6" skipped="0" failures="0" errors="0">
-<testcase classname="Saucedemo" name="Login with invalid credentials - Example #1.1" time="6.638">
+<testsuite name="Cucumber" time="88.622" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="Saucedemo" name="Login with invalid credentials - Example #1.1" time="11.515">
 <system-out><![CDATA[
 Given Open Browser and click URL............................................passed
 When Login with "username" and "pwd"........................................passed
@@ -8,7 +8,7 @@ Then Verify not able to login...............................................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Saucedemo" name="Login with invalid credentials - Example #1.2" time="7.19">
+<testcase classname="Saucedemo" name="Login with invalid credentials - Example #1.2" time="8.336">
 <system-out><![CDATA[
 Given Open Browser and click URL............................................passed
 When Login with "username" and "pwd"........................................passed
@@ -16,7 +16,7 @@ Then Verify not able to login...............................................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Saucedemo" name="Login without credentials" time="2.568">
+<testcase classname="Saucedemo" name="Login without credentials" time="5.423">
 <system-out><![CDATA[
 Given Open Browser and click URL............................................passed
 When Login without username and password....................................passed
@@ -24,7 +24,7 @@ Then Verify not able to login with error message............................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Saucedemo" name="Add products to cart" time="6.102">
+<testcase classname="Saucedemo" name="Add products to cart" time="8.549">
 <system-out><![CDATA[
 Given Open Browser and click URL............................................passed
 And Login with "standard_user" and "secret_sauce"...........................passed
@@ -34,7 +34,7 @@ Then Verify item in cart....................................................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Saucedemo" name="Remove products from cart" time="35.919">
+<testcase classname="Saucedemo" name="Remove products from cart" time="38.782">
 <system-out><![CDATA[
 Given Open Browser and click URL............................................passed
 And Login with "standard_user" and "secret_sauce"...........................passed
@@ -45,7 +45,18 @@ Then Verify item not in cart................................................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Saucedemo" name="Logout to the app" time="2.894">
+<testcase classname="Saucedemo" name="Continue shopping button in cart" time="8.46">
+<system-out><![CDATA[
+Given Open Browser and click URL............................................passed
+And Login with "standard_user" and "secret_sauce"...........................passed
+And Add product to cart.....................................................passed
+And Go to cart..............................................................passed
+When Click Continue shopping button in cart.................................passed
+Then Verify the page is inventory page......................................passed
+And Close Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Saucedemo" name="Logout to the app" time="5.876">
 <system-out><![CDATA[
 Given Open Browser and click URL............................................passed
 And User Login with credentials.............................................passed

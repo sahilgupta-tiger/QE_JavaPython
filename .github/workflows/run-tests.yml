@@ -38,7 +38,13 @@ jobs:
         with:
           name: dist-files
           path: "utils/reports"
-
+      - name: Upload test results in Qtest
+        run:  |
+          curl -X POST -H "Content-Type: application/json" \
+          -H "Authorization: Bearer 7d6d4895-15b5-4814-8cae-574f2a1b1cda" \
+          -d @test_java_web/target/Reports/report.json \
+          https://tigerqe260624.qtestnet.com/api/v3/projects/15053/test-cases
+        
   python-test:
     runs-on: ubuntu-latest
     steps:
