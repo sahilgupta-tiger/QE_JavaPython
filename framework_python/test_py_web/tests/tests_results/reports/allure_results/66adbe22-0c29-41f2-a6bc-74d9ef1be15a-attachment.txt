@@ -1,0 +1,2 @@
+Inside go to cart method
+Inside Verify item in the cart method

@@ -1,0 +1,5 @@
+1
+[<selenium.webdriver.remote.webelement.WebElement (session="c394a589bfd8a4b2cd6e8cc2ae34e7aa", element="f.DF785C9F486D4DC0A0023F6A217E25EE.d.FD672EC63A280FB759361CFB3D56C522.e.31")>]
+Inside for loop
+Sauce Labs Backpack
+True

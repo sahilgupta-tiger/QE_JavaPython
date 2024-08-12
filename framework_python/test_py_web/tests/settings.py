@@ -1,9 +1,9 @@
 import os
 
-url = "https://app.powerbi.com/groups/me/reports/d0e812bb-85c0-4f8c-895f-019035e3c481/ReportSection59b352136fd9452af512?ctid=e714ef31-faab-41d2-9f1e-e6df4af16ab8&experience=power-bi&bookmarkGuid=6107fe52-1509-495f-b1f8-0c1dad32dc34"
+url = "https://www.saucedemo.com"
 browser = "chrome"  # options: chrome, edge, headless, firefox, healenium
 db_type = "sqlite3"  # options: sqlserver, sqlite3
-chrome_loc = r"D:\My_Workspaces\GitHub\QE_JavaPython\commonutils\drivers\chromedriver\chromedriver.exe"
+chrome_loc = r"D:\Project\QE_JavaPython\commonutils\drivers\chromedriver\chromedriver.exe"
 emailID = "sahil.gupta@tigeranalytics.com"
 encryptedPasscode = "UGFydHkjMjk5"
 dbname = 'SamplePowerBI'

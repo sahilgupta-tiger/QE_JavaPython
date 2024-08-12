@@ -21762,3 +21762,965 @@
 06/13/2024 08:22:55 PM - <module> - INFO: None
 06/13/2024 08:22:55 PM - <module> - INFO: None
 06/13/2024 08:22:55 PM - <module> - INFO: None
+08/12/2024 10:26:35 AM - <module> - INFO: Login into power bi using id
+08/12/2024 10:26:35 AM - <module> - INFO: Login into power bi using id
+08/12/2024 10:26:35 AM - <module> - INFO: Login into power bi using id
+08/12/2024 10:26:35 AM - <module> - INFO: Login into power bi using id
+08/12/2024 10:26:41 AM - <module> - INFO: Login into power bi using encrypted password
+08/12/2024 10:26:41 AM - <module> - INFO: Login into power bi using encrypted password
+08/12/2024 10:26:41 AM - <module> - INFO: Login into power bi using encrypted password
+08/12/2024 10:26:41 AM - <module> - INFO: Login into power bi using encrypted password
+08/12/2024 10:26:45 AM - <module> - INFO: Clicked the extra pop up in login screen
+08/12/2024 10:26:45 AM - <module> - INFO: Clicked the extra pop up in login screen
+08/12/2024 10:26:45 AM - <module> - INFO: Clicked the extra pop up in login screen
+08/12/2024 10:26:45 AM - <module> - INFO: Clicked the extra pop up in login screen
+08/12/2024 12:42:00 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:42:00 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:42:00 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:42:00 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:42:00 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:42:03 PM - <module> - INFO: Click login button
+08/12/2024 12:42:03 PM - <module> - INFO: Click login button
+08/12/2024 12:42:03 PM - <module> - INFO: Click login button
+08/12/2024 12:42:03 PM - <module> - INFO: Click login button
+08/12/2024 12:42:03 PM - <module> - INFO: Click login button
+08/12/2024 12:42:06 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:42:06 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:42:06 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:42:06 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:42:06 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:42:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:42:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:42:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:42:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:42:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:42:25 PM - <module> - INFO: Click login button
+08/12/2024 12:42:25 PM - <module> - INFO: Click login button
+08/12/2024 12:42:25 PM - <module> - INFO: Click login button
+08/12/2024 12:42:25 PM - <module> - INFO: Click login button
+08/12/2024 12:42:25 PM - <module> - INFO: Click login button
+08/12/2024 12:42:28 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:42:28 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:42:28 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:42:28 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:42:28 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:43:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:43:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:43:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:43:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:43:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:43:36 PM - <module> - INFO: Click login button
+08/12/2024 12:43:36 PM - <module> - INFO: Click login button
+08/12/2024 12:43:36 PM - <module> - INFO: Click login button
+08/12/2024 12:43:36 PM - <module> - INFO: Click login button
+08/12/2024 12:43:36 PM - <module> - INFO: Click login button
+08/12/2024 12:43:39 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:43:39 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:43:39 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:43:39 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:43:39 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:43:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:43:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:43:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:43:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:43:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 12:44:01 PM - <module> - INFO: Click login button
+08/12/2024 12:44:01 PM - <module> - INFO: Click login button
+08/12/2024 12:44:01 PM - <module> - INFO: Click login button
+08/12/2024 12:44:01 PM - <module> - INFO: Click login button
+08/12/2024 12:44:01 PM - <module> - INFO: Click login button
+08/12/2024 12:44:04 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:44:04 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:44:04 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:44:04 PM - <module> - INFO: Get error message after login failure
+08/12/2024 12:44:04 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:06:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:06:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:06:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:06:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:06:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:06:24 PM - <module> - INFO: Click login button
+08/12/2024 01:06:24 PM - <module> - INFO: Click login button
+08/12/2024 01:06:24 PM - <module> - INFO: Click login button
+08/12/2024 01:06:24 PM - <module> - INFO: Click login button
+08/12/2024 01:06:24 PM - <module> - INFO: Click login button
+08/12/2024 01:06:27 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:06:27 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:06:27 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:06:27 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:06:27 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:07:59 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:07:59 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:07:59 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:07:59 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:07:59 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:08:02 PM - <module> - INFO: Click login button
+08/12/2024 01:08:02 PM - <module> - INFO: Click login button
+08/12/2024 01:08:02 PM - <module> - INFO: Click login button
+08/12/2024 01:08:02 PM - <module> - INFO: Click login button
+08/12/2024 01:08:02 PM - <module> - INFO: Click login button
+08/12/2024 01:08:05 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:08:05 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:08:05 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:08:05 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:08:05 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:12:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:12:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:12:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:12:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:12:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:12:22 PM - <module> - INFO: Click login button
+08/12/2024 01:12:22 PM - <module> - INFO: Click login button
+08/12/2024 01:12:22 PM - <module> - INFO: Click login button
+08/12/2024 01:12:22 PM - <module> - INFO: Click login button
+08/12/2024 01:12:22 PM - <module> - INFO: Click login button
+08/12/2024 01:12:26 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:12:26 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:12:26 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:12:26 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:12:26 PM - <module> - INFO: Get error message after login failure
+08/12/2024 01:12:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:12:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:12:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:12:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:12:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:12:48 PM - <module> - INFO: Click login button
+08/12/2024 01:12:48 PM - <module> - INFO: Click login button
+08/12/2024 01:12:48 PM - <module> - INFO: Click login button
+08/12/2024 01:12:48 PM - <module> - INFO: Click login button
+08/12/2024 01:12:48 PM - <module> - INFO: Click login button
+08/12/2024 01:14:54 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:14:54 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:14:54 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:14:54 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:14:54 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:14:57 PM - <module> - INFO: Click login button
+08/12/2024 01:14:57 PM - <module> - INFO: Click login button
+08/12/2024 01:14:57 PM - <module> - INFO: Click login button
+08/12/2024 01:14:57 PM - <module> - INFO: Click login button
+08/12/2024 01:14:57 PM - <module> - INFO: Click login button
+08/12/2024 01:16:07 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:16:07 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:16:07 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:16:07 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:16:07 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:16:10 PM - <module> - INFO: Click login button
+08/12/2024 01:16:10 PM - <module> - INFO: Click login button
+08/12/2024 01:16:10 PM - <module> - INFO: Click login button
+08/12/2024 01:16:10 PM - <module> - INFO: Click login button
+08/12/2024 01:16:10 PM - <module> - INFO: Click login button
+08/12/2024 01:16:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:16:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:16:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:16:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:16:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:16:32 PM - <module> - INFO: Click login button
+08/12/2024 01:16:32 PM - <module> - INFO: Click login button
+08/12/2024 01:16:32 PM - <module> - INFO: Click login button
+08/12/2024 01:16:32 PM - <module> - INFO: Click login button
+08/12/2024 01:16:32 PM - <module> - INFO: Click login button
+08/12/2024 01:40:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:12 PM - <module> - INFO: Click login button
+08/12/2024 01:40:12 PM - <module> - INFO: Click login button
+08/12/2024 01:40:12 PM - <module> - INFO: Click login button
+08/12/2024 01:40:12 PM - <module> - INFO: Click login button
+08/12/2024 01:40:12 PM - <module> - INFO: Click login button
+08/12/2024 01:40:12 PM - <module> - INFO: Click login button
+08/12/2024 01:40:12 PM - <module> - INFO: Click login button
+08/12/2024 01:40:15 PM - <module> - INFO: Click add to cart
+08/12/2024 01:40:15 PM - <module> - INFO: Click add to cart
+08/12/2024 01:40:15 PM - <module> - INFO: Click add to cart
+08/12/2024 01:40:15 PM - <module> - INFO: Click add to cart
+08/12/2024 01:40:15 PM - <module> - INFO: Click add to cart
+08/12/2024 01:40:15 PM - <module> - INFO: Click add to cart
+08/12/2024 01:40:15 PM - <module> - INFO: Click add to cart
+08/12/2024 01:40:18 PM - <module> - INFO: Click go to cart
+08/12/2024 01:40:18 PM - <module> - INFO: Click go to cart
+08/12/2024 01:40:18 PM - <module> - INFO: Click go to cart
+08/12/2024 01:40:18 PM - <module> - INFO: Click go to cart
+08/12/2024 01:40:18 PM - <module> - INFO: Click go to cart
+08/12/2024 01:40:18 PM - <module> - INFO: Click go to cart
+08/12/2024 01:40:18 PM - <module> - INFO: Click go to cart
+08/12/2024 01:40:21 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:40:21 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:40:21 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:40:21 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:40:21 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:40:21 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:40:21 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:40:41 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:41 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:41 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:41 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:41 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:41 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:41 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:40:44 PM - <module> - INFO: Click login button
+08/12/2024 01:40:44 PM - <module> - INFO: Click login button
+08/12/2024 01:40:44 PM - <module> - INFO: Click login button
+08/12/2024 01:40:44 PM - <module> - INFO: Click login button
+08/12/2024 01:40:44 PM - <module> - INFO: Click login button
+08/12/2024 01:40:44 PM - <module> - INFO: Click login button
+08/12/2024 01:40:44 PM - <module> - INFO: Click login button
+08/12/2024 01:40:47 PM - <module> - INFO: Click Menu button
+08/12/2024 01:40:47 PM - <module> - INFO: Click Menu button
+08/12/2024 01:40:47 PM - <module> - INFO: Click Menu button
+08/12/2024 01:40:47 PM - <module> - INFO: Click Menu button
+08/12/2024 01:40:47 PM - <module> - INFO: Click Menu button
+08/12/2024 01:40:47 PM - <module> - INFO: Click Menu button
+08/12/2024 01:40:47 PM - <module> - INFO: Click Menu button
+08/12/2024 01:40:50 PM - <module> - INFO: Click Logout button
+08/12/2024 01:40:50 PM - <module> - INFO: Click Logout button
+08/12/2024 01:40:50 PM - <module> - INFO: Click Logout button
+08/12/2024 01:40:50 PM - <module> - INFO: Click Logout button
+08/12/2024 01:40:50 PM - <module> - INFO: Click Logout button
+08/12/2024 01:40:50 PM - <module> - INFO: Click Logout button
+08/12/2024 01:40:50 PM - <module> - INFO: Click Logout button
+08/12/2024 01:42:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:42:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:42:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:42:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:42:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:42:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:42:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:42:33 PM - <module> - INFO: Click login button
+08/12/2024 01:42:33 PM - <module> - INFO: Click login button
+08/12/2024 01:42:33 PM - <module> - INFO: Click login button
+08/12/2024 01:42:33 PM - <module> - INFO: Click login button
+08/12/2024 01:42:33 PM - <module> - INFO: Click login button
+08/12/2024 01:42:33 PM - <module> - INFO: Click login button
+08/12/2024 01:42:33 PM - <module> - INFO: Click login button
+08/12/2024 01:42:36 PM - <module> - INFO: Click add to cart
+08/12/2024 01:42:36 PM - <module> - INFO: Click add to cart
+08/12/2024 01:42:36 PM - <module> - INFO: Click add to cart
+08/12/2024 01:42:36 PM - <module> - INFO: Click add to cart
+08/12/2024 01:42:36 PM - <module> - INFO: Click add to cart
+08/12/2024 01:42:36 PM - <module> - INFO: Click add to cart
+08/12/2024 01:42:36 PM - <module> - INFO: Click add to cart
+08/12/2024 01:42:39 PM - <module> - INFO: Click go to cart
+08/12/2024 01:42:39 PM - <module> - INFO: Click go to cart
+08/12/2024 01:42:39 PM - <module> - INFO: Click go to cart
+08/12/2024 01:42:39 PM - <module> - INFO: Click go to cart
+08/12/2024 01:42:39 PM - <module> - INFO: Click go to cart
+08/12/2024 01:42:39 PM - <module> - INFO: Click go to cart
+08/12/2024 01:42:39 PM - <module> - INFO: Click go to cart
+08/12/2024 01:42:42 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:42:42 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:42:42 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:42:42 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:42:42 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:42:42 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:42:42 PM - <module> - INFO: Click continue shopping
+08/12/2024 01:43:01 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:43:01 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:43:01 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:43:01 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:43:01 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:43:01 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:43:01 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:43:04 PM - <module> - INFO: Click login button
+08/12/2024 01:43:04 PM - <module> - INFO: Click login button
+08/12/2024 01:43:04 PM - <module> - INFO: Click login button
+08/12/2024 01:43:04 PM - <module> - INFO: Click login button
+08/12/2024 01:43:04 PM - <module> - INFO: Click login button
+08/12/2024 01:43:04 PM - <module> - INFO: Click login button
+08/12/2024 01:43:04 PM - <module> - INFO: Click login button
+08/12/2024 01:43:08 PM - <module> - INFO: Click Menu button
+08/12/2024 01:43:08 PM - <module> - INFO: Click Menu button
+08/12/2024 01:43:08 PM - <module> - INFO: Click Menu button
+08/12/2024 01:43:08 PM - <module> - INFO: Click Menu button
+08/12/2024 01:43:08 PM - <module> - INFO: Click Menu button
+08/12/2024 01:43:08 PM - <module> - INFO: Click Menu button
+08/12/2024 01:43:08 PM - <module> - INFO: Click Menu button
+08/12/2024 01:43:11 PM - <module> - INFO: Click Logout button
+08/12/2024 01:43:11 PM - <module> - INFO: Click Logout button
+08/12/2024 01:43:11 PM - <module> - INFO: Click Logout button
+08/12/2024 01:43:11 PM - <module> - INFO: Click Logout button
+08/12/2024 01:43:11 PM - <module> - INFO: Click Logout button
+08/12/2024 01:43:11 PM - <module> - INFO: Click Logout button
+08/12/2024 01:43:11 PM - <module> - INFO: Click Logout button
+08/12/2024 01:44:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:44:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:44:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:44:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:44:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:44:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:44:21 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:44:24 PM - <module> - INFO: Click login button
+08/12/2024 01:44:24 PM - <module> - INFO: Click login button
+08/12/2024 01:44:24 PM - <module> - INFO: Click login button
+08/12/2024 01:44:24 PM - <module> - INFO: Click login button
+08/12/2024 01:44:24 PM - <module> - INFO: Click login button
+08/12/2024 01:44:24 PM - <module> - INFO: Click login button
+08/12/2024 01:44:24 PM - <module> - INFO: Click login button
+08/12/2024 01:44:27 PM - <module> - INFO: Click add to cart
+08/12/2024 01:44:27 PM - <module> - INFO: Click add to cart
+08/12/2024 01:44:27 PM - <module> - INFO: Click add to cart
+08/12/2024 01:44:27 PM - <module> - INFO: Click add to cart
+08/12/2024 01:44:27 PM - <module> - INFO: Click add to cart
+08/12/2024 01:44:27 PM - <module> - INFO: Click add to cart
+08/12/2024 01:44:27 PM - <module> - INFO: Click add to cart
+08/12/2024 01:44:30 PM - <module> - INFO: Click go to cart
+08/12/2024 01:44:30 PM - <module> - INFO: Click go to cart
+08/12/2024 01:44:30 PM - <module> - INFO: Click go to cart
+08/12/2024 01:44:30 PM - <module> - INFO: Click go to cart
+08/12/2024 01:44:30 PM - <module> - INFO: Click go to cart
+08/12/2024 01:44:30 PM - <module> - INFO: Click go to cart
+08/12/2024 01:44:30 PM - <module> - INFO: Click go to cart
+08/12/2024 01:45:28 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:45:28 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:45:28 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:45:28 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:45:28 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:45:28 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:45:28 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:45:31 PM - <module> - INFO: Click login button
+08/12/2024 01:45:31 PM - <module> - INFO: Click login button
+08/12/2024 01:45:31 PM - <module> - INFO: Click login button
+08/12/2024 01:45:31 PM - <module> - INFO: Click login button
+08/12/2024 01:45:31 PM - <module> - INFO: Click login button
+08/12/2024 01:45:31 PM - <module> - INFO: Click login button
+08/12/2024 01:45:31 PM - <module> - INFO: Click login button
+08/12/2024 01:45:34 PM - <module> - INFO: Click add to cart
+08/12/2024 01:45:34 PM - <module> - INFO: Click add to cart
+08/12/2024 01:45:34 PM - <module> - INFO: Click add to cart
+08/12/2024 01:45:34 PM - <module> - INFO: Click add to cart
+08/12/2024 01:45:34 PM - <module> - INFO: Click add to cart
+08/12/2024 01:45:34 PM - <module> - INFO: Click add to cart
+08/12/2024 01:45:34 PM - <module> - INFO: Click add to cart
+08/12/2024 01:45:37 PM - <module> - INFO: Click go to cart
+08/12/2024 01:45:37 PM - <module> - INFO: Click go to cart
+08/12/2024 01:45:37 PM - <module> - INFO: Click go to cart
+08/12/2024 01:45:37 PM - <module> - INFO: Click go to cart
+08/12/2024 01:45:37 PM - <module> - INFO: Click go to cart
+08/12/2024 01:45:37 PM - <module> - INFO: Click go to cart
+08/12/2024 01:45:37 PM - <module> - INFO: Click go to cart
+08/12/2024 01:45:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:45:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:45:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:45:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:45:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:45:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:45:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:57:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:57:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:57:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:57:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:57:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:57:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:57:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:57:32 PM - <module> - INFO: Click login button
+08/12/2024 01:57:32 PM - <module> - INFO: Click login button
+08/12/2024 01:57:32 PM - <module> - INFO: Click login button
+08/12/2024 01:57:32 PM - <module> - INFO: Click login button
+08/12/2024 01:57:32 PM - <module> - INFO: Click login button
+08/12/2024 01:57:32 PM - <module> - INFO: Click login button
+08/12/2024 01:57:32 PM - <module> - INFO: Click login button
+08/12/2024 01:57:35 PM - <module> - INFO: Click add to cart
+08/12/2024 01:57:35 PM - <module> - INFO: Click add to cart
+08/12/2024 01:57:35 PM - <module> - INFO: Click add to cart
+08/12/2024 01:57:35 PM - <module> - INFO: Click add to cart
+08/12/2024 01:57:35 PM - <module> - INFO: Click add to cart
+08/12/2024 01:57:35 PM - <module> - INFO: Click add to cart
+08/12/2024 01:57:35 PM - <module> - INFO: Click add to cart
+08/12/2024 01:57:38 PM - <module> - INFO: Click go to cart
+08/12/2024 01:57:38 PM - <module> - INFO: Click go to cart
+08/12/2024 01:57:38 PM - <module> - INFO: Click go to cart
+08/12/2024 01:57:38 PM - <module> - INFO: Click go to cart
+08/12/2024 01:57:38 PM - <module> - INFO: Click go to cart
+08/12/2024 01:57:38 PM - <module> - INFO: Click go to cart
+08/12/2024 01:57:38 PM - <module> - INFO: Click go to cart
+08/12/2024 01:57:41 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:57:41 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:57:41 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:57:41 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:57:41 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:57:41 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:57:41 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:58:40 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:58:40 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:58:40 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:58:40 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:58:40 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:58:40 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:58:40 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 01:58:44 PM - <module> - INFO: Click login button
+08/12/2024 01:58:44 PM - <module> - INFO: Click login button
+08/12/2024 01:58:44 PM - <module> - INFO: Click login button
+08/12/2024 01:58:44 PM - <module> - INFO: Click login button
+08/12/2024 01:58:44 PM - <module> - INFO: Click login button
+08/12/2024 01:58:44 PM - <module> - INFO: Click login button
+08/12/2024 01:58:44 PM - <module> - INFO: Click login button
+08/12/2024 01:58:47 PM - <module> - INFO: Click add to cart
+08/12/2024 01:58:47 PM - <module> - INFO: Click add to cart
+08/12/2024 01:58:47 PM - <module> - INFO: Click add to cart
+08/12/2024 01:58:47 PM - <module> - INFO: Click add to cart
+08/12/2024 01:58:47 PM - <module> - INFO: Click add to cart
+08/12/2024 01:58:47 PM - <module> - INFO: Click add to cart
+08/12/2024 01:58:47 PM - <module> - INFO: Click add to cart
+08/12/2024 01:58:50 PM - <module> - INFO: Click go to cart
+08/12/2024 01:58:50 PM - <module> - INFO: Click go to cart
+08/12/2024 01:58:50 PM - <module> - INFO: Click go to cart
+08/12/2024 01:58:50 PM - <module> - INFO: Click go to cart
+08/12/2024 01:58:50 PM - <module> - INFO: Click go to cart
+08/12/2024 01:58:50 PM - <module> - INFO: Click go to cart
+08/12/2024 01:58:50 PM - <module> - INFO: Click go to cart
+08/12/2024 01:58:53 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:58:53 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:58:53 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:58:53 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:58:53 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:58:53 PM - <module> - INFO: Click remove from cart
+08/12/2024 01:58:53 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:00:17 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:00:17 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:00:17 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:00:17 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:00:17 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:00:17 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:00:17 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:00:20 PM - <module> - INFO: Click login button
+08/12/2024 02:00:20 PM - <module> - INFO: Click login button
+08/12/2024 02:00:20 PM - <module> - INFO: Click login button
+08/12/2024 02:00:20 PM - <module> - INFO: Click login button
+08/12/2024 02:00:20 PM - <module> - INFO: Click login button
+08/12/2024 02:00:20 PM - <module> - INFO: Click login button
+08/12/2024 02:00:20 PM - <module> - INFO: Click login button
+08/12/2024 02:00:23 PM - <module> - INFO: Click add to cart
+08/12/2024 02:00:23 PM - <module> - INFO: Click add to cart
+08/12/2024 02:00:23 PM - <module> - INFO: Click add to cart
+08/12/2024 02:00:23 PM - <module> - INFO: Click add to cart
+08/12/2024 02:00:23 PM - <module> - INFO: Click add to cart
+08/12/2024 02:00:23 PM - <module> - INFO: Click add to cart
+08/12/2024 02:00:23 PM - <module> - INFO: Click add to cart
+08/12/2024 02:00:26 PM - <module> - INFO: Click go to cart
+08/12/2024 02:00:26 PM - <module> - INFO: Click go to cart
+08/12/2024 02:00:26 PM - <module> - INFO: Click go to cart
+08/12/2024 02:00:26 PM - <module> - INFO: Click go to cart
+08/12/2024 02:00:26 PM - <module> - INFO: Click go to cart
+08/12/2024 02:00:26 PM - <module> - INFO: Click go to cart
+08/12/2024 02:00:26 PM - <module> - INFO: Click go to cart
+08/12/2024 02:00:29 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:00:29 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:00:29 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:00:29 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:00:29 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:00:29 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:00:29 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:02:08 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:02:08 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:02:08 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:02:08 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:02:08 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:02:08 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:02:08 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:02:11 PM - <module> - INFO: Click login button
+08/12/2024 02:02:11 PM - <module> - INFO: Click login button
+08/12/2024 02:02:11 PM - <module> - INFO: Click login button
+08/12/2024 02:02:11 PM - <module> - INFO: Click login button
+08/12/2024 02:02:11 PM - <module> - INFO: Click login button
+08/12/2024 02:02:11 PM - <module> - INFO: Click login button
+08/12/2024 02:02:11 PM - <module> - INFO: Click login button
+08/12/2024 02:02:14 PM - <module> - INFO: Click add to cart
+08/12/2024 02:02:14 PM - <module> - INFO: Click add to cart
+08/12/2024 02:02:14 PM - <module> - INFO: Click add to cart
+08/12/2024 02:02:14 PM - <module> - INFO: Click add to cart
+08/12/2024 02:02:14 PM - <module> - INFO: Click add to cart
+08/12/2024 02:02:14 PM - <module> - INFO: Click add to cart
+08/12/2024 02:02:14 PM - <module> - INFO: Click add to cart
+08/12/2024 02:02:17 PM - <module> - INFO: Click go to cart
+08/12/2024 02:02:17 PM - <module> - INFO: Click go to cart
+08/12/2024 02:02:17 PM - <module> - INFO: Click go to cart
+08/12/2024 02:02:17 PM - <module> - INFO: Click go to cart
+08/12/2024 02:02:17 PM - <module> - INFO: Click go to cart
+08/12/2024 02:02:17 PM - <module> - INFO: Click go to cart
+08/12/2024 02:02:17 PM - <module> - INFO: Click go to cart
+08/12/2024 02:02:20 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:02:20 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:02:20 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:02:20 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:02:20 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:02:20 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:02:20 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:05:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:05:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:05:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:05:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:05:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:05:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:05:32 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:05:35 PM - <module> - INFO: Click login button
+08/12/2024 02:05:35 PM - <module> - INFO: Click login button
+08/12/2024 02:05:35 PM - <module> - INFO: Click login button
+08/12/2024 02:05:35 PM - <module> - INFO: Click login button
+08/12/2024 02:05:35 PM - <module> - INFO: Click login button
+08/12/2024 02:05:35 PM - <module> - INFO: Click login button
+08/12/2024 02:05:35 PM - <module> - INFO: Click login button
+08/12/2024 02:05:38 PM - <module> - INFO: Click add to cart
+08/12/2024 02:05:38 PM - <module> - INFO: Click add to cart
+08/12/2024 02:05:38 PM - <module> - INFO: Click add to cart
+08/12/2024 02:05:38 PM - <module> - INFO: Click add to cart
+08/12/2024 02:05:38 PM - <module> - INFO: Click add to cart
+08/12/2024 02:05:38 PM - <module> - INFO: Click add to cart
+08/12/2024 02:05:38 PM - <module> - INFO: Click add to cart
+08/12/2024 02:05:41 PM - <module> - INFO: Click go to cart
+08/12/2024 02:05:41 PM - <module> - INFO: Click go to cart
+08/12/2024 02:05:41 PM - <module> - INFO: Click go to cart
+08/12/2024 02:05:41 PM - <module> - INFO: Click go to cart
+08/12/2024 02:05:41 PM - <module> - INFO: Click go to cart
+08/12/2024 02:05:41 PM - <module> - INFO: Click go to cart
+08/12/2024 02:05:41 PM - <module> - INFO: Click go to cart
+08/12/2024 02:05:44 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:05:44 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:05:44 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:05:44 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:05:44 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:05:44 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:05:44 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:06:48 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:06:48 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:06:48 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:06:48 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:06:48 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:06:48 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:06:48 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:06:51 PM - <module> - INFO: Click login button
+08/12/2024 02:06:51 PM - <module> - INFO: Click login button
+08/12/2024 02:06:51 PM - <module> - INFO: Click login button
+08/12/2024 02:06:51 PM - <module> - INFO: Click login button
+08/12/2024 02:06:51 PM - <module> - INFO: Click login button
+08/12/2024 02:06:51 PM - <module> - INFO: Click login button
+08/12/2024 02:06:51 PM - <module> - INFO: Click login button
+08/12/2024 02:06:54 PM - <module> - INFO: Click add to cart
+08/12/2024 02:06:54 PM - <module> - INFO: Click add to cart
+08/12/2024 02:06:54 PM - <module> - INFO: Click add to cart
+08/12/2024 02:06:54 PM - <module> - INFO: Click add to cart
+08/12/2024 02:06:54 PM - <module> - INFO: Click add to cart
+08/12/2024 02:06:54 PM - <module> - INFO: Click add to cart
+08/12/2024 02:06:54 PM - <module> - INFO: Click add to cart
+08/12/2024 02:06:57 PM - <module> - INFO: Click go to cart
+08/12/2024 02:06:57 PM - <module> - INFO: Click go to cart
+08/12/2024 02:06:57 PM - <module> - INFO: Click go to cart
+08/12/2024 02:06:57 PM - <module> - INFO: Click go to cart
+08/12/2024 02:06:57 PM - <module> - INFO: Click go to cart
+08/12/2024 02:06:57 PM - <module> - INFO: Click go to cart
+08/12/2024 02:06:57 PM - <module> - INFO: Click go to cart
+08/12/2024 02:07:01 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:07:01 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:07:01 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:07:01 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:07:01 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:07:01 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:07:01 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:13:27 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:13:27 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:13:27 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:13:27 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:13:27 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:13:27 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:13:27 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:13:31 PM - <module> - INFO: Click login button
+08/12/2024 02:13:31 PM - <module> - INFO: Click login button
+08/12/2024 02:13:31 PM - <module> - INFO: Click login button
+08/12/2024 02:13:31 PM - <module> - INFO: Click login button
+08/12/2024 02:13:31 PM - <module> - INFO: Click login button
+08/12/2024 02:13:31 PM - <module> - INFO: Click login button
+08/12/2024 02:13:31 PM - <module> - INFO: Click login button
+08/12/2024 02:13:34 PM - <module> - INFO: Click add to cart
+08/12/2024 02:13:34 PM - <module> - INFO: Click add to cart
+08/12/2024 02:13:34 PM - <module> - INFO: Click add to cart
+08/12/2024 02:13:34 PM - <module> - INFO: Click add to cart
+08/12/2024 02:13:34 PM - <module> - INFO: Click add to cart
+08/12/2024 02:13:34 PM - <module> - INFO: Click add to cart
+08/12/2024 02:13:34 PM - <module> - INFO: Click add to cart
+08/12/2024 02:13:37 PM - <module> - INFO: Click go to cart
+08/12/2024 02:13:37 PM - <module> - INFO: Click go to cart
+08/12/2024 02:13:37 PM - <module> - INFO: Click go to cart
+08/12/2024 02:13:37 PM - <module> - INFO: Click go to cart
+08/12/2024 02:13:37 PM - <module> - INFO: Click go to cart
+08/12/2024 02:13:37 PM - <module> - INFO: Click go to cart
+08/12/2024 02:13:37 PM - <module> - INFO: Click go to cart
+08/12/2024 02:13:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:13:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:13:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:13:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:13:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:13:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:13:40 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:15:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:15:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:15:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:15:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:15:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:15:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:15:45 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:15:48 PM - <module> - INFO: Click login button
+08/12/2024 02:15:48 PM - <module> - INFO: Click login button
+08/12/2024 02:15:48 PM - <module> - INFO: Click login button
+08/12/2024 02:15:48 PM - <module> - INFO: Click login button
+08/12/2024 02:15:48 PM - <module> - INFO: Click login button
+08/12/2024 02:15:48 PM - <module> - INFO: Click login button
+08/12/2024 02:15:48 PM - <module> - INFO: Click login button
+08/12/2024 02:15:51 PM - <module> - INFO: Click add to cart
+08/12/2024 02:15:51 PM - <module> - INFO: Click add to cart
+08/12/2024 02:15:51 PM - <module> - INFO: Click add to cart
+08/12/2024 02:15:51 PM - <module> - INFO: Click add to cart
+08/12/2024 02:15:51 PM - <module> - INFO: Click add to cart
+08/12/2024 02:15:51 PM - <module> - INFO: Click add to cart
+08/12/2024 02:15:51 PM - <module> - INFO: Click add to cart
+08/12/2024 02:15:54 PM - <module> - INFO: Click go to cart
+08/12/2024 02:15:54 PM - <module> - INFO: Click go to cart
+08/12/2024 02:15:54 PM - <module> - INFO: Click go to cart
+08/12/2024 02:15:54 PM - <module> - INFO: Click go to cart
+08/12/2024 02:15:54 PM - <module> - INFO: Click go to cart
+08/12/2024 02:15:54 PM - <module> - INFO: Click go to cart
+08/12/2024 02:15:54 PM - <module> - INFO: Click go to cart
+08/12/2024 02:17:06 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:17:06 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:17:06 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:17:06 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:17:06 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:17:06 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:17:06 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:17:09 PM - <module> - INFO: Click login button
+08/12/2024 02:17:09 PM - <module> - INFO: Click login button
+08/12/2024 02:17:09 PM - <module> - INFO: Click login button
+08/12/2024 02:17:09 PM - <module> - INFO: Click login button
+08/12/2024 02:17:09 PM - <module> - INFO: Click login button
+08/12/2024 02:17:09 PM - <module> - INFO: Click login button
+08/12/2024 02:17:09 PM - <module> - INFO: Click login button
+08/12/2024 02:17:12 PM - <module> - INFO: Click add to cart
+08/12/2024 02:17:12 PM - <module> - INFO: Click add to cart
+08/12/2024 02:17:12 PM - <module> - INFO: Click add to cart
+08/12/2024 02:17:12 PM - <module> - INFO: Click add to cart
+08/12/2024 02:17:12 PM - <module> - INFO: Click add to cart
+08/12/2024 02:17:12 PM - <module> - INFO: Click add to cart
+08/12/2024 02:17:12 PM - <module> - INFO: Click add to cart
+08/12/2024 02:17:15 PM - <module> - INFO: Click go to cart
+08/12/2024 02:17:15 PM - <module> - INFO: Click go to cart
+08/12/2024 02:17:15 PM - <module> - INFO: Click go to cart
+08/12/2024 02:17:15 PM - <module> - INFO: Click go to cart
+08/12/2024 02:17:15 PM - <module> - INFO: Click go to cart
+08/12/2024 02:17:15 PM - <module> - INFO: Click go to cart
+08/12/2024 02:17:15 PM - <module> - INFO: Click go to cart
+08/12/2024 02:18:24 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:18:24 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:18:24 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:18:24 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:18:24 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:18:24 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:18:24 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:18:27 PM - <module> - INFO: Click login button
+08/12/2024 02:18:27 PM - <module> - INFO: Click login button
+08/12/2024 02:18:27 PM - <module> - INFO: Click login button
+08/12/2024 02:18:27 PM - <module> - INFO: Click login button
+08/12/2024 02:18:27 PM - <module> - INFO: Click login button
+08/12/2024 02:18:27 PM - <module> - INFO: Click login button
+08/12/2024 02:18:27 PM - <module> - INFO: Click login button
+08/12/2024 02:18:30 PM - <module> - INFO: Click add to cart
+08/12/2024 02:18:30 PM - <module> - INFO: Click add to cart
+08/12/2024 02:18:30 PM - <module> - INFO: Click add to cart
+08/12/2024 02:18:30 PM - <module> - INFO: Click add to cart
+08/12/2024 02:18:30 PM - <module> - INFO: Click add to cart
+08/12/2024 02:18:30 PM - <module> - INFO: Click add to cart
+08/12/2024 02:18:30 PM - <module> - INFO: Click add to cart
+08/12/2024 02:18:33 PM - <module> - INFO: Click go to cart
+08/12/2024 02:18:33 PM - <module> - INFO: Click go to cart
+08/12/2024 02:18:33 PM - <module> - INFO: Click go to cart
+08/12/2024 02:18:33 PM - <module> - INFO: Click go to cart
+08/12/2024 02:18:33 PM - <module> - INFO: Click go to cart
+08/12/2024 02:18:33 PM - <module> - INFO: Click go to cart
+08/12/2024 02:18:33 PM - <module> - INFO: Click go to cart
+08/12/2024 02:19:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:19:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:19:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:19:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:19:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:19:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:19:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:19:38 PM - <module> - INFO: Click login button
+08/12/2024 02:19:38 PM - <module> - INFO: Click login button
+08/12/2024 02:19:38 PM - <module> - INFO: Click login button
+08/12/2024 02:19:38 PM - <module> - INFO: Click login button
+08/12/2024 02:19:38 PM - <module> - INFO: Click login button
+08/12/2024 02:19:38 PM - <module> - INFO: Click login button
+08/12/2024 02:19:38 PM - <module> - INFO: Click login button
+08/12/2024 02:19:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:19:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:19:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:19:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:19:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:19:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:19:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:19:44 PM - <module> - INFO: Click go to cart
+08/12/2024 02:19:44 PM - <module> - INFO: Click go to cart
+08/12/2024 02:19:44 PM - <module> - INFO: Click go to cart
+08/12/2024 02:19:44 PM - <module> - INFO: Click go to cart
+08/12/2024 02:19:44 PM - <module> - INFO: Click go to cart
+08/12/2024 02:19:44 PM - <module> - INFO: Click go to cart
+08/12/2024 02:19:44 PM - <module> - INFO: Click go to cart
+08/12/2024 02:21:33 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:21:33 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:21:33 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:21:33 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:21:33 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:21:33 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:21:33 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:21:36 PM - <module> - INFO: Click login button
+08/12/2024 02:21:36 PM - <module> - INFO: Click login button
+08/12/2024 02:21:36 PM - <module> - INFO: Click login button
+08/12/2024 02:21:36 PM - <module> - INFO: Click login button
+08/12/2024 02:21:36 PM - <module> - INFO: Click login button
+08/12/2024 02:21:36 PM - <module> - INFO: Click login button
+08/12/2024 02:21:36 PM - <module> - INFO: Click login button
+08/12/2024 02:21:40 PM - <module> - INFO: Click add to cart
+08/12/2024 02:21:40 PM - <module> - INFO: Click add to cart
+08/12/2024 02:21:40 PM - <module> - INFO: Click add to cart
+08/12/2024 02:21:40 PM - <module> - INFO: Click add to cart
+08/12/2024 02:21:40 PM - <module> - INFO: Click add to cart
+08/12/2024 02:21:40 PM - <module> - INFO: Click add to cart
+08/12/2024 02:21:40 PM - <module> - INFO: Click add to cart
+08/12/2024 02:21:43 PM - <module> - INFO: Click go to cart
+08/12/2024 02:21:43 PM - <module> - INFO: Click go to cart
+08/12/2024 02:21:43 PM - <module> - INFO: Click go to cart
+08/12/2024 02:21:43 PM - <module> - INFO: Click go to cart
+08/12/2024 02:21:43 PM - <module> - INFO: Click go to cart
+08/12/2024 02:21:43 PM - <module> - INFO: Click go to cart
+08/12/2024 02:21:43 PM - <module> - INFO: Click go to cart
+08/12/2024 02:22:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:22:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:22:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:22:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:22:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:22:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:22:19 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:22:22 PM - <module> - INFO: Click login button
+08/12/2024 02:22:22 PM - <module> - INFO: Click login button
+08/12/2024 02:22:22 PM - <module> - INFO: Click login button
+08/12/2024 02:22:22 PM - <module> - INFO: Click login button
+08/12/2024 02:22:22 PM - <module> - INFO: Click login button
+08/12/2024 02:22:22 PM - <module> - INFO: Click login button
+08/12/2024 02:22:22 PM - <module> - INFO: Click login button
+08/12/2024 02:22:25 PM - <module> - INFO: Click add to cart
+08/12/2024 02:22:25 PM - <module> - INFO: Click add to cart
+08/12/2024 02:22:25 PM - <module> - INFO: Click add to cart
+08/12/2024 02:22:25 PM - <module> - INFO: Click add to cart
+08/12/2024 02:22:25 PM - <module> - INFO: Click add to cart
+08/12/2024 02:22:25 PM - <module> - INFO: Click add to cart
+08/12/2024 02:22:25 PM - <module> - INFO: Click add to cart
+08/12/2024 02:22:28 PM - <module> - INFO: Click go to cart
+08/12/2024 02:22:28 PM - <module> - INFO: Click go to cart
+08/12/2024 02:22:28 PM - <module> - INFO: Click go to cart
+08/12/2024 02:22:28 PM - <module> - INFO: Click go to cart
+08/12/2024 02:22:28 PM - <module> - INFO: Click go to cart
+08/12/2024 02:22:28 PM - <module> - INFO: Click go to cart
+08/12/2024 02:22:28 PM - <module> - INFO: Click go to cart
+08/12/2024 02:26:03 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:26:03 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:26:03 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:26:03 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:26:03 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:26:03 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:26:03 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:26:07 PM - <module> - INFO: Click login button
+08/12/2024 02:26:07 PM - <module> - INFO: Click login button
+08/12/2024 02:26:07 PM - <module> - INFO: Click login button
+08/12/2024 02:26:07 PM - <module> - INFO: Click login button
+08/12/2024 02:26:07 PM - <module> - INFO: Click login button
+08/12/2024 02:26:07 PM - <module> - INFO: Click login button
+08/12/2024 02:26:07 PM - <module> - INFO: Click login button
+08/12/2024 02:26:10 PM - <module> - INFO: Click add to cart
+08/12/2024 02:26:10 PM - <module> - INFO: Click add to cart
+08/12/2024 02:26:10 PM - <module> - INFO: Click add to cart
+08/12/2024 02:26:10 PM - <module> - INFO: Click add to cart
+08/12/2024 02:26:10 PM - <module> - INFO: Click add to cart
+08/12/2024 02:26:10 PM - <module> - INFO: Click add to cart
+08/12/2024 02:26:10 PM - <module> - INFO: Click add to cart
+08/12/2024 02:26:13 PM - <module> - INFO: Click go to cart
+08/12/2024 02:26:13 PM - <module> - INFO: Click go to cart
+08/12/2024 02:26:13 PM - <module> - INFO: Click go to cart
+08/12/2024 02:26:13 PM - <module> - INFO: Click go to cart
+08/12/2024 02:26:13 PM - <module> - INFO: Click go to cart
+08/12/2024 02:26:13 PM - <module> - INFO: Click go to cart
+08/12/2024 02:26:13 PM - <module> - INFO: Click go to cart
+08/12/2024 02:26:16 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:26:16 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:26:16 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:26:16 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:26:16 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:26:16 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:26:16 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:28:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:28:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:28:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:28:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:28:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:28:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:28:58 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:29:01 PM - <module> - INFO: Click login button
+08/12/2024 02:29:01 PM - <module> - INFO: Click login button
+08/12/2024 02:29:01 PM - <module> - INFO: Click login button
+08/12/2024 02:29:01 PM - <module> - INFO: Click login button
+08/12/2024 02:29:01 PM - <module> - INFO: Click login button
+08/12/2024 02:29:01 PM - <module> - INFO: Click login button
+08/12/2024 02:29:01 PM - <module> - INFO: Click login button
+08/12/2024 02:29:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:29:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:29:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:29:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:29:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:29:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:29:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:29:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:29:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:29:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:29:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:29:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:29:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:29:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:29:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:29:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:29:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:29:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:29:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:29:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:29:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:32:57 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:32:57 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:32:57 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:32:57 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:32:57 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:32:57 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:32:57 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:33:01 PM - <module> - INFO: Click login button
+08/12/2024 02:33:01 PM - <module> - INFO: Click login button
+08/12/2024 02:33:01 PM - <module> - INFO: Click login button
+08/12/2024 02:33:01 PM - <module> - INFO: Click login button
+08/12/2024 02:33:01 PM - <module> - INFO: Click login button
+08/12/2024 02:33:01 PM - <module> - INFO: Click login button
+08/12/2024 02:33:01 PM - <module> - INFO: Click login button
+08/12/2024 02:33:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:33:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:33:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:33:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:33:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:33:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:33:04 PM - <module> - INFO: Click add to cart
+08/12/2024 02:33:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:33:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:33:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:33:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:33:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:33:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:33:07 PM - <module> - INFO: Click go to cart
+08/12/2024 02:33:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:33:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:33:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:33:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:33:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:33:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:33:10 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:35:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:35:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:35:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:35:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:35:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:35:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:35:35 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:35:38 PM - <module> - INFO: Click login button
+08/12/2024 02:35:38 PM - <module> - INFO: Click login button
+08/12/2024 02:35:38 PM - <module> - INFO: Click login button
+08/12/2024 02:35:38 PM - <module> - INFO: Click login button
+08/12/2024 02:35:38 PM - <module> - INFO: Click login button
+08/12/2024 02:35:38 PM - <module> - INFO: Click login button
+08/12/2024 02:35:38 PM - <module> - INFO: Click login button
+08/12/2024 02:35:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:35:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:35:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:35:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:35:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:35:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:35:41 PM - <module> - INFO: Click add to cart
+08/12/2024 02:35:45 PM - <module> - INFO: Click go to cart
+08/12/2024 02:35:45 PM - <module> - INFO: Click go to cart
+08/12/2024 02:35:45 PM - <module> - INFO: Click go to cart
+08/12/2024 02:35:45 PM - <module> - INFO: Click go to cart
+08/12/2024 02:35:45 PM - <module> - INFO: Click go to cart
+08/12/2024 02:35:45 PM - <module> - INFO: Click go to cart
+08/12/2024 02:35:45 PM - <module> - INFO: Click go to cart
+08/12/2024 02:35:48 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:35:48 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:35:48 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:35:48 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:35:48 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:35:48 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:35:48 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:37:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:37:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:37:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:37:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:37:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:37:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:37:09 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:37:13 PM - <module> - INFO: Click login button
+08/12/2024 02:37:13 PM - <module> - INFO: Click login button
+08/12/2024 02:37:13 PM - <module> - INFO: Click login button
+08/12/2024 02:37:13 PM - <module> - INFO: Click login button
+08/12/2024 02:37:13 PM - <module> - INFO: Click login button
+08/12/2024 02:37:13 PM - <module> - INFO: Click login button
+08/12/2024 02:37:13 PM - <module> - INFO: Click login button
+08/12/2024 02:37:16 PM - <module> - INFO: Click add to cart
+08/12/2024 02:37:16 PM - <module> - INFO: Click add to cart
+08/12/2024 02:37:16 PM - <module> - INFO: Click add to cart
+08/12/2024 02:37:16 PM - <module> - INFO: Click add to cart
+08/12/2024 02:37:16 PM - <module> - INFO: Click add to cart
+08/12/2024 02:37:16 PM - <module> - INFO: Click add to cart
+08/12/2024 02:37:16 PM - <module> - INFO: Click add to cart
+08/12/2024 02:37:19 PM - <module> - INFO: Click go to cart
+08/12/2024 02:37:19 PM - <module> - INFO: Click go to cart
+08/12/2024 02:37:19 PM - <module> - INFO: Click go to cart
+08/12/2024 02:37:19 PM - <module> - INFO: Click go to cart
+08/12/2024 02:37:19 PM - <module> - INFO: Click go to cart
+08/12/2024 02:37:19 PM - <module> - INFO: Click go to cart
+08/12/2024 02:37:19 PM - <module> - INFO: Click go to cart
+08/12/2024 02:37:22 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:37:22 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:37:22 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:37:22 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:37:22 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:37:22 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:37:22 PM - <module> - INFO: Click remove from cart
+08/12/2024 02:38:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:38:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:38:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:38:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:38:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:38:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:38:29 PM - <module> - INFO: Login into sauce demo using id and password
+08/12/2024 02:38:32 PM - <module> - INFO: Click login button
+08/12/2024 02:38:32 PM - <module> - INFO: Click login button
+08/12/2024 02:38:32 PM - <module> - INFO: Click login button
+08/12/2024 02:38:32 PM - <module> - INFO: Click login button
+08/12/2024 02:38:32 PM - <module> - INFO: Click login button
+08/12/2024 02:38:32 PM - <module> - INFO: Click login button
+08/12/2024 02:38:32 PM - <module> - INFO: Click login button
+08/12/2024 02:38:35 PM - <module> - INFO: Click add to cart
+08/12/2024 02:38:35 PM - <module> - INFO: Click add to cart
+08/12/2024 02:38:35 PM - <module> - INFO: Click add to cart
+08/12/2024 02:38:35 PM - <module> - INFO: Click add to cart
+08/12/2024 02:38:35 PM - <module> - INFO: Click add to cart
+08/12/2024 02:38:35 PM - <module> - INFO: Click add to cart
+08/12/2024 02:38:35 PM - <module> - INFO: Click add to cart
+08/12/2024 02:38:38 PM - <module> - INFO: Click go to cart
+08/12/2024 02:38:38 PM - <module> - INFO: Click go to cart
+08/12/2024 02:38:38 PM - <module> - INFO: Click go to cart
+08/12/2024 02:38:38 PM - <module> - INFO: Click go to cart
+08/12/2024 02:38:38 PM - <module> - INFO: Click go to cart
+08/12/2024 02:38:38 PM - <module> - INFO: Click go to cart
+08/12/2024 02:38:38 PM - <module> - INFO: Click go to cart

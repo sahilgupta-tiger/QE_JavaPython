@@ -1,0 +1,7 @@
+Inside go to cart method
+Inside Verify item in the cart method
+1
+[<selenium.webdriver.remote.webelement.WebElement (session="e61ccf1b73f74e610748526701c0ed47", element="f.1EE2F11E9AB5320F9213E2219C192BC1.d.555EB24A02BB0BA6C589FD0CF734FE22.e.33")>]
+Inside for loop
+Sauce Labs Backpack
+True
