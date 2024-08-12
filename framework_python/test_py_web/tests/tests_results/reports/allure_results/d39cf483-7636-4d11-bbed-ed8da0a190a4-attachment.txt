@@ -1,0 +1,3 @@
+[32mINFO    [0m <module>:saucedemo_login_page.py:23 Login into sauce demo using id and password
+[32mINFO    [0m <module>:saucedemo_login_page.py:30 Click login button
+[32mINFO    [0m <module>:saucedemo_login_page.py:36 Get error message after login failure

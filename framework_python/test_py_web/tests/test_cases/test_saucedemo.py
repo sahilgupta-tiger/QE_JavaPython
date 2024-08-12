@@ -147,7 +147,7 @@ def logout_to_the_application():
 
 @then(parsers.parse("Verify that user is in logout page"))
 def verify_that_user_is_in_logout_page():
-    current_url = driver.current_url;
+    current_url = driver.current_url
     assert "https://www.saucedemo.com/", current_url
 
 
@@ -193,4 +193,5 @@ def click_continue_shopping_button_in_cart():
 
 @then(parsers.parse("Verify the page is inventory page"))
 def verify_the_page_is_inventory_page():
-    currenturl = driver.current_url;
+    currenturl = driver.current_url
+    assert "https://www.saucedemo.com/inventory.html", currenturl
