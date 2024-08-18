@@ -17,9 +17,7 @@ public class TagValidationSteps extends BaseClass {
 	}
 
 	@When("Load the homepage for HIG website")
-	public void open_browser_and_click_url() {
-		hp.getHomePage();
-	}
+	public void open_browser_and_click_url() { hp.getHomePage();	}
 
 	@When("Login HIG with {string} and {string}")
 	public void login_with_and(String username, String password) throws InterruptedException {
@@ -29,23 +27,17 @@ public class TagValidationSteps extends BaseClass {
 		Thread.sleep(3000);
 	}
 
-	@When("Load Homepage and Network Payload using filter {string}")
-	public void start_network_monitoring(String filterName) throws InterruptedException {
-		hp.startNetworkMonitoring(filterName);
-	}
+	@When("Load Homepage and Network Payload using collect filter")
+	public void start_network_monitoring() { hp.startNetworkMonitoring();	}
 
 	@When("Execute script on console for generating UTAGs")
-	public void generate_utags_console() {
-		tagData = hp.getUtagData();
-	}
+	public void generate_utags_console() { hp.getUtagData(); 	}
 
 	@Then("Report the tag data")
-	public void report_tag_data() { hp.printUtagData(tagData); }
+	public void report_tag_data() { hp.printUtagData(); }
 
 	@Then("Report the payload data")
-	public void report_payload_data() {
-
-	}
+	public void report_payload_data() { hp.printPayloadData(); }
 
 	@After
 	public void closeBrowser() {
