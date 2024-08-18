@@ -1,68 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="88.622" tests="7" skipped="0" failures="0" errors="0">
-<testcase classname="Saucedemo" name="Login with invalid credentials - Example #1.1" time="11.515">
+<testsuite name="Cucumber" time="32.093" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Tag Validations Demo" name="Extract the UTAG Data for Multiple Pages - Example #1.1" time="31.149">
+<failure type="org.openqa.selenium.ElementNotInteractableException" message="element not interactable
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [738c14d6ba330dc3332e7c159c601618, clickElement {id=f.C46E3F00174B4ED666DDF0D848FDC992.d.DA83DA781783CEECF0C5B38893174D97.e.40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SAHIL~1.GUP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57648}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57648/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (738c14d6ba330dc3332e7c159c601618)] -&gt; xpath: //button[@class='navbar-toggle account-toggle']]
+Session ID: 738c14d6ba330dc3332e7c159c601618">
+<![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [738c14d6ba330dc3332e7c159c601618, clickElement {id=f.C46E3F00174B4ED666DDF0D848FDC992.d.DA83DA781783CEECF0C5B38893174D97.e.40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SAHIL~1.GUP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57648}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57648/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (738c14d6ba330dc3332e7c159c601618)] -> xpath: //button[@class='navbar-toggle account-toggle']]
+Session ID: 738c14d6ba330dc3332e7c159c601618
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at pageObjects.HIGPages.clickLoginMenu(HIGPages.java:74)
+	at stepDefinitions.TagValidationSteps.login_with_and(TagValidationSteps.java:26)
+	at ✽.Login HIG with "username" and "pwd"(file:///D:/My_Workspaces/GitHub/QE_JavaPython/framework_java/test_java_web/src/test/resources/features/TagDemo.feature:20)
+]]>
+</failure>
 <system-out><![CDATA[
-Given Open Browser and click URL............................................passed
-When Login with "username" and "pwd"........................................passed
-Then Verify not able to login...............................................passed
-And Close Browser...........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Saucedemo" name="Login with invalid credentials - Example #1.2" time="8.336">
-<system-out><![CDATA[
-Given Open Browser and click URL............................................passed
-When Login with "username" and "pwd"........................................passed
-Then Verify not able to login...............................................passed
-And Close Browser...........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Saucedemo" name="Login without credentials" time="5.423">
-<system-out><![CDATA[
-Given Open Browser and click URL............................................passed
-When Login without username and password....................................passed
-Then Verify not able to login with error message............................passed
-And Close Browser...........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Saucedemo" name="Add products to cart" time="8.549">
-<system-out><![CDATA[
-Given Open Browser and click URL............................................passed
-And Login with "standard_user" and "secret_sauce"...........................passed
-When Add product to cart....................................................passed
-And Go to cart..............................................................passed
-Then Verify item in cart....................................................passed
-And Close Browser...........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Saucedemo" name="Remove products from cart" time="38.782">
-<system-out><![CDATA[
-Given Open Browser and click URL............................................passed
-And Login with "standard_user" and "secret_sauce"...........................passed
-And Add product to cart.....................................................passed
-And Go to cart..............................................................passed
-When Remove products from cart..............................................passed
-Then Verify item not in cart................................................passed
-And Close Browser...........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Saucedemo" name="Continue shopping button in cart" time="8.46">
-<system-out><![CDATA[
-Given Open Browser and click URL............................................passed
-And Login with "standard_user" and "secret_sauce"...........................passed
-And Add product to cart.....................................................passed
-And Go to cart..............................................................passed
-When Click Continue shopping button in cart.................................passed
-Then Verify the page is inventory page......................................passed
-And Close Browser...........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Saucedemo" name="Logout to the app" time="5.876">
-<system-out><![CDATA[
-Given Open Browser and click URL............................................passed
-And User Login with credentials.............................................passed
-When Logout to the application..............................................passed
-Then Verify that user is in logout page.....................................passed
-And Close Browser...........................................................passed
+Given Load the Browser and Driver...........................................passed
+When Load the homepage for HIG website......................................passed
+And Execute script on console for generating UTAGs..........................skipped
+And Login HIG with "username" and "pwd".....................................failed
+Then Report the tag data....................................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>

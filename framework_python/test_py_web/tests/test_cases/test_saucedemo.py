@@ -29,7 +29,7 @@ def driver(request):
         chrome_options.add_argument("--start-maximized")
         driver = webdriver.Chrome(options=chrome_options, service=Service(executable_path=chrome_loc))
         driver.implicitly_wait(5)
-        driver.get(url)
+        driver.get(sauce_url)
     elif browser == "firefox":
         driver = webdriver.Firefox(GeckoDriverManager().install())
     elif browser == "headless":
@@ -48,7 +48,7 @@ def driver(request):
 
 @allure.title("TC010_Login with invalid credentials")
 @allure.severity(allure.severity_level.BLOCKER)
-@allure.feature("Validate Login Credentials")
+@allure.feature("SauceDemoWebsite Login-Logout Feature")
 @scenario(FEATURE_FILE, "TC010_Login with invalid credentials")
 def test_report_tc10():
     pass
@@ -56,7 +56,7 @@ def test_report_tc10():
 
 @allure.title("TC011_Login without credentials")
 @allure.severity(allure.severity_level.NORMAL)
-@allure.feature("Validate Login feature")
+@allure.feature("SauceDemoWebsite Login-Logout Feature")
 @scenario(FEATURE_FILE, "TC011_Login without credentials")
 def test_report_tc11():
     pass
@@ -64,7 +64,7 @@ def test_report_tc11():
 
 @allure.title("TC012_Add products to cart")
 @allure.severity(allure.severity_level.NORMAL)
-@allure.feature("Validate Adding product to cart")
+@allure.feature("SauceDemoWebsite Cart Validation Feature")
 @scenario(FEATURE_FILE, "TC012_Add products to cart")
 def test_report_tc12():
     pass
@@ -72,7 +72,7 @@ def test_report_tc12():
 
 @allure.title("TC013_Remove products from cart")
 @allure.severity(allure.severity_level.MINOR)
-@allure.feature("Validate removal of product from cart")
+@allure.feature("SauceDemoWebsite Cart Validation Feature")
 @scenario(FEATURE_FILE, "TC013_Remove products from cart")
 def test_report_tc13():
     pass
@@ -80,7 +80,7 @@ def test_report_tc13():
 
 @allure.title("TC014_Continue shopping button in cart")
 @allure.severity(allure.severity_level.MINOR)
-@allure.feature("Validate Continue shopping button in cart")
+@allure.feature("SauceDemoWebsite Cart Validation Feature")
 @scenario(FEATURE_FILE, "TC014_Continue shopping button in cart")
 def test_report_tc14():
     pass
@@ -88,7 +88,7 @@ def test_report_tc14():
 
 @allure.title("TC015_Logout to the app")
 @allure.severity(allure.severity_level.MINOR)
-@allure.feature("Validate Logout feature")
+@allure.feature("SauceDemoWebsite Login-Logout Feature")
 @scenario(FEATURE_FILE, "TC015_Logout to the app")
 def test_report_tc15():
     pass

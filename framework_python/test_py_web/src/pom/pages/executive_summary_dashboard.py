@@ -18,7 +18,6 @@ class SummaryReportPage(BasePageElement):
         self.driver = driver
         self.action = ActionChains(self.driver)
 
-
     def reset_Filter_Report(self):
         time.sleep(15)
         log.info("Reset Filter")

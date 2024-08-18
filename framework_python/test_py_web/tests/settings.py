@@ -1,6 +1,8 @@
 import os
 
-url = "https://www.saucedemo.com"
+powerbi_url = ""
+sauce_url = "https://www.saucedemo.com"
+hartford_url = "https://www.thehartford.com"
 browser = "chrome"  # options: chrome, edge, headless, firefox, healenium
 db_type = "sqlite3"  # options: sqlserver, sqlite3
 chrome_loc = r"D:\Project\QE_JavaPython\commonutils\drivers\chromedriver\chromedriver.exe"

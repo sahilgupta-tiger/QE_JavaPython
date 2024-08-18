@@ -4,8 +4,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = "src/test/resources/features/SauceDemo.feature",
+		features = "src/test/resources/features/TagDemo.feature",
 		glue = {"stepDefinitions"},
+		tags = "@smoke",
 		plugin = {
 				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 				"pretty",
@@ -15,6 +16,6 @@ import io.cucumber.testng.CucumberOptions;
 				}
 		)
 
-public class TestRun extends AbstractTestNGCucumberTests{
+public class TagTestRun extends AbstractTestNGCucumberTests{
 
 }

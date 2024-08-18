@@ -28,7 +28,7 @@ def driver(request):
         chrome_options.add_argument("--start-maximized")
         driver = webdriver.Chrome(options=chrome_options, service=Service(executable_path=chrome_loc))
         driver.implicitly_wait(5)
-        driver.get(url)
+        driver.get(powerbi_url)
     elif browser == "healenium":
         nodeURL = "http://localhost:8085"
         chrome_options = Options()
@@ -36,7 +36,7 @@ def driver(request):
         chrome_options.add_argument("--start-maximized")
         driver = webdriver.Remote(command_executor=nodeURL, options=chrome_options)
         driver.implicitly_wait(5)
-        driver.get(url)
+        driver.get(powerbi_url)
     elif browser == "firefox":
         driver = webdriver.Firefox(GeckoDriverManager().install())
     elif browser == "headless":

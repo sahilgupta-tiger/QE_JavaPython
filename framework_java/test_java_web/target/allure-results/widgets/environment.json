@@ -1,10 +1,1 @@
-[ {
-  "values" : [ "QA" ],
-  "name" : "environment"
-}, {
-  "values" : [ "chrome" ],
-  "name" : "browser"
-}, {
-  "values" : [ "www.saucedemo.com" ],
-  "name" : "URL"
-} ]
+[{"values":["chrome"],"name":"browser"},{"values":["QA"],"name":"environment"},{"values":["www.saucedemo.com"],"name":"URL"}]

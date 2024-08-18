@@ -1,15 +1,1 @@
-{
-  "total" : 1,
-  "items" : [ {
-    "uid" : "55891c827813005e626bd10daa7daccb",
-    "name" : "Saucedemo",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 6
-    }
-  } ]
-}
+{"total":2,"items":[{"uid":"55891c827813005e626bd10daa7daccb","name":"Saucedemo","statistic":{"failed":0,"broken":0,"skipped":0,"passed":8,"unknown":0,"total":8}},{"uid":"2af1e5e323a45663ae73b11cfee875cd","name":"Tag Validations Demo","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}

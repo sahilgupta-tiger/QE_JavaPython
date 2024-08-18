@@ -9,8 +9,9 @@ tc7,N,,TC_007_Validation of drilldown,2022,Aluminum,All,EUROPE,All,All
 tc8,N,regression,TC_008_Validation of slider,2022,Motor Fuel,All,FLNA|NAB|QFNA,All,All
 tc9,N,smoke|regression,TC_009_Validation of Sensitivity widget,2022,Natural Gas,All,EUROPE|Mexico,All,All
 tc10,N,smoke,TC010_Login with invalid credentials,,,,,,
-tc11,Y,regression,TC011_Login without credentials,,,,,,
-tc12,Y,smoke|regression,TC012_Add products to cart,,,,,,
-tc13,Y,smoke,TC013_Remove products from cart,,,,,,
-tc14,Y,smoke,TC014_Continue shopping button in cart,,,,,,
-tc15,Y,smoke,TC015_Logout to the app,,,,,,
+tc11,N,regression,TC011_Login without credentials,,,,,,
+tc12,N,smoke|regression,TC012_Add products to cart,,,,,,
+tc13,N,smoke,TC013_Remove products from cart,,,,,,
+tc14,N,smoke,TC014_Continue shopping button in cart,,,,,,
+tc15,N,smoke,TC015_Logout to the app,,,,,,
+tc20,Y,smoke,TC020_Grab Tag values from browser,,,,,,

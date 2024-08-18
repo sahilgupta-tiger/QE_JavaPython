@@ -44,6 +44,8 @@ public class ProductSteps extends BaseClass{
 	public void click_continue_shopping_button_in_cart() {
 			Pp.clickContinueShopping();
 	}
+
+
 	@Then("Verify the page is inventory page")
 	public void verify_the_page_is_inventory_page() {
 		String currenturl = driver.getCurrentUrl();

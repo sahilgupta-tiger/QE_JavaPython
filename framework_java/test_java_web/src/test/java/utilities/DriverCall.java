@@ -1,16 +1,14 @@
 package utilities;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import java.io.File;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import java.time.Duration;
+import static java.time.temporal.ChronoUnit.SECONDS;
 
 public class DriverCall {
 	
-	public static WebDriver driver;
-
+	public static ChromeDriver driver;
 
     public void setupBrowser() {
     	ChromeOptions chromeOptions = new ChromeOptions();
@@ -19,17 +17,12 @@ public class DriverCall {
 		chromeOptions.addArguments("ignore-certificate-errors");
 		chromeOptions.addArguments("disable-infobars");
 
-		File CurrentDirFile = new File(System.getProperty("user.dir"));
-		String RequiredDir = CurrentDirFile.getParentFile().getParent();
-		Path filepath = Paths.get(RequiredDir,"commonutils","drivers","chromedriver","chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver",filepath.toString());
-		driver=new ChromeDriver(chromeOptions);
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver(chromeOptions);
+		driver.manage().timeouts().implicitlyWait(Duration.of(10, SECONDS));
     }
     
-	public static WebDriver callDriver() {
-
-		return driver;
-	}
+	public static ChromeDriver callDriver() { return driver; 	}
 
 }
 

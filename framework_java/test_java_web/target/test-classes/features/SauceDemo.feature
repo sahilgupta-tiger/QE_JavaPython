@@ -46,3 +46,9 @@ Feature: Saucedemo
 		When Logout to the application
 		Then Verify that user is in logout page
 		And Close Browser
+
+	Scenario: Tag Validations for Website
+		And User Login with credentials
+		When Logout to the application
+		Then Verify that user is in logout page
+		And Close Browser
