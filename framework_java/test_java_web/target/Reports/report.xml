@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="28.169" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Tag Validations Demo" name="Monitor Network Payload for Home Page" time="27.248">
+<testsuite name="Cucumber" time="7.35" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Tag Validations Demo" name="Extract the UTAG Data for Home Page" time="7.067">
 <system-out><![CDATA[
 Given Load the Browser and Driver...........................................passed
-When Load Homepage and Network Payload using collect filter.................passed
-Then Report the payload data................................................passed
+When Load the homepage for HIG website......................................passed
+And Execute script on console for generating UTAGs..........................passed
+Then Report the tag data....................................................passed
+And Validate if tag is present with key: "tealium_visitor_id"...............passed
 ]]></system-out>
 </testcase>
 </testsuite>

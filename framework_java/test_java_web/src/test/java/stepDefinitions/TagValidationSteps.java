@@ -39,6 +39,9 @@ public class TagValidationSteps extends BaseClass {
 	@Then("Report the payload data")
 	public void report_payload_data() { hp.printPayloadData(); }
 
+	@Then("Validate if tag is present with key: {string}")
+	public void validate_tag_key_data(String keyValue) { hp.validateTagKey(keyValue); }
+
 	@After
 	public void closeBrowser() {
 		if(driver != null) { driver.quit(); }

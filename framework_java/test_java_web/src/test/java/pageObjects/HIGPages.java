@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.Reporter;
 import webutils.LoadProperties;
 
@@ -164,7 +165,14 @@ public class HIGPages {
 		for (String str : array) {
 			logToReport(str);
 		}
-		tagValue = "";
+	}
+
+	public void validateTagKey(String keyValue) {
+		if (tagValue.contains(keyValue)) {
+			logToReport("SUCCESS: Tag Key Value = " + keyValue + " found in UTAG data");
+		} else {
+			Assert.fail("FAILURE: Tag Key Value = " + keyValue + " is not available in UTAG data.");
+		}
 	}
 
 	public void printPayloadData() {
