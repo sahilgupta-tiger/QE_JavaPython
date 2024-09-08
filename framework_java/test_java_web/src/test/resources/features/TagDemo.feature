@@ -9,7 +9,7 @@ Feature: Tag Validations Demo
 		Then Report the payload data
 
 	@smoke
-	Scenario Ouline: Extract the UTAG Data for Home Page
+	Scenario Outline: Extract the UTAG Data for Home Page
 		When Load the homepage for HIG website : "<application>"
 		And Execute script on console for generating UTAGs
 		Then Report the tag data

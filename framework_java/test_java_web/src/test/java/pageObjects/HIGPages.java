@@ -101,7 +101,7 @@ public class HIGPages {
 		logToReport("::: Attempted to Login on the page :::");
 	}
 	
-	public void clicLogoutButton() {
+	public void clickLogoutButton() {
 		ldriver.manage().timeouts().implicitlyWait(Duration.of(10, SECONDS));
 		LogoutButton.click();
 	}
