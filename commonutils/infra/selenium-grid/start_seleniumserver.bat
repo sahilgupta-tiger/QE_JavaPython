@@ -1,1 +1,1 @@
-java -jar selenium-server-4.5.0.jar standalone
+java -jar selenium-server-4.25.0.jar standalone --enable-managed-downloads true --selenium-manager true

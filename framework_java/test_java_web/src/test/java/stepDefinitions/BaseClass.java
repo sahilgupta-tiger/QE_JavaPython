@@ -1,6 +1,6 @@
 package stepDefinitions;
 
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
 import pageObjects.*;
 import utilities.DriverCall;
 
@@ -8,7 +8,7 @@ import utilities.DriverCall;
 public class BaseClass {
 	
 	public DriverCall driverCall = new DriverCall();
-	static ChromeDriver driver;
+	static WebDriver driver;
 	static LoginPage lp;
 	static LogoutPage lo;
 	static ProductsPage Pp;

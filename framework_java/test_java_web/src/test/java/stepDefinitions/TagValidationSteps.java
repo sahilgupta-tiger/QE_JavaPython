@@ -16,8 +16,8 @@ public class TagValidationSteps extends BaseClass {
 		hp = new HIGPages(driver);
 	}
 
-	@When("Load the homepage for HIG website")
-	public void open_browser_and_click_url() { hp.getHomePage();	}
+	@When("Load the homepage for desired website : {string}")
+	public void open_browser_and_click_url(String website) { hp.getHomePage(website);	}
 
 	@When("Login HIG with {string} and {string}")
 	public void login_with_and(String username, String password) throws InterruptedException {
@@ -27,8 +27,8 @@ public class TagValidationSteps extends BaseClass {
 		Thread.sleep(3000);
 	}
 
-	@When("Load Homepage and Network Payload using collect filter")
-	public void start_network_monitoring() { hp.startNetworkMonitoring();	}
+	@When("Load Homepage and Network Payload using filter : {string}")
+	public void start_network_monitoring(String collectFilter) { hp.startNetworkMonitoring(collectFilter);	}
 
 	@When("Execute script on console for generating UTAGs")
 	public void generate_utags_console() { hp.getUtagData(); 	}

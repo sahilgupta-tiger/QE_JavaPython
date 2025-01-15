@@ -2,10 +2,7 @@ package pageObjects;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -33,8 +30,8 @@ public class HIGPages {
 	public ArrayList<Request> requests;
 	public String tagValue;
 
-	public HIGPages(ChromeDriver rdriver){
-		ldriver = rdriver;
+	public HIGPages(WebDriver rdriver){
+		ldriver = (ChromeDriver) rdriver;
 		PageFactory.initElements(ldriver, this);
 		clearLogFile();
 	}
@@ -62,8 +59,12 @@ public class HIGPages {
         }
 	}
 
-	public void getHomePage() {
-		ldriver.get(LoadProperties.prop.getProperty("web.url"));
+	public void getHomePage(String website) {
+		String loadApp;
+		if (website.isBlank()) {
+			loadApp = LoadProperties.prop.getProperty("web.url");
+		} else { loadApp = "https://" + website; }
+		ldriver.get(loadApp);
 		ldriver.manage().timeouts().implicitlyWait(Duration.of(20, SECONDS));
 		logToReport("::: HIG Homepage Loaded :::");
 	}
@@ -106,16 +107,16 @@ public class HIGPages {
 		LogoutButton.click();
 	}
 
-	public void startNetworkMonitoring() {
+	public void startNetworkMonitoring(String filterText) {
 		try {
-			getNetworkPayload();
-			getHomePage();
+			getNetworkPayload(filterText);
+			getHomePage("");
 			Thread.sleep(15000);
 			printNetworkPayload();
 		} catch (Exception e) { e.printStackTrace(); }
 	}
 
-	public void getNetworkPayload() {
+	public void getNetworkPayload(String filterText) {
 		devTool = ldriver.getDevTools(); // Create devTool instance
 		devTool.createSession();
 		requests = new ArrayList<>();
@@ -131,7 +132,7 @@ public class HIGPages {
 			String url = request.getRequest().getUrl();
 			logToFile(url);
 			// Filter or process requests as needed to extract payload data
-			if (url.contains("g/collect")) {
+			if (url.contains(filterText)) {
 				requests.add(request.getRequest());
 				logToFile("Found collect data with RequestID: " + request.getRequestId());
 			}
