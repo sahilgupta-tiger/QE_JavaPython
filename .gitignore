@@ -3,5 +3,11 @@
 *.iws
 *.iml
 *.ipr
-### Project Files/Folders ###
-/target/
+/.gradle/
+/build/
+/target/*
+/src/test/resources/allure.properties
+/src/test/java/web/resources/testrunner/WebTestRun.java
+/logs
+.env
+browserstack.err

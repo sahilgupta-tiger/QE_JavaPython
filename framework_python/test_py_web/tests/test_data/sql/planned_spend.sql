@@ -1,1 +1,0 @@
-SELECT SUM([Planned spend]) as 'Planned Spend' FROM spend_data WHERE 1=1 --$conditions$

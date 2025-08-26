@@ -1,0 +1,37 @@
+{
+  "problems": [{
+    "Diabetes":[{
+      "medications":[{
+        "medicationsClasses":[{
+          "className":[{
+            "associatedDrug1":[{
+              "name":"Jeeth",
+              "dose":"12mg",
+              "strength":"80"
+            }],
+            "associatedDrug#2":[{
+              "name":"Chinnu",
+              "dose":"10mg",
+              "strength":"70"
+            }]
+          }],
+          "className2":[{
+            "associatedDrug":[{
+              "name":"Nithilan",
+              "dose":"1mg",
+              "strength":"100"
+            }],
+            "associatedDrug#2":[{
+              "name":"Vidur",
+              "dose":"10mg",
+              "strength":"10"
+            }]
+          }]
+        }]
+      }],
+      "labs":[{
+        "missing_field": "missing_value"
+      }]
+    }],
+    "Asthma":[{}]
+  }]}

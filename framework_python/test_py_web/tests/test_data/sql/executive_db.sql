@@ -1,1 +1,0 @@
-SELECT * FROM executive_summary

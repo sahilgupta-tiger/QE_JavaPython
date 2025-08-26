@@ -1,5 +1,0 @@
-Inside go to cart method
-<class 'bool'>
-0
-[]
-False

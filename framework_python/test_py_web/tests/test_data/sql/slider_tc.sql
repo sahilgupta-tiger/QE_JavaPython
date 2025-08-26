@@ -1,1 +1,0 @@
-SELECT [Sector],[Value] FROM sample_table WHERE [TCName] = 'tc8'
