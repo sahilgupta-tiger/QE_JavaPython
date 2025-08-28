@@ -23,7 +23,7 @@ public class allureReportGeneration {
     private static String resultsDirectory;
     private static String reportDirectory;
     private static Process allureServeProcess;
-    private static String allureExecutable = "commonutils/allure-2.24.1/bin/allure";
+    private static String allureExecutable = "utils/allure-2.24.1/bin/allure";
     private static String suitesFilePath;
     private static final Object lock = new Object();
 
