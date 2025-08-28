@@ -11,6 +11,8 @@ import org.json.JSONObject;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.*;
 
 public class DataCheckUtils {
@@ -324,6 +326,25 @@ public class DataCheckUtils {
         } catch (NumberFormatException e) {
             // Not a number, return original string
             return numStr;
+        }
+    }
+
+    public static String JsonValuePrecision(String value) {
+        try {
+            BigDecimal bd = new BigDecimal(value);
+
+            // Check how many digits are after the decimal point
+            int scale = bd.stripTrailingZeros().scale();
+
+            if (scale > 4) {
+                bd = bd.setScale(4, RoundingMode.HALF_UP);
+                return String.format("%.4f", bd);
+            } else {
+                return bd.stripTrailingZeros().toPlainString(); // Keep it clean without extra zeros
+            }
+        } catch (NumberFormatException e) {
+            // Not a number, return as-is
+            return value;
         }
     }
 

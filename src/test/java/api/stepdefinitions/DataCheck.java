@@ -2,6 +2,7 @@ package api.stepdefinitions;
 
 import io.cucumber.java.en.*;
 import io.qameta.allure.Allure;
+import io.qameta.allure.model.Status;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.nio.file.Files;
@@ -53,12 +54,15 @@ public class DataCheck {
                 if (mapping.get("Table in MSKS").contains(tableName)) {
                     String msksField = mapping.get("Field in MSKS");
                     String sdcField = mapping.get("Field in SDC");
+                    System.out.println(rowNum + " ^^^ "+ msksField+ " ^^^ "+ sdcField);
 
                     // Get values
-                    String jsonValue = findKey(sdcJson, sdcField);
                     String msksValue = msksRow.getOrDefault(msksField.replace(" ", ""), "Not Found on Table");
-
                     msksValue = formatNumberString(msksValue);
+                    String jsonValue = findKey(sdcJson, sdcField);
+                    jsonValue = JsonValuePrecision(jsonValue);
+
+
                     // Categorization
                     if ("Not Found In JSON Response".equals(jsonValue)) {
                         rowNotFoundJson.add(sdcField + " - (Expected in JSON but not found)");
@@ -66,8 +70,8 @@ public class DataCheck {
                     if ("Not Found on Table".equals(msksValue)) {
                         rowNotFoundMsks.add(msksField + " - (Expected in MSKS but not found)");
                     }
-                    if (jsonValue.equals(msksValue)) {
-                        rowMatches.add("Matched: " + msksField + " → " + jsonValue);
+                    if (msksValue.equals(jsonValue)) {
+                        rowMatches.add("Matched: " + msksField +" = " + sdcField + " ➡ " + jsonValue);
                     } else {
                         rowMismatches.add("Mismatched: " + msksField + " ➡️ JSON= " + jsonValue + " |❌| MSKS= " + msksValue);
                     }
@@ -80,7 +84,11 @@ public class DataCheck {
             if (!rowNotFoundJson.isEmpty()) notFoundInJson.put(rowNum, rowNotFoundJson);
             if (!rowNotFoundMsks.isEmpty()) notFoundInMsks.put(rowNum, rowNotFoundMsks);
 
+            Allure.step("Validated row "+ rowNum +" from the "+tableName +" Table", Status.PASSED);
+
             rowNum++;
+            Allure.step("Validated row "+ rowNum +" from the "+tableName +" Table", Status.FAILED);
+
         }
         printValidationSummary();
     }
@@ -97,12 +105,15 @@ public class DataCheck {
             List<String> rowNotFoundMsks = new ArrayList<>();
 
             String indexValue = formatNumberString(msksRow.getOrDefault("Index",""));
-            System.out.println("****** "+indexValue);
+//            System.out.println("****** "+indexValue);
 
             for (Map<String, String> mapping : mappingSheet) {
                 if (mapping.get("Table in MSKS").contains(tableName)) {
                     String msksField = mapping.get("Field in MSKS");
                     String sdcField = mapping.get("Field in SDC");
+
+                    String msksValue = msksRow.getOrDefault(msksField.replace(" ", ""), "Not Found on Table");
+                    msksValue = formatNumberString(msksValue);
 
                     JSONObject measurement = findCorrectObjectByIndex(sdcJson, Integer.parseInt(indexValue),topArray,indexKey);
 
@@ -110,12 +121,11 @@ public class DataCheck {
                     if (measurement != null) {
                         // ✅ Reusing the recursive findKey within this object
                         jsonValue = findKey(measurement, sdcField);
+                        jsonValue = JsonValuePrecision(jsonValue);
                     } else {
                         System.out.println("Index " + indexValue + " not found in "+topArray);
                     }
-                    String msksValue = msksRow.getOrDefault(msksField.replace(" ", ""), "Not Found on Table");
 
-                    msksValue = formatNumberString(msksValue);
                     // Categorization
                     if ("Not Found In JSON Response".equals(jsonValue)) {
                         rowNotFoundJson.add(sdcField + " - (Expected in JSON but not found)");
@@ -124,8 +134,8 @@ public class DataCheck {
                         rowNotFoundMsks.add(msksField + " - (Expected in MSKS but not found)");
                     }
                    try {
-                       if (jsonValue.equals(msksValue)) {
-                           rowMatches.add("Matched: " + msksField + " → " + jsonValue);
+                       if (msksValue.equals(jsonValue)) {
+                           rowMatches.add("Matched: " + msksField +" = " + sdcField + " ➡ " + jsonValue);
                        } else {
                            rowMismatches.add("Mismatched: " + msksField + " ➡️ JSON= " + jsonValue + " |❌| MSKS= " + msksValue);
                        }
@@ -141,6 +151,8 @@ public class DataCheck {
             if (!rowMismatches.isEmpty()) mismatched.put(rowNum, rowMismatches);
             if (!rowNotFoundJson.isEmpty()) notFoundInJson.put(rowNum, rowNotFoundJson);
             if (!rowNotFoundMsks.isEmpty()) notFoundInMsks.put(rowNum, rowNotFoundMsks);
+
+            Allure.step("Validated row "+ rowNum +" from the "+tableName +" Table");
 
             rowNum++;
         }
@@ -167,6 +179,11 @@ public class DataCheck {
                     String msksField = mapping.get("Field in MSKS");
                     String sdcField = mapping.get("Field in SDC");
 
+                    //Getting the value from DB table
+                    String msksValue = msksRow.getOrDefault(msksField.replace(" ", ""), "Not Found on Table");
+                    msksValue = formatNumberString(msksValue);
+
+
                     JSONObject formulation = getFormulationByName(sdcJson, formulationName,topArray,arrayKey);
                     String jsonValue = null;
                     if (formulation != null) {
@@ -174,8 +191,11 @@ public class DataCheck {
 
                         if (ingredient != null) {
                             jsonValue = findKey(ingredient, sdcField);
-                            if(jsonValue.contains("Not Found"))
-                                jsonValue = findKey(formulation,sdcField);
+                            jsonValue = JsonValuePrecision(jsonValue);
+                            if(jsonValue.contains("Not Found")) {
+                                jsonValue = findKey(formulation, sdcField);
+                                jsonValue = JsonValuePrecision(jsonValue);
+                            }
                         } else {
                             System.out.println("Ingredient with index "+indexValue+"  not found!");
                         }
@@ -183,9 +203,7 @@ public class DataCheck {
                         System.out.println("Formulation not found!");
                     }
 
-                    String msksValue = msksRow.getOrDefault(msksField.replace(" ", ""), "Not Found on Table");
 
-                    msksValue = formatNumberString(msksValue);
                     if ("Not Found In JSON Response".equals(jsonValue)) {
                         rowNotFoundJson.add(sdcField + " - (Expected in JSON but not found)");
                     }
@@ -193,8 +211,8 @@ public class DataCheck {
                         rowNotFoundMsks.add(msksField + " - (Expected in MSKS but not found)");
                     }
                     try {
-                        if (jsonValue.equals(msksValue)) {
-                            rowMatches.add("Matched: " + msksField + " → " + jsonValue);
+                        if (msksValue.equals(jsonValue)) {
+                            rowMatches.add("Matched: " + msksField +" = " + sdcField + " ➡ " + jsonValue);
                         } else {
                             rowMismatches.add("Mismatched: " + msksField + " ➡️ JSON= " + jsonValue + " |❌| MSKS= " + msksValue);
                         }
@@ -210,6 +228,8 @@ public class DataCheck {
             if (!rowMismatches.isEmpty()) mismatched.put(rowNum, rowMismatches);
             if (!rowNotFoundJson.isEmpty()) notFoundInJson.put(rowNum, rowNotFoundJson);
             if (!rowNotFoundMsks.isEmpty()) notFoundInMsks.put(rowNum, rowNotFoundMsks);
+
+            Allure.step("Validated row "+ rowNum +" from the "+tableName +" Table");
 
             rowNum++;
         }
@@ -233,6 +253,19 @@ public class DataCheck {
 
     public void printValidationSummary() {
         System.out.println("\n========= VALIDATION SUMMARY =========");
+
+        int totalMatched = matched.values().stream().mapToInt(List::size).sum();
+        int totalMismatched = mismatched.values().stream().mapToInt(List::size).sum();
+        int totalNotFoundInJson = notFoundInJson.values().stream().mapToInt(List::size).sum();
+        int totalNotFoundInMsks = notFoundInMsks.values().stream().mapToInt(List::size).sum();
+
+        int totalValidated = totalMatched + totalMismatched;
+
+        System.out.println("\nTotally we validated " + totalValidated + " key-value pairs, out of which "
+                + totalMatched + " are Matched ✅, "
+                + totalMismatched + " are MisMatched ❌, "
+                + totalNotFoundInJson + " Not Found in JSON 🚫, and "
+                + totalNotFoundInMsks + " Not Found in MSKS Table 🚫");
 
         System.out.println("\n✅ MATCHED KEYS");
         matched.forEach((row, list) -> {
@@ -258,25 +291,27 @@ public class DataCheck {
             list.forEach(item -> System.out.println("   " + item));
         });
 
-        int totalMatched = matched.values().stream().mapToInt(List::size).sum();
-        int totalMismatched = mismatched.values().stream().mapToInt(List::size).sum();
-        int totalNotFoundInJson = notFoundInJson.values().stream().mapToInt(List::size).sum();
-        int totalNotFoundInMsks = notFoundInMsks.values().stream().mapToInt(List::size).sum();
-
-        int totalValidated = totalMatched + totalMismatched;
-
-        System.out.println("\nTotally we validated " + totalValidated + " key-value pairs, out of which "
-                + totalMatched + " are Matched ✅, "
-                + totalMismatched + " are MisMatched ❌, "
-                + totalNotFoundInJson + " Not Found in JSON 🚫, and "
-                + totalNotFoundInMsks + " Not Found in MSKS Table 🚫");
-
         System.out.println("\n========= END SUMMARY =========");
     }
 
     public void updateResultToAllure(){
         StringBuilder report = new StringBuilder();
-        report.append("========= VALIDATION SUMMARY =========\n\n");
+        report.append("========= VALIDATION SUMMARY REPORT =========\n\n");
+
+        // Totals
+        int totalMatched = matched.values().stream().mapToInt(List::size).sum();
+        int totalMismatched = mismatched.values().stream().mapToInt(List::size).sum();
+        int totalNotFoundInJson = notFoundInJson.values().stream().mapToInt(List::size).sum();
+        int totalNotFoundInMsks = notFoundInMsks.values().stream().mapToInt(List::size).sum();
+        int totalValidated = totalMatched + totalMismatched;
+
+        report.append("===== Summary =====\n");
+        report.append("Total Key-Value Pairs validated: " + totalValidated + "\n");
+        report.append("Total Rows Validated: " + msksDataRows.size() + "\n");
+        report.append("✅ Matched: " + totalMatched + "\n");
+        report.append("❌ Mismatched: " + totalMismatched + "\n");
+        report.append("🚫 Keys Not Found in JSON: " + totalNotFoundInJson + "\n");
+        report.append("🚫 Columns Not Found in MSKS: " + totalNotFoundInMsks + "\n\n");
 
         report.append("✅ MATCHED KEYS\n");
         matched.forEach((row, list) -> {
@@ -290,7 +325,7 @@ public class DataCheck {
             list.forEach(item -> report.append("   " + item + "\n"));
         });
 
-        report.append("\n🚫 NOT FOUND IN JSON\n");
+        /*report.append("\n🚫 NOT FOUND IN JSON\n");
         notFoundInJson.forEach((row, list) -> {
             report.append("Row " + row + ":\n");
             list.forEach(item -> report.append("   " + item + "\n"));
@@ -300,21 +335,28 @@ public class DataCheck {
         notFoundInMsks.forEach((row, list) -> {
             report.append("Row " + row + ":\n");
             list.forEach(item -> report.append("   " + item + "\n"));
+        });*/
+
+        Map<Integer, List<String>> combinedMap = new TreeMap<>();
+
+        // Add all from notFoundInJson
+        notFoundInJson.forEach((row, list) -> {
+            combinedMap.putIfAbsent(row, new ArrayList<>());
+            combinedMap.get(row).addAll(list);
         });
 
-        // Totals
-        int totalMatched = matched.values().stream().mapToInt(List::size).sum();
-        int totalMismatched = mismatched.values().stream().mapToInt(List::size).sum();
-        int totalNotFoundInJson = notFoundInJson.values().stream().mapToInt(List::size).sum();
-        int totalNotFoundInMsks = notFoundInMsks.values().stream().mapToInt(List::size).sum();
-        int totalValidated = totalMatched + totalMismatched;
+        // Add all from notFoundInMsks
+        notFoundInMsks.forEach((row, list) -> {
+            combinedMap.putIfAbsent(row, new ArrayList<>());
+            combinedMap.get(row).addAll(list);
+        });
 
-        report.append("\n\n===== Summary =====\n");
-        report.append("Total validated: " + totalValidated + "\n");
-        report.append("✅ Matched: " + totalMatched + "\n");
-        report.append("❌ Mismatched: " + totalMismatched + "\n");
-        report.append("🚫 Not Found in JSON: " + totalNotFoundInJson + "\n");
-        report.append("🚫 Not Found in MSKS: " + totalNotFoundInMsks + "\n");
+        report.append("\n🚫 KEYS NOT FOUND FROM BOTH MSKS & JSON\n");
+        combinedMap.forEach((row, list) -> {
+            report.append("Row " + row + ":\n");
+            list.forEach(item -> report.append("   " + item + "\n"));
+        });
+
 
         // Add into Allure
         Allure.addAttachment("Validation Report", report.toString());

@@ -10,7 +10,7 @@ Feature: Validate SDC JSON response against MSKS Table
     Then Check for mismatched Keys and upload the Result to Allure
 
 
-  @ymg22 @smoke
+  @ymg2 @smoke
   Scenario Outline: Compare SDC API response with MSKS MEASUREMENT TABLE data using mapping sheet
     Given I have the SDC API JSON response file "sdc_complete_response.json"
     And I have the mapping sheet file "API_POC.xlsx"
@@ -22,7 +22,7 @@ Feature: Validate SDC JSON response against MSKS Table
       | g_measurement | wf12_measurement_index |
 
 
-  @ymg33 @smoke
+  @ymg @smoke
   Scenario Outline: Compare SDC API response with MSKS ANALYSIS COMPARISON TUKEY TABLE data using mapping sheet
     Given I have the SDC API JSON response file "sdc_complete_response.json"
     And I have the mapping sheet file "API_POC.xlsx"
@@ -55,7 +55,7 @@ Feature: Validate SDC JSON response against MSKS Table
       | topArray                  | indexKey                  |
       | g_analysis_ls_means_tukey | wf12_ls_means_tukey_index |
 
-  @ymg @smoke
+  @ymg66 @smoke
   Scenario Outline: Compare SDC API response with MSKS FORMULATION TABLE data using mapping sheet
     Given I have the SDC API JSON response file "sdc_complete_response.json"
     And I have the mapping sheet file "API_POC.xlsx"
