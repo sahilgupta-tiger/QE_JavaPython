@@ -54,7 +54,6 @@ public class DataCheck {
                 if (mapping.get("Table in MSKS").contains(tableName)) {
                     String msksField = mapping.get("Field in MSKS");
                     String sdcField = mapping.get("Field in SDC");
-                    System.out.println(rowNum + " ^^^ "+ msksField+ " ^^^ "+ sdcField);
 
                     // Get values
                     String msksValue = msksRow.getOrDefault(msksField.replace(" ", ""), "Not Found on Table");
@@ -84,10 +83,9 @@ public class DataCheck {
             if (!rowNotFoundJson.isEmpty()) notFoundInJson.put(rowNum, rowNotFoundJson);
             if (!rowNotFoundMsks.isEmpty()) notFoundInMsks.put(rowNum, rowNotFoundMsks);
 
-            Allure.step("Validated row "+ rowNum +" from the "+tableName +" Table", Status.PASSED);
+            Allure.step("Comparison completed for row "+ rowNum +" from the "+tableName +" Table");
 
             rowNum++;
-            Allure.step("Validated row "+ rowNum +" from the "+tableName +" Table", Status.FAILED);
 
         }
         printValidationSummary();
@@ -105,7 +103,6 @@ public class DataCheck {
             List<String> rowNotFoundMsks = new ArrayList<>();
 
             String indexValue = formatNumberString(msksRow.getOrDefault("Index",""));
-//            System.out.println("****** "+indexValue);
 
             for (Map<String, String> mapping : mappingSheet) {
                 if (mapping.get("Table in MSKS").contains(tableName)) {
@@ -152,7 +149,7 @@ public class DataCheck {
             if (!rowNotFoundJson.isEmpty()) notFoundInJson.put(rowNum, rowNotFoundJson);
             if (!rowNotFoundMsks.isEmpty()) notFoundInMsks.put(rowNum, rowNotFoundMsks);
 
-            Allure.step("Validated row "+ rowNum +" from the "+tableName +" Table");
+            Allure.step("Comparison completed for row "+ rowNum +" from the "+tableName +" Table");
 
             rowNum++;
         }
@@ -229,7 +226,7 @@ public class DataCheck {
             if (!rowNotFoundJson.isEmpty()) notFoundInJson.put(rowNum, rowNotFoundJson);
             if (!rowNotFoundMsks.isEmpty()) notFoundInMsks.put(rowNum, rowNotFoundMsks);
 
-            Allure.step("Validated row "+ rowNum +" from the "+tableName +" Table");
+            Allure.step("Comparison completed for row "+ rowNum +" from the "+tableName +" Table");
 
             rowNum++;
         }

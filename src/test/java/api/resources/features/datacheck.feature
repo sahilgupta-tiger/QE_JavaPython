@@ -9,6 +9,14 @@ Feature: Validate SDC JSON response against MSKS Table
     When I validate the data consistency against "Experiment" table
     Then Check for mismatched Keys and upload the Result to Allure
 
+   @hazard
+  Scenario: Compare SDC API response with MSKS FORMULATION HAZARD TABLE data using mapping sheet
+    Given I have the SDC API JSON response file "sdc_hazards_response.json"
+    And I have the mapping sheet file "API_POC.xlsx"
+    And I have the MSKS data file "API_POC.xlsx" and sheet "Formulation Hazards"
+    When I validate the data consistency against "FormulationHazards" table
+    Then Check for mismatched Keys and upload the Result to Allure
+
 
   @ymg2 @smoke
   Scenario Outline: Compare SDC API response with MSKS MEASUREMENT TABLE data using mapping sheet
