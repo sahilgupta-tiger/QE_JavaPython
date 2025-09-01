@@ -11,7 +11,7 @@ import static allurereportGeneration.allureReportGeneration.*;
 @CucumberOptions(
         features = "src/test/java/api/resources/features",
         glue = {"api/stepdefinitions"},
-        tags = "@smoke",
+        tags = "@hazard",
         plugin = {
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
                 "pretty",

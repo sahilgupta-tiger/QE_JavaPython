@@ -6,7 +6,7 @@
     </listeners>
     <test name="OneFramework">
         <classes>
-            <class name="api.resources.testrunner.RunMicroservicesTest"/>
+            <class name="api.resources.testrunner.RunMicroservicesSmokeTest"/>
         </classes>
     </test>
 </suite>
