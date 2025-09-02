@@ -1,6 +1,6 @@
 Feature: Validate SDC JSON response against MSKS Table
 
-  @ymg1 @smoke
+  @ymg1 @smoke @regression
   Scenario: Compare SDC API response with MSKS EXPERIMENT TABLE data using mapping sheet
     Given I have the SDC API JSON response file "sdc_complete_response.json"
 #    Given I have the SDC API JSON response file "API_POC.xlsx"
@@ -9,7 +9,7 @@ Feature: Validate SDC JSON response against MSKS Table
     When I validate the data consistency against "Experiment" table
     Then Check for mismatched Keys and upload the Result to Allure
 
-   @hazard
+   @hazard @regression
   Scenario: Compare SDC API response with MSKS FORMULATION HAZARD TABLE data using mapping sheet
     Given I have the SDC API JSON response file "sdc_hazards_response.json"
     And I have the mapping sheet file "API_POC.xlsx"
@@ -18,7 +18,7 @@ Feature: Validate SDC JSON response against MSKS Table
     Then Check for mismatched Keys and upload the Result to Allure
 
 
-  @ymg2 @smoke
+  @ymg2 @smoke @regression
   Scenario Outline: Compare SDC API response with MSKS MEASUREMENT TABLE data using mapping sheet
     Given I have the SDC API JSON response file "sdc_complete_response.json"
     And I have the mapping sheet file "API_POC.xlsx"
@@ -30,7 +30,7 @@ Feature: Validate SDC JSON response against MSKS Table
       | g_measurement | wf12_measurement_index |
 
 
-  @ymg @smoke
+  @ymg @smoke @regression
   Scenario Outline: Compare SDC API response with MSKS ANALYSIS COMPARISON TUKEY TABLE data using mapping sheet
     Given I have the SDC API JSON response file "sdc_complete_response.json"
     And I have the mapping sheet file "API_POC.xlsx"
@@ -41,7 +41,7 @@ Feature: Validate SDC JSON response against MSKS Table
       | topArray                    | indexKey                    |
       | g_analysis_comparison_tukey | wf12_comparison_tukey_index |
 
-  @ymg44 @smoke
+  @ymg44 @smoke @regression
   Scenario Outline: Compare SDC API response with MSKS ANALYSIS LS MEANS TEST TABLE data using mapping sheet
     Given I have the SDC API JSON response file "sdc_complete_response.json"
     And I have the mapping sheet file "API_POC.xlsx"
@@ -52,7 +52,7 @@ Feature: Validate SDC JSON response against MSKS Table
       | topArray                  | indexKey                  |
       | g_analysis_ls_means_ttest | wf12_ls_means_ttest_index |
 
-  @ymg55 @smoke
+  @ymg55 @smoke @regression
   Scenario Outline: Compare SDC API response with MSKS ANALYSIS LS MEANS TUKEY TABLE data using mapping sheet
     Given I have the SDC API JSON response file "sdc_complete_response.json"
     And I have the mapping sheet file "API_POC.xlsx"
@@ -63,7 +63,7 @@ Feature: Validate SDC JSON response against MSKS Table
       | topArray                  | indexKey                  |
       | g_analysis_ls_means_tukey | wf12_ls_means_tukey_index |
 
-  @ymg66 @smoke
+  @ymg66 @smoke @regression
   Scenario Outline: Compare SDC API response with MSKS FORMULATION TABLE data using mapping sheet
     Given I have the SDC API JSON response file "sdc_complete_response.json"
     And I have the mapping sheet file "API_POC.xlsx"
