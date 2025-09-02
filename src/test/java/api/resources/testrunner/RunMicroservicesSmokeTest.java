@@ -24,7 +24,7 @@ import static allurereportGeneration.allureReportGeneration.*;
 public class RunMicroservicesSmokeTest extends AbstractTestNGCucumberTests {
         @BeforeClass
         public void Notestartexecutiontime(){
-//                CleanAllureReport();
+                CleanAllureReport();
                 saveExecutionStartTime();
         }
 

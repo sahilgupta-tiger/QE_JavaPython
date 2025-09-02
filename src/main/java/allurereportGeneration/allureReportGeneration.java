@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 
 public class allureReportGeneration {
 
-    private static final String allurePropertiesFile = "src/test/resources/alluree.properties";
+    private static final String allurePropertiesFile = "src/test/resources/allure.properties";
     private static String resultsDirectory;
     private static String reportDirectory;
     private static Process allureServeProcess;
