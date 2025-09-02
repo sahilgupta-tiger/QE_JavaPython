@@ -11,7 +11,7 @@ import static allurereportGeneration.allureReportGeneration.*;
 @CucumberOptions(
         features = "src/test/java/api/resources/features",
         glue = {"api/stepdefinitions"},
-        tags = "@hazard",
+        tags = "@smoke",
         plugin = {
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
                 "pretty",
@@ -24,6 +24,7 @@ import static allurereportGeneration.allureReportGeneration.*;
 public class RunMicroservicesSmokeTest extends AbstractTestNGCucumberTests {
         @BeforeClass
         public void Notestartexecutiontime(){
+                CleanAllureReport();
                 saveExecutionStartTime();
         }
 
