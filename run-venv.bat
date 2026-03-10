@@ -25,6 +25,9 @@ IF EXIST %REQUIREMENTS% (
     echo No requirements.txt found, skipping installation.
 )
 
+REM Install Playwright browsers
+CALL playwright install
+
 REM Run the jupyter server
 where jupyter >nul 2>nul
 IF ERRORLEVEL 1 (
