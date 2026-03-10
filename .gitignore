@@ -1,7 +1,7 @@
-### IntelliJ IDEA ###
-.idea
 *.iws
 *.iml
 *.ipr
 ### Project Files/Folders ###
 /target/
+.jupyvenv
+.venv

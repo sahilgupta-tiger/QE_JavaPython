@@ -1,2 +1,0 @@
-Inside the stepdefinition file of SauceDemo
-None
